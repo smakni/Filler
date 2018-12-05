@@ -6,7 +6,7 @@
 #    By: smakni <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/11/23 13:20:28 by smakni            #+#    #+#              #
-#    Updated: 2018/12/04 19:50:14 by smakni           ###   ########.fr        #
+#    Updated: 2018/12/05 13:05:06 by smakni           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ CC			=	gcc
 
 CFLAGS		+=	-Wall -Werror -Wextra
 
-CPPFLAGS	=	-I include
+CPPFLAGS	=	-I include -I libft/include
 				
 SRC_PATH	=	src
 
@@ -26,7 +26,7 @@ LDFLAGS		=	-L libft
 
 LDLIBS		=	-lft
 
-SRC_NAME	=	src/reader.c
+SRC_NAME	=	reader.c
 
 OBJ_NAME	=	$(SRC_NAME:.c=.o)
 

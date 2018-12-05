@@ -1,20 +1,32 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   filler.h                                           :+:      :+:    :+:   */
+/*   ft_sqrt.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: smakni <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: smakni <smakni@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/12/04 19:10:23 by smakni            #+#    #+#             */
-/*   Updated: 2018/12/05 13:01:38 by smakni           ###   ########.fr       */
+/*   Created: 2018/05/16 12:49:10 by smakni            #+#    #+#             */
+/*   Updated: 2018/12/05 09:55:26 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FILLER_H
-# define FILLER_H
+#include <libft.h>
 
-# include <libft.h>
-# include <ft_printf.h>
-# include <get_next_line.h>
+int		ft_sqrt(int nb)
+{
+	int i;
+	int x;
 
-#endif
+	i = 0;
+	x = 0;
+	if (nb < 0)
+		return (0);
+	while (i <= nb)
+	{
+		x = i * i;
+		if (x == nb)
+			return (i);
+		i++;
+	}
+	return (0);
+}

@@ -1,32 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   reader.c                                           :+:      :+:    :+:   */
+/*   ft_memjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: smakni <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/12/04 19:06:40 by smakni            #+#    #+#             */
-/*   Updated: 2018/12/05 14:02:20 by smakni           ###   ########.fr       */
+/*   Created: 2018/10/18 10:19:01 by smakni            #+#    #+#             */
+/*   Updated: 2018/12/05 09:55:26 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <filler.h>
+#include <libft.h>
 
-int		main(int ac, char **av)
+void	*ft_memjoin(void *s1, const void *s2, size_t n1, size_t n2)
 {
-	char *line;
-	int fd;
-	int first;
+	void	*res;
 
-	(void)ac;
-	(void)av;
-	fd = open("trace", O_TRUNC | O_WRONLY);
-	first = 0;
-	while(get_next_line(0, &line) > 0)
+	res = NULL;
+	if (!s1)
 	{
-		ft_printf("%d %d\n", 8, 2);
-		ft_dprintf(fd, "%s\n", line);
-		ft_strdel(&line);
+		if (!(res = ft_memalloc(n2 + 1)))
+			return (0);
+		return (ft_memcpy(res, s2, n2));
 	}
-	return (0);
+	if (s1 && s2)
+	{
+		if (!(res = ft_memalloc(n1 + n2 + 1)))
+			return (0);
+		res = ft_memcpy(res, s1, n1);
+		res = ft_memcpy_from(res, s2, n1, n2);
+		ft_memdel(&s1);
+	}
+	return (res);
 }

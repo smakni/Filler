@@ -1,20 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   filler.h                                           :+:      :+:    :+:   */
+/*   ft_print_bits.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: smakni <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: smakni <smakni@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/12/04 19:10:23 by smakni            #+#    #+#             */
-/*   Updated: 2018/12/05 13:01:38 by smakni           ###   ########.fr       */
+/*   Created: 2018/05/17 15:05:57 by smakni            #+#    #+#             */
+/*   Updated: 2018/12/05 09:55:26 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FILLER_H
-# define FILLER_H
+#include <libft.h>
 
-# include <libft.h>
-# include <ft_printf.h>
-# include <get_next_line.h>
+void	ft_print_bits(unsigned char octet)
+{
+	int i;
 
-#endif
+	i = 7;
+	while (i >= 0)
+	{
+		if (((octet >> i) & 1) == 1)
+			ft_putchar('1');
+		else
+			ft_putchar('0');
+		i--;
+	}
+}

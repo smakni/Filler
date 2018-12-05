@@ -1,20 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   filler.h                                           :+:      :+:    :+:   */
+/*   ft_strnequ.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: smakni <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: smakni <smakni@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/12/04 19:10:23 by smakni            #+#    #+#             */
-/*   Updated: 2018/12/05 13:01:38 by smakni           ###   ########.fr       */
+/*   Created: 2018/04/18 15:47:44 by smakni            #+#    #+#             */
+/*   Updated: 2018/12/05 09:55:29 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FILLER_H
-# define FILLER_H
+#include <libft.h>
 
-# include <libft.h>
-# include <ft_printf.h>
-# include <get_next_line.h>
+int		ft_strnequ(char const *s1, char const *s2, size_t n)
+{
+	size_t i;
 
-#endif
+	if (!s1 || !s2)
+		return (0);
+	i = 0;
+	while ((s1[i] || s2[i]) && i < n)
+	{
+		if (s1[i] != s2[i])
+			return (0);
+		i++;
+	}
+	return (1);
+}

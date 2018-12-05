@@ -1,20 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   filler.h                                           :+:      :+:    :+:   */
+/*   ft_lstiter.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: smakni <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: smakni <smakni@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/12/04 19:10:23 by smakni            #+#    #+#             */
-/*   Updated: 2018/12/05 13:01:38 by smakni           ###   ########.fr       */
+/*   Created: 2018/04/27 14:52:05 by smakni            #+#    #+#             */
+/*   Updated: 2018/12/05 09:55:26 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FILLER_H
-# define FILLER_H
+#include <libft.h>
 
-# include <libft.h>
-# include <ft_printf.h>
-# include <get_next_line.h>
+void	ft_lstiter(t_list *lst, void (*f)(t_list *elem))
+{
+	t_list	*tmp;
 
-#endif
+	tmp = lst;
+	while (tmp)
+	{
+		f(tmp);
+		tmp = tmp->next;
+	}
+}

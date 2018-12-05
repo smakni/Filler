@@ -1,20 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   filler.h                                           :+:      :+:    :+:   */
+/*   get_next_line.h                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: smakni <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: sabri <sabri@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/12/04 19:10:23 by smakni            #+#    #+#             */
-/*   Updated: 2018/12/05 13:01:38 by smakni           ###   ########.fr       */
+/*   Created: 2018/05/25 11:15:16 by smakni            #+#    #+#             */
+/*   Updated: 2018/12/05 09:36:49 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FILLER_H
-# define FILLER_H
+#ifndef GET_NEXT_LINE_H
+# define GET_NEXT_LINE_H
 
 # include <libft.h>
-# include <ft_printf.h>
-# include <get_next_line.h>
+# include <sys/types.h>
+# include <sys/uio.h>
+# include <unistd.h>
+# include <stdio.h>
+# include <fcntl.h>
+
+# define BUFF_SIZE 500
+
+int		get_next_line(const int fd, char **line);
 
 #endif

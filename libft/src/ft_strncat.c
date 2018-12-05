@@ -1,20 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   filler.h                                           :+:      :+:    :+:   */
+/*   ft_strncat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: smakni <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: smakni <smakni@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/12/04 19:10:23 by smakni            #+#    #+#             */
-/*   Updated: 2018/12/05 13:01:38 by smakni           ###   ########.fr       */
+/*   Created: 2018/04/10 17:25:27 by smakni            #+#    #+#             */
+/*   Updated: 2018/12/05 09:55:26 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FILLER_H
-# define FILLER_H
+#include <libft.h>
 
-# include <libft.h>
-# include <ft_printf.h>
-# include <get_next_line.h>
+char	*ft_strncat(char *s1, const char *s2, size_t n)
+{
+	unsigned long i;
+	unsigned long x;
 
-#endif
+	i = 0;
+	x = 0;
+	while (s1[x])
+		x++;
+	while (i < n && s2[i])
+	{
+		s1[x + i] = s2[i];
+		i++;
+	}
+	s1[x + i] = '\0';
+	return (s1);
+}

@@ -1,32 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   reader.c                                           :+:      :+:    :+:   */
+/*   ft_memcpy_from.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: smakni <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/12/04 19:06:40 by smakni            #+#    #+#             */
-/*   Updated: 2018/12/05 14:02:20 by smakni           ###   ########.fr       */
+/*   Created: 2018/10/18 10:59:40 by smakni            #+#    #+#             */
+/*   Updated: 2018/12/05 09:55:26 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <filler.h>
+#include <libft.h>
 
-int		main(int ac, char **av)
+void	*ft_memcpy_from(void *dst, const void *src, int s, int n)
 {
-	char *line;
-	int fd;
-	int first;
+	int				i;
+	unsigned char	*dst_tmp;
+	unsigned char	*src_tmp;
 
-	(void)ac;
-	(void)av;
-	fd = open("trace", O_TRUNC | O_WRONLY);
-	first = 0;
-	while(get_next_line(0, &line) > 0)
+	dst_tmp = (unsigned char *)dst;
+	src_tmp = (unsigned char *)src;
+	i = 0;
+	while (i < n)
 	{
-		ft_printf("%d %d\n", 8, 2);
-		ft_dprintf(fd, "%s\n", line);
-		ft_strdel(&line);
+		dst_tmp[s + i] = src_tmp[i];
+		i++;
 	}
-	return (0);
+	return (dst);
 }
