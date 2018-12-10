@@ -6,7 +6,7 @@
 #    By: smakni <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/11/23 13:20:28 by smakni            #+#    #+#              #
-#    Updated: 2018/12/05 13:05:06 by smakni           ###   ########.fr        #
+#    Updated: 2018/12/10 19:45:41 by smakni           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,7 +26,9 @@ LDFLAGS		=	-L libft
 
 LDLIBS		=	-lft
 
-SRC_NAME	=	reader.c
+SRC_NAME	=	filler.c \
+				parsing.c \
+				save_data.c \
 
 OBJ_NAME	=	$(SRC_NAME:.c=.o)
 
