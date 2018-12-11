@@ -6,7 +6,7 @@
 /*   By: smakni <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/04 19:10:23 by smakni            #+#    #+#             */
-/*   Updated: 2018/12/10 23:13:37 by smakni           ###   ########.fr       */
+/*   Updated: 2018/12/11 17:52:08 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,10 +29,11 @@ typedef	struct	s_player
 	char	**map;
 	char	**piece;
 	int		i;
-	int		check;
+	int		j;
+	int		check_read;
 }				t_player;
 
-void				save_data(int fd, t_player *p);
-
+int				save_data(t_player *p);
+void			print_data(int fd, t_player *p);
 
 #endif
