@@ -66,36 +66,36 @@ static	void	first_read(int fd, char *line, t_player *p)
 	}
 }
 
-int				save_data(int fd, char *line, t_player *p)
+void				save_data(int fd, t_player *p)
 {
+	int i;
+	int j;
+	char *line;
 	int 		check;
 
 	check = 0;
-	if (line[0] == 'P' || line[0] == '$')
-	{	
-		first_read(fd, line, p);
-		check = 1;
-	}
-	else if (line[0] == ' ' || ft_isdigit(line[0]) == 1)
+	i = 0;
+	j = 0;
+	while (get_next_line(0, &line) > 0)
 	{
-		p->map[p->i] = ft_strdup(line);	
-		ft_dprintf(fd, "p->map[%2d] = %s\n", p->i, p->map[p->i]);
-		check = 2;
+		/*(if (line[0] == 'P' || line[0] == '$')
+		{	
+			first_read(fd, line, p);
+			check = 1;
+		}
+		else if (line[0] == ' ' || ft_isdigit(line[0]) == 1)
+		{
+			p->map[i] = ft_strdup(line);	
+			ft_dprintf(fd, "p->map[%2d] = %s\n", i, p->map[i]);
+			i++;
+		}
+		else if (line[0] == '.' || line[0] == '*')
+		{
+			p->piece[j] = ft_strdup(line);	
+			ft_dprintf(fd, "p->piece[%2d] = %s\n", j, p->piece[j]);
+			j++;
+		}*/
+		ft_dprintf(fd, "debug\n");
+		ft_strdel(&line);
 	}
-	else if (line[0] == '.' || line[0] == '*')
-	{
-		p->piece[p->i] = ft_strdup(line);	
-		ft_dprintf(fd, "p->piece[%2d] = %s\n", p->i, p->piece[p->i]);
-		check = 3;
-	}
-	if (p->i == p->p_y - 1 && check == 3)
-	{
-		p->i = 0;
-		return (1);
-	}
-	else if ((p->i == p->m_y && check == 2))
-		p->i = 0;
-	else if (check != 1)
-		p->i++;
-	return (0);
 }

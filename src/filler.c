@@ -39,23 +39,18 @@ void	init_player(t_player *p)
 int		main(void)
 {
 	t_player	*p;
-	char		*line;
 	int			fd;
 	int			i;
 
 	i = 0;
-	line = NULL;
 	p = ft_memalloc(sizeof(t_player));
 	init_player(p);
 	fd = open("trace", O_TRUNC | O_WRONLY);
-	while (get_next_line(0, &line) > 0)
+	while (1)
 	{
-		//ft_printf("%d %d\n", 8, 2);
-		//ft_dprintf(fd, "%s\n", line);
-		i = save_data(fd, line, p);
-		ft_strdel(&line);
-		if (i == 1)
-			algo(fd, p);
+		save_data(fd,  p);
+		algo(fd, p);
+		return (1);
 	}
 	free(p);
 	return (0);

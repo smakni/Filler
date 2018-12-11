@@ -32,7 +32,7 @@ typedef	struct	s_player
 	int		check;
 }				t_player;
 
-int				save_data(int fd, char *line, t_player *p);
+void				save_data(int fd, t_player *p);
 
 
 #endif
