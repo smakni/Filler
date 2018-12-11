@@ -6,7 +6,7 @@
 /*   By: smakni <smakni@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/04/10 10:28:24 by smakni            #+#    #+#             */
-/*   Updated: 2018/12/05 09:37:00 by smakni           ###   ########.fr       */
+/*   Updated: 2018/12/11 15:52:17 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -122,5 +122,5 @@ t_list				*ft_llast(t_list *lst, void *content, size_t content_size);
 void				*ft_memjoin(void *s1, const void *s2, size_t n1, size_t n2);
 void				*ft_memcpy_from(void *dst, const void *src, int s, int n);
 void				ft_putstr_printf(char const *s, size_t len);
-
+void				ft_tabdel(char **tab, int len);
 #endif

@@ -6,7 +6,7 @@
 #    By: smakni <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/12/05 09:14:14 by smakni            #+#    #+#              #
-#    Updated: 2018/12/05 13:43:15 by smakni           ###   ########.fr        #
+#    Updated: 2018/12/11 15:48:23 by smakni           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ NAME			=	libft.a
 
 CC				=	gcc
 
-CFLAGS			+=	-Wall -Werror -Wextra
+CFLAGS			+=	-Wall -Werror -Wextra -g3
 
 CPPFLAGS		=	-I include
 
@@ -123,7 +123,8 @@ SRC_NAME		=	ft_putchar.c \
 					ft_itoa_sit.c \
 					ft_strjoin_2free.c \
 					ft_strjoin_free1.c \
-					get_next_line.c 
+					get_next_line.c \
+					ft_tabdel.c
 
 SRC_NAME_P		=	ft_printf.c \
 					ft_dprintf.c \
