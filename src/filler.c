@@ -3,21 +3,19 @@
 /*                                                        :::      ::::::::   */
 /*   filler.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: smakni <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: smakni <smakni@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/04 19:06:40 by smakni            #+#    #+#             */
-/*   Updated: 2018/12/10 23:18:34 by smakni           ###   ########.fr       */
+/*   Updated: 2018/12/11 18:27:28 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <filler.h>
 
-void	algo(int fd, t_player *p)
+void	algo(t_player *p)
 {
-	ft_dprintf(fd, "DEBUG\n");
 	p->r_y = 8;
 	p->r_x = 2;
-	ft_dprintf(fd, "%d %d\n", 8, 2);
 	ft_printf("%d %d\n", 8, 2);
 }
 
@@ -33,24 +31,28 @@ void	init_player(t_player *p)
 	p->map = NULL;
 	p->piece = NULL;
 	p->i = 0;
-	p->check = 0;
+	p->j = 0;
+	p->check_read = 0;
 }
 
 int		main(void)
 {
 	t_player	*p;
 	int			fd;
-	int			i;
 
-	i = 0;
 	p = ft_memalloc(sizeof(t_player));
 	init_player(p);
 	fd = open("trace", O_TRUNC | O_WRONLY);
 	while (1)
 	{
-		save_data(fd,  p);
-		algo(fd, p);
-		return (1);
+		if(save_data(p) == 1)
+		{
+			print_data(fd, p);
+			algo(p);
+			ft_tabdel(p->piece, p->p_y);
+			p->j = 0;
+			p->i = 0;
+		}
 	}
 	free(p);
 	return (0);
