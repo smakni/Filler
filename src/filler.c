@@ -6,18 +6,11 @@
 /*   By: smakni <smakni@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/04 19:06:40 by smakni            #+#    #+#             */
-/*   Updated: 2018/12/11 18:27:28 by smakni           ###   ########.fr       */
+/*   Updated: 2018/12/11 21:19:11 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <filler.h>
-
-void	algo(t_player *p)
-{
-	p->r_y = 8;
-	p->r_x = 2;
-	ft_printf("%d %d\n", 8, 2);
-}
 
 void	init_player(t_player *p)
 {
@@ -50,8 +43,6 @@ int		main(void)
 			print_data(fd, p);
 			algo(p);
 			ft_tabdel(p->piece, p->p_y);
-			p->j = 0;
-			p->i = 0;
 		}
 	}
 	free(p);

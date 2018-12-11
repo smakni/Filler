@@ -1,40 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   filler.h                                           :+:      :+:    :+:   */
+/*   algo.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: smakni <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/12/04 19:10:23 by smakni            #+#    #+#             */
-/*   Updated: 2018/12/11 20:41:21 by smakni           ###   ########.fr       */
+/*   Created: 2018/12/11 20:39:43 by smakni            #+#    #+#             */
+/*   Updated: 2018/12/11 21:04:53 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FILLER_H
-# define FILLER_H
+#include <filler.h>
 
-# include <libft.h>
-# include <ft_printf.h>
-# include <get_next_line.h>
-
-typedef	struct	s_player
+void	algo(t_player *p)
 {
-	int 	nb;
-	int 	m_y;
-	int		m_x;
-	int		p_y;
-	int		p_x;
-	int 	r_y;
-	int 	r_x;
-	char	**map;
-	char	**piece;
-	int		i;
-	int		j;
-	int		check_read;
-}				t_player;
-
-void			algo(t_player *p);
-int				save_data(t_player *p);
-void			print_data(int fd, t_player *p);
-
-#endif
+	p->j = 0;
+	p->i = 0;
+	ft_printf("%d %d\n", 8, 2);
+}
