@@ -6,7 +6,7 @@
 /*   By: smakni <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/11 20:39:43 by smakni            #+#    #+#             */
-/*   Updated: 2018/12/12 18:53:40 by smakni           ###   ########.fr       */
+/*   Updated: 2018/12/12 19:21:32 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -162,24 +162,28 @@ static	void	find_placement(int fd, t_player *p)
 		x = 0;
 		while (p->map[y][x])
 		{
-			if (p->nb == 1 && p->map[y][x] == 'O' && try_placement_p1(fd, p, x, y) == 1)
+			if (p->nb == 1 && p->map[y][x] == 'O' 
+					&& try_placement_p1(fd, p, x, y) == 1)
 			{
-				if (x - p->offset_x >= 0 || (x - p->offset_x < 0 && analyse_placement(p) == 0))
+				if (x - p->offset_x >= 0 
+						|| (x - p->offset_x < 0 && analyse_placement(p) == 0))
 				{
 					p->r_y = y - p->offset_y;
 					p->r_x = x - p->offset_x;
 					return ;
 				}
 			}
-			else if (p->nb == 2 && (p->map[y][x] == 'X'))
+			else if (p->nb == 2 && p->map[y][x] == 'X' 
+					&& try_placement_p2(fd, p, x, y) == 1)
 			{
-				if (try_placement_p2(fd, p, x, y) == 1)
+				if (x - p->offset_x >= 0 
+						|| (x - p->offset_x < 0 && analyse_placement(p) == 0))
 				{
 					p->r_y = y - p->offset_y;
 					p->r_x = x - p->offset_x;
 					return ;
 				}
-			}
+			}			
 			x++;
 		}
 		y++;
