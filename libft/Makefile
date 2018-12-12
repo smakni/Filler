@@ -6,7 +6,7 @@
 #    By: smakni <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/12/05 09:14:14 by smakni            #+#    #+#              #
-#    Updated: 2018/12/11 15:48:23 by smakni           ###   ########.fr        #
+#    Updated: 2018/12/12 11:36:54 by smakni           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -124,7 +124,8 @@ SRC_NAME		=	ft_putchar.c \
 					ft_strjoin_2free.c \
 					ft_strjoin_free1.c \
 					get_next_line.c \
-					ft_tabdel.c
+					ft_tabdel.c \
+					ft_strcpy_from.c
 
 SRC_NAME_P		=	ft_printf.c \
 					ft_dprintf.c \
