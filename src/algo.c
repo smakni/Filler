@@ -12,6 +12,8 @@
 
 #include <filler.h>
 
+//attention checker vrai taille piece
+
 static	void	find_opponent(t_player *p)
 {
 	int x;
@@ -53,7 +55,7 @@ int		static	try_placement_p1(int fd, t_player *p, int m_x, int m_y)
 	position = 0;
 	p->offset_x = 0;
 	p->offset_y = 0;
-	while(y < p->p_y)
+	while(y < p->p_y && m_y < p->m_y)
 	{
 		x = 0;
 		m_x = save - p->offset_x; 
@@ -82,6 +84,7 @@ int		static	try_placement_p1(int fd, t_player *p, int m_x, int m_y)
 	}
 	ft_dprintf(fd, "debug_1\n");
 	ft_dprintf(fd, "offset_y = %d | offset_x = %d\n",p->offset_y, p->offset_x);
+	ft_dprintf(fd, "y = %d |x = %d\n",y, x);
 	return (1);
 }
 
@@ -135,7 +138,7 @@ static	int		analyse_placement(t_player *p)
 	int y;
 
 	y = p->offset_y + 1;
-	while(y < p->p_y)
+	while(y < p->p_y && y)
 	{
 		x = 0;
 		while(p->piece[y][x] && x < p->offset_x)
@@ -165,8 +168,9 @@ static	void	find_placement(int fd, t_player *p)
 			if (p->nb == 1 && p->map[y][x] == 'O' 
 					&& try_placement_p1(fd, p, x, y) == 1)
 			{
-				if (x - p->offset_x >= 0 
+				if ((x - p->offset_x >= 0	
 						|| (x - p->offset_x < 0 && analyse_placement(p) == 0))
+						&& (y + p->p_y < p->m_y && y + p->offset_y < p->m_y))
 				{
 					p->r_y = y - p->offset_y;
 					p->r_x = x - p->offset_x;
