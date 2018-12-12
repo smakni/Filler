@@ -6,7 +6,7 @@
 /*   By: smakni <smakni@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/04 19:06:40 by smakni            #+#    #+#             */
-/*   Updated: 2018/12/12 15:21:59 by smakni           ###   ########.fr       */
+/*   Updated: 2018/12/12 17:14:49 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,9 +44,11 @@ int		main(void)
 	{
 		if(save_data(p) == 1)
 		{
-			print_data(fd, p);
+	//		print_data(fd, p);
 			algo(fd, p);
 			ft_tabdel(p->piece, p->p_y);
+			if (p->r_y == 0 && p->r_x == 0)
+				break ;
 		}
 	}
 	free(p);
