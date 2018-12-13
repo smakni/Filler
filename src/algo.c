@@ -6,7 +6,7 @@
 /*   By: smakni <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/11 20:39:43 by smakni            #+#    #+#             */
-/*   Updated: 2018/12/13 21:03:18 by smakni           ###   ########.fr       */
+/*   Updated: 2018/12/13 22:01:55 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -92,6 +92,14 @@ static	void	find_placement(int fd, t_player *p)
 		while (p->map[y][x])
 		{
 			if (p->nb == 1 && p->map[y][x] == 'O' 
+					&& placement_p1(fd, p, x, y) == 1
+					&& analyse_placement(p, y, x) == 0)
+			{
+				p->r_y = y - p->offset_y;
+				p->r_x = x - p->offset_x;
+				return ;
+			}
+			if (p->nb == 2 && p->map[y][x] == 'X' 
 					&& placement_p1(fd, p, x, y) == 1
 					&& analyse_placement(p, y, x) == 0)
 			{
