@@ -6,7 +6,7 @@
 #    By: smakni <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/11/23 13:20:28 by smakni            #+#    #+#              #
-#    Updated: 2018/12/12 15:32:30 by smakni           ###   ########.fr        #
+#    Updated: 2018/12/13 14:29:29 by smakni           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -30,7 +30,9 @@ SRC_NAME	=	filler.c \
 				algo.c \
 				save_data.c \
 				read_data.c \
-				print_data.c
+				print_data.c \
+				analysis_functions.c \
+				search_functions.c
 
 OBJ_NAME	=	$(SRC_NAME:.c=.o)
 
