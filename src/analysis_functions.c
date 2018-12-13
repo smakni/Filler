@@ -6,18 +6,16 @@
 /*   By: smakni <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/13 14:21:14 by smakni            #+#    #+#             */
-/*   Updated: 2018/12/13 15:52:30 by smakni           ###   ########.fr       */
+/*   Updated: 2018/12/13 20:55:18 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <filler.h>
 
-int analyse_placement(t_player *p, int y, int x, int wid, int len)
+int		analyse_placement(t_player *p, int y, int x)
 {
-	if (y - p->offset_y >=0
-		&& y + wid < p->m_y
-		&& x - p->offset_x >= 0
-		&& x + len < p->m_x)
+	if (y + p->wid < p->m_y
+		&& x + p->len < p->m_x)
 		return (0);
 	else
 		return (-1);
@@ -52,12 +50,12 @@ int		analyse_x_p(t_player *p)
 	min = 0;
 	y = 0;
 	while (y < p->p_y)
-	{	
+	{
 		x = 0;
 		while (p->piece[y][x])
 		{
 			if (check == 0 && p->piece[y][x] == '*' && min == 0 && max == 0)
-			{	
+			{
 				min = x;
 				max = x;
 				check++;
