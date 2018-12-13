@@ -6,7 +6,7 @@
 /*   By: smakni <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/13 14:27:01 by smakni            #+#    #+#             */
-/*   Updated: 2018/12/13 14:35:00 by smakni           ###   ########.fr       */
+/*   Updated: 2018/12/13 17:11:48 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void	find_opponent(t_player *p)
 	int y;
 
 	y = 0;
-	while(y < p->m_y)
+	while (y < p->m_y)
 	{
 		x = 0;
 		while (p->map[y][x])
