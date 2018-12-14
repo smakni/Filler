@@ -45,7 +45,7 @@ all: $(NAME)
 
 $(NAME): $(OBJ) 
 		make -C libft
-		$(CC) -fsanitize=address -g3 $(LDFLAGS) $(LDLIBS) $(OBJ) -o $@
+		$(CC) $(LDFLAGS) $(LDLIBS) $(OBJ) -o $@
 
 $(OBJ_PATH)/%.o: $(SRC_PATH)/%.c
 	@mkdir $(OBJ_PATH) 2> /dev/null || true

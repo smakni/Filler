@@ -122,7 +122,7 @@ int			find_placement_3(int fd, t_player *p)
 		while (p->map[y][x])
 		{
 			if (p->nb == 1 && p->map[y][x] == 'O' && 
-				(ft_strchr(p->map[y + 1], 'O') == 0)
+				(ft_strchr(&(p->map[y + 1][x]), 'O') == 0)
 					&& placement(fd, p, x, y) == 1
 					&& analyse_placement(p, y, x) == 0)
 			{

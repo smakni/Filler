@@ -68,7 +68,7 @@ static	int	test_placement_up(int fd, t_player *p, int m_y, int m_x)
 	int	x;
 
 	(void)fd;
-	ft_dprintf(fd, "ALGO_1\n");
+	//ft_dprintf(fd, "ALGO_1\n");
 	y = p->p_y - 1;
 	while (y > 0)
 	{
@@ -82,7 +82,8 @@ static	int	test_placement_up(int fd, t_player *p, int m_y, int m_x)
 			//	ft_dprintf(fd, "y %d | x = %d\n", y, x);
 				p->r_y = m_y - y;
 				p->r_x = m_x - x;
-				return (1);
+				if (p->r_y != 0 && p->r_x != 0)
+					return (1);
 			}
 			x--;
 		}
@@ -116,19 +117,41 @@ static	int	find_placement_1(int fd, t_player *p)
 
 void		algo(int fd, t_player *p)
 {
+	static int i = 0;
+
 	find_opponent(p);
-	if (find_placement_1(fd, p) == 0) 
+	if (i % 2 == 0)
 	{
-		if (find_placement_3(fd, p) == 0)
-		{	
-			if (find_placement_2(fd, p) == 0)
-				{
-					p->r_y = 0;
-					p->r_x = 0;
-				}
+		ft_dprintf(fd, "TEST_1\n");
+		if (find_placement_1(fd, p) == 0) 
+			{
+			if (find_placement_3(fd, p) == 0)
+			{	
+				if (find_placement_2(fd, p) == 0)
+					{
+						p->r_y = 0;
+						p->r_x = 0;
+					}
+			}
 		}
 	}
-	ft_dprintf(fd, "return = %d | %d\n", p->r_y, p->r_x);
+	else
+	{
+		ft_dprintf(fd, "TEST_2\n");
+		if (find_placement_3(fd, p) == 0) 
+			{
+			if (find_placement_1(fd, p) == 0)
+			{	
+				if (find_placement_2(fd, p) == 0)
+					{
+						p->r_y = 0;
+						p->r_x = 0;
+					}
+			}
+		}
+	}
+	i++;
+	ft_dprintf(fd, "i = %d\nreturn = %d | %d\n", i, p->r_y, p->r_x);
 	ft_printf("%d %d\n", p->r_y, p->r_x);
 	p->j = 0;
 	p->i = 0;

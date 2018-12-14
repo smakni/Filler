@@ -1,222 +1,1209 @@
-p1
-map = 15 | 17
-.................
-.................
-.................
-.................
-.................
-.................
-.................
-.................
-..O..............
-.................
-.................
-.................
-..............X..
-.................
-.................
-piece = 2 | 3
-.*.
-.**
-PLACEMENT_[8][2]
-off_y = 0 | off_x = 1
-p[0][1] = * | m[8][2] = O
-p[0][2] = . | m[8][3] = .
-p[1][0] = . | m[9][1] = .
-p[1][1] = * | m[9][2] = .
-p[1][2] = * | m[9][3] = .
-return = 8 | 1
-p1
-map = 15 | 17
-.................
-.................
-.................
-.................
-.................
-.................
-.................
-.................
-..O..............
-..OO.............
-.................
-............XXX..
-.............XX..
-.................
-.................
-piece = 1 | 2
-**
-PLACEMENT_[8][2]
-off_y = 0 | off_x = 0
-p[0][0] = * | m[8][2] = O
-p[0][1] = * | m[8][3] = .
-return = 8 | 2
-p1
-map = 15 | 17
-.................
-.................
-.................
-.................
-.................
-.................
-.................
-.................
-..OO.............
-..OO.............
-...........X.....
-...........XXXX..
-.............XX..
-.................
-.................
-piece = 1 | 2
-**
-PLACEMENT_[8][2]
-off_y = 0 | off_x = 0
-p[0][0] = * | m[8][2] = O
-p[0][1] = * | m[8][3] = O
-PLACEMENT_[8][3]
-off_y = 0 | off_x = 0
-p[0][0] = * | m[8][3] = O
-p[0][1] = * | m[8][4] = .
+TEST_1
+ALGO_2
+i = 1
+return = 3 | 2
+TEST_2
+ALGO_2
+i = 2
+return = 3 | 3
+TEST_1
+ALGO_2
+i = 3
+return = 3 | 1
+TEST_2
+ALGO_2
+i = 4
+return = 3 | -2
+TEST_1
+i = 5
+return = 1 | 2
+TEST_2
+ALGO_2
+i = 6
+return = 2 | 5
+TEST_1
+i = 7
+return = -2 | -1
+TEST_2
+ALGO_2
+i = 8
+return = 0 | 3
+TEST_1
+i = 9
+return = -1 | 4
+TEST_2
+ALGO_2
+i = 10
+return = 1 | 5
+TEST_1
+i = 11
+return = 2 | 3
+TEST_2
+ALGO_2
+i = 12
+return = 3 | 8
+TEST_1
+i = 13
+return = 1 | 1
+TEST_2
+ALGO_2
+i = 14
+return = 3 | 5
+TEST_1
+i = 15
+return = 3 | 5
+TEST_2
+ALGO_2
+i = 16
+return = 3 | 11
+TEST_1
+i = 17
+return = -1 | -4
+TEST_2
+ALGO_2
+i = 18
+return = 3 | 10
+TEST_1
+ALGO_2
+i = 19
+return = 3 | 10
+TEST_2
+ALGO_2
+i = 20
+return = 3 | 11
+TEST_1
+i = 21
+return = 1 | 3
+TEST_2
+ALGO_2
+i = 22
+return = 2 | 12
+TEST_1
+i = 23
+return = 2 | 14
+TEST_2
+ALGO_2
+i = 24
+return = 4 | 11
+TEST_1
+i = 25
+return = 2 | 6
+TEST_2
+ALGO_2
+i = 26
+return = 4 | 7
+TEST_1
+i = 27
+return = -2 | 4
+TEST_2
+ALGO_2
+i = 28
+return = 4 | 14
+TEST_1
+i = 29
+return = 3 | 14
+TEST_2
+ALGO_2
+i = 30
+return = 3 | 13
+TEST_1
+i = 31
+return = 1 | 8
+TEST_2
+ALGO_2
+i = 32
+return = 1 | 10
+TEST_1
+i = 33
+return = 2 | 10
+TEST_2
+ALGO_2
+i = 34
+return = 4 | 18
+TEST_1
+i = 35
+return = 1 | 11
+TEST_2
+ALGO_2
+i = 36
+return = 4 | 19
+TEST_1
+i = 37
+return = 1 | 10
+TEST_2
+ALGO_2
+i = 38
+return = 4 | 19
+TEST_1
+i = 39
+return = 1 | 17
+TEST_2
+ALGO_2
+i = 40
+return = 2 | 19
+TEST_1
+i = 41
+return = -1 | 17
+TEST_2
+ALGO_2
+i = 42
+return = 2 | 19
+TEST_1
+i = 43
+return = 1 | 16
+TEST_2
+ALGO_2
+i = 44
+return = 2 | 21
+TEST_1
+i = 45
+return = 1 | 22
+TEST_2
+ALGO_2
+i = 46
+return = 3 | 21
+TEST_1
+i = 47
+return = 1 | 23
+TEST_2
+ALGO_2
+i = 48
+return = 3 | 22
+TEST_1
+i = 49
+return = 1 | 28
+TEST_2
+ALGO_2
+i = 50
+return = 5 | 21
+TEST_1
+i = 51
+return = -1 | 22
+TEST_2
+ALGO_2
+i = 52
+return = 1 | 31
+TEST_1
+ALGO_2
+i = 53
+return = 4 | 30
+TEST_2
+ALGO_2
+i = 54
+return = 4 | 30
+TEST_1
+i = 55
+return = 1 | 27
+TEST_2
+ALGO_2
+i = 56
+return = 2 | 32
+TEST_1
+ALGO_2
+i = 57
+return = 2 | 32
+TEST_2
+ALGO_2
+i = 58
+return = 3 | 33
+TEST_1
+i = 59
+return = 1 | -1
+TEST_2
+ALGO_2
+i = 60
+return = 2 | 33
+TEST_1
+i = 61
+return = -1 | 33
+TEST_2
+ALGO_2
+i = 62
+return = 0 | 36
+TEST_1
+ALGO_2
+i = 63
+return = 4 | 35
+TEST_2
+ALGO_2
+i = 64
+return = 3 | 36
+TEST_1
+i = 65
+return = 1 | 22
+TEST_2
+ALGO_2
+i = 66
+return = 4 | 33
+TEST_1
+i = 67
+return = 1 | 12
+TEST_2
+ALGO_2
+i = 68
+return = 4 | 30
+TEST_1
+i = 69
+return = 2 | 23
+TEST_2
+ALGO_2
+i = 70
+return = 4 | 35
+TEST_1
+i = 71
+return = 1 | 20
+TEST_2
+ALGO_2
+i = 72
+return = 5 | 35
+TEST_1
+i = 73
+return = 1 | 26
+TEST_2
+ALGO_2
+i = 74
+return = 5 | 36
+TEST_1
+ALGO_2
+i = 75
+return = 7 | 25
+TEST_2
+ALGO_2
+i = 76
+return = 7 | 26
+TEST_1
+i = 77
+return = 3 | 1
+TEST_2
+ALGO_2
+i = 78
+return = 5 | 36
+TEST_1
+i = 79
+return = 1 | 30
+TEST_2
+ALGO_2
+i = 80
+return = 7 | 30
+TEST_1
+ALGO_2
+i = 81
+return = 4 | 38
+TEST_2
+ALGO_2
+i = 82
+return = 7 | 31
+TEST_1
+i = 83
+return = -2 | 10
+TEST_2
+ALGO_2
+i = 84
+return = 2 | 4
+TEST_1
+i = 85
+return = 2 | 36
+TEST_2
+ALGO_2
+i = 86
+return = 7 | 24
+TEST_1
+ALGO_2
+i = 87
+return = 9 | 23
+TEST_2
+ALGO_2
+i = 88
+return = 9 | 24
+TEST_1
+i = 89
+return = 8 | 21
+TEST_2
+ALGO_2
+i = 90
+return = 7 | 26
+TEST_1
+i = 91
+return = 5 | 20
+TEST_2
+ALGO_2
+i = 92
+return = 8 | 27
+TEST_1
+ALGO_2
+i = 93
+return = 7 | 32
+TEST_2
+ALGO_2
+i = 94
+return = 9 | 29
+TEST_1
+i = 95
+return = 3 | 28
+TEST_2
+ALGO_2
+i = 96
+return = 9 | 32
+TEST_1
+ALGO_2
+i = 97
+return = 10 | 30
+TEST_2
+ALGO_2
+i = 98
+return = 6 | 36
+TEST_1
+i = 99
+return = -1 | 5
+TEST_2
+ALGO_2
+i = 100
+return = 10 | 33
+TEST_1
+i = 101
+return = 4 | 20
+TEST_2
+ALGO_2
+i = 102
+return = 10 | 21
+TEST_1
+i = 103
+return = -1 | 15
+TEST_2
+ALGO_2
+i = 104
+return = 9 | 25
+TEST_1
+ALGO_2
+i = 105
+return = 10 | 35
+TEST_2
+ALGO_2
+i = 106
+return = 11 | 27
+TEST_1
+i = 107
+return = 4 | 4
+TEST_2
+ALGO_2
+i = 108
+return = 13 | 25
+TEST_1
+ALGO_2
+i = 109
+return = 5 | 37
+TEST_2
+ALGO_2
+ALGO_2
+i = 110
+return = 0 | 12
+TEST_1
+i = 111
+return = -1 | 11
+TEST_2
+ALGO_2
+i = 112
+return = 6 | 15
+TEST_1
+i = 113
+return = -1 | 37
+TEST_2
+ALGO_2
+i = 114
+return = 13 | 29
+TEST_1
+i = 115
+return = -1 | 15
+TEST_2
+ALGO_2
+i = 116
+return = -3 | 17
+TEST_1
+ALGO_2
+i = 117
+return = 14 | 27
+TEST_2
+ALGO_2
+i = 118
+return = 10 | 30
+TEST_1
+i = 119
+return = 3 | 20
+TEST_2
+ALGO_2
+i = 120
+return = 10 | 31
+TEST_1
+i = 121
+return = -1 | 24
+TEST_2
+ALGO_2
+i = 122
+return = 16 | 29
+TEST_1
+i = 123
+return = 4 | 1
+TEST_2
+ALGO_2
+i = 124
+return = 6 | 1
+TEST_1
+i = 125
+return = 2 | 33
+TEST_2
+ALGO_2
+i = 126
+return = 9 | 19
+TEST_1
+i = 127
+return = -1 | 32
+TEST_2
+ALGO_2
+i = 128
+return = 9 | 14
+TEST_1
+ALGO_2
+ALGO_2
+i = 129
+return = 0 | 25
+TEST_2
+ALGO_2
+ALGO_2
+i = 130
+return = 0 | 27
+TEST_1
+ALGO_2
+ALGO_2
+i = 131
+return = 0 | 30
+TEST_2
+ALGO_2
+i = 132
+return = 11 | 30
+TEST_1
+ALGO_2
+i = 133
+return = 11 | 31
+TEST_2
+ALGO_2
+i = 134
+return = 12 | 29
+TEST_1
+i = 135
+return = 7 | 13
+TEST_2
+ALGO_2
+i = 136
+return = -1 | 35
+TEST_1
+ALGO_2
+ALGO_2
+i = 137
+return = 6 | 3
+TEST_2
+ALGO_2
+i = 138
+return = 6 | 3
+TEST_1
+ALGO_2
+ALGO_2
+i = 139
+return = 1 | 0
+TEST_2
+ALGO_2
+i = 140
+return = 5 | 10
+TEST_1
+ALGO_2
+ALGO_2
+i = 141
+return = 0 | 36
+TEST_2
+ALGO_2
+ALGO_2
+i = 142
 return = 8 | 3
-p1
-map = 15 | 17
-.................
-.................
-.................
-.................
-.................
-.................
-.................
-.................
-..OOO............
-..OO.............
-..........XX.....
-...........XXXX..
-.............XX..
-.................
-.................
-piece = 2 | 2
-**
-*.
-PLACEMENT_[8][2]
-off_y = 0 | off_x = 0
-p[0][0] = * | m[8][2] = O
-p[0][1] = * | m[8][3] = O
-PLACEMENT_[8][3]
-off_y = 0 | off_x = 0
-p[0][0] = * | m[8][3] = O
-p[0][1] = * | m[8][4] = O
-PLACEMENT_[8][4]
-off_y = 0 | off_x = 0
-p[0][0] = * | m[8][4] = O
-p[0][1] = * | m[8][5] = .
-p[1][0] = * | m[9][4] = .
-p[1][1] = . | m[9][5] = .
-return = 8 | 4
-p1
-map = 15 | 17
-.................
-.................
-.................
-.................
-.................
-.................
-.................
-.................
-..OOOO...........
-..OOO............
-.........XXX.....
-...........XXXX..
-.............XX..
-.................
-.................
-piece = 2 | 3
-***
-**.
-PLACEMENT_[8][2]
-off_y = 0 | off_x = 0
-p[0][0] = * | m[8][2] = O
-p[0][1] = * | m[8][3] = O
-PLACEMENT_[8][3]
-off_y = 0 | off_x = 0
-p[0][0] = * | m[8][3] = O
-p[0][1] = * | m[8][4] = O
-PLACEMENT_[8][4]
-off_y = 0 | off_x = 0
-p[0][0] = * | m[8][4] = O
-p[0][1] = * | m[8][5] = O
-PLACEMENT_[8][5]
-off_y = 0 | off_x = 0
-p[0][0] = * | m[8][5] = O
-p[0][1] = * | m[8][6] = .
-p[0][2] = * | m[8][7] = .
-p[1][0] = * | m[9][5] = .
-p[1][1] = * | m[9][6] = .
-p[1][2] = . | m[9][7] = .
-return = 8 | 5
-p1
-map = 15 | 17
-.................
-.................
-.................
-.................
-.................
-.................
-.................
-.................
-..OOOOOO.........
-..OOOOOXXX.......
-.........XXX.....
-...........XXXX..
-.............XX..
-.................
-.................
-piece = 2 | 2
-**
-**
-PLACEMENT_[8][2]
-off_y = 0 | off_x = 0
-p[0][0] = * | m[8][2] = O
-p[0][1] = * | m[8][3] = O
-PLACEMENT_[8][3]
-off_y = 0 | off_x = 0
-p[0][0] = * | m[8][3] = O
-p[0][1] = * | m[8][4] = O
-PLACEMENT_[8][4]
-off_y = 0 | off_x = 0
-p[0][0] = * | m[8][4] = O
-p[0][1] = * | m[8][5] = O
-PLACEMENT_[8][5]
-off_y = 0 | off_x = 0
-p[0][0] = * | m[8][5] = O
-p[0][1] = * | m[8][6] = O
-PLACEMENT_[8][6]
-off_y = 0 | off_x = 0
-p[0][0] = * | m[8][6] = O
-p[0][1] = * | m[8][7] = O
-PLACEMENT_[8][7]
-off_y = 0 | off_x = 0
-p[0][0] = * | m[8][7] = O
-p[0][1] = * | m[8][8] = .
-p[1][0] = * | m[9][7] = X
-PLACEMENT_[9][2]
-off_y = 0 | off_x = 0
-p[0][0] = * | m[9][2] = O
-p[0][1] = * | m[9][3] = O
-PLACEMENT_[9][3]
-off_y = 0 | off_x = 0
-p[0][0] = * | m[9][3] = O
-p[0][1] = * | m[9][4] = O
-PLACEMENT_[9][4]
-off_y = 0 | off_x = 0
-p[0][0] = * | m[9][4] = O
-p[0][1] = * | m[9][5] = O
-PLACEMENT_[9][5]
-off_y = 0 | off_x = 0
-p[0][0] = * | m[9][5] = O
-p[0][1] = * | m[9][6] = O
-PLACEMENT_[9][6]
-off_y = 0 | off_x = 0
-p[0][0] = * | m[9][6] = O
-p[0][1] = * | m[9][7] = X
+TEST_1
+i = 143
+return = 7 | 10
+TEST_2
+ALGO_2
+ALGO_2
+i = 144
+return = 1 | 0
+TEST_1
+i = 145
+return = 7 | 7
+TEST_2
+ALGO_2
+i = 146
+return = 1 | 31
+TEST_1
+i = 147
+return = 4 | 22
+TEST_2
+ALGO_2
+i = 148
+return = 5 | 15
+TEST_1
+i = 149
+return = 6 | 19
+TEST_2
+ALGO_2
+i = 150
+return = 5 | -3
+TEST_1
+i = 151
+return = 7 | -1
+TEST_2
+ALGO_2
+i = 152
+return = 3 | 13
+TEST_1
+ALGO_2
+ALGO_2
+i = 153
+return = 4 | 6
+TEST_2
+ALGO_2
+i = 154
+return = 2 | 37
+TEST_1
+i = 155
+return = 5 | 21
+TEST_2
+ALGO_2
+i = 156
+return = 4 | 25
+TEST_1
+i = 157
+return = 7 | 16
+TEST_2
+ALGO_2
+i = 158
+return = 8 | -2
+TEST_1
+i = 159
+return = 9 | 7
+TEST_2
+ALGO_2
+i = 160
+return = 6 | 27
+TEST_1
+ALGO_2
+ALGO_2
+i = 161
+return = 7 | 2
+TEST_2
+ALGO_2
+i = 162
+return = 7 | 11
+TEST_1
+i = 163
+return = 9 | 3
+TEST_2
+ALGO_2
+ALGO_2
+i = 164
+return = 11 | 0
+TEST_1
+i = 165
+return = 6 | 23
+TEST_2
+ALGO_2
+ALGO_2
+i = 166
+return = 7 | 15
+TEST_1
+ALGO_2
+ALGO_2
+i = 167
+return = 8 | 32
+TEST_2
+ALGO_2
+i = 168
+return = 10 | 3
+TEST_1
+ALGO_2
+ALGO_2
+i = 169
+return = 10 | 12
+TEST_2
+ALGO_2
+i = 170
+return = 1 | 38
+TEST_1
+i = 171
+return = 6 | 21
+TEST_2
+ALGO_2
+i = 172
+return = 10 | 5
+TEST_1
+i = 173
+return = 9 | 16
+TEST_2
+ALGO_2
+ALGO_2
+i = 174
+return = 8 | 19
+TEST_1
+ALGO_2
+ALGO_2
+i = 175
+return = 9 | 0
+TEST_2
+ALGO_2
+i = 176
+return = 10 | 12
+TEST_1
+i = 177
+return = 10 | 15
+TEST_2
+ALGO_2
+i = 178
+return = 13 | 25
+TEST_1
+i = 179
+return = 8 | 28
+TEST_2
+ALGO_2
+i = 180
+return = 7 | 31
+TEST_1
+i = 181
+return = 9 | 18
+TEST_2
+ALGO_2
+i = 182
+return = 12 | 24
+TEST_1
+ALGO_2
+ALGO_2
+i = 183
+return = 11 | 13
+TEST_2
+ALGO_2
+i = 184
+return = 12 | 3
+TEST_1
+i = 185
+return = 12 | 6
+TEST_2
+ALGO_2
+i = 186
+return = 10 | 15
+TEST_1
+i = 187
+return = 7 | 35
+TEST_2
+ALGO_2
+i = 188
+return = 13 | 4
+TEST_1
+i = 189
+return = 11 | 20
+TEST_2
+ALGO_2
+i = 190
+return = 8 | 20
+TEST_1
+ALGO_2
+ALGO_2
+i = 191
+return = 7 | 28
+TEST_2
+ALGO_2
+i = 192
+return = 14 | 1
+TEST_1
+ALGO_2
+ALGO_2
+i = 193
+return = 11 | 1
+TEST_2
+ALGO_2
+i = 194
+return = 12 | 10
+TEST_1
+ALGO_2
+ALGO_2
+i = 195
+return = 12 | 14
+TEST_2
+ALGO_2
+ALGO_2
+i = 196
+return = 13 | 14
+TEST_1
+i = 197
+return = 8 | 6
+TEST_2
+ALGO_2
+i = 198
+return = 2 | 36
+TEST_1
+ALGO_2
+ALGO_2
+i = 199
+return = 10 | 5
+TEST_2
+ALGO_2
+i = 200
+return = 12 | 19
+TEST_1
+i = 201
+return = 5 | 35
+TEST_2
+ALGO_2
+i = 202
+return = 5 | 37
+TEST_1
+i = 203
+return = 11 | 20
+TEST_2
+ALGO_2
+i = 204
+return = 11 | 16
+TEST_1
+i = 205
+return = 11 | 7
+TEST_2
+ALGO_2
+ALGO_2
+i = 206
+return = 10 | 25
+TEST_1
+i = 207
+return = 12 | 8
+TEST_2
+ALGO_2
+i = 208
+return = 14 | 25
+TEST_1
+ALGO_2
+ALGO_2
+i = 209
+return = 14 | 23
+TEST_2
+ALGO_2
+i = 210
+return = 16 | 25
+TEST_1
+i = 211
+return = 12 | 16
+TEST_2
+ALGO_2
+i = 212
+return = 15 | 28
+TEST_1
+i = 213
+return = 10 | 27
+TEST_2
+ALGO_2
+i = 214
+return = 17 | 23
+TEST_1
+i = 215
+return = 16 | 24
+TEST_2
+ALGO_2
+i = 216
+return = 17 | 26
+TEST_1
+i = 217
+return = 14 | -3
+TEST_2
+ALGO_2
+i = 218
+return = 18 | 25
+TEST_1
+i = 219
+return = 18 | 23
+TEST_2
+ALGO_2
+i = 220
+return = 18 | 25
+TEST_1
+ALGO_2
+i = 221
+return = 19 | 28
+TEST_2
+ALGO_2
+i = 222
+return = 20 | 24
+TEST_1
+i = 223
+return = 10 | 2
+TEST_2
+ALGO_2
+i = 224
+return = 19 | 27
+TEST_1
+i = 225
+return = 13 | 8
+TEST_2
+ALGO_2
+i = 226
+return = 20 | 28
+TEST_1
+ALGO_2
+i = 227
+return = 20 | 31
+TEST_2
+ALGO_2
+i = 228
+return = 19 | 32
+TEST_1
+ALGO_2
+i = 229
+return = 20 | 33
+TEST_2
+ALGO_2
+i = 230
+return = 20 | 35
+TEST_1
+i = 231
+return = 13 | -2
+TEST_2
+ALGO_2
+i = 232
+return = 20 | 33
+TEST_1
+i = 233
+return = 16 | 20
+TEST_2
+ALGO_2
+i = 234
+return = 19 | 32
+TEST_1
+i = 235
+return = 15 | 19
+TEST_2
+ALGO_2
+i = 236
+return = 15 | 18
+TEST_1
+ALGO_2
+i = 237
+return = 18 | 38
+TEST_2
+ALGO_2
+i = 238
+return = 22 | 29
+TEST_1
+i = 239
+return = 13 | 8
+TEST_2
+ALGO_2
+i = 240
+return = 13 | 5
+TEST_1
+ALGO_2
+ALGO_2
+i = 241
+return = 15 | 11
+TEST_2
+ALGO_2
+i = 242
+return = 13 | 22
+TEST_1
+i = 243
+return = 14 | 15
+TEST_2
+ALGO_2
+i = 244
+return = 21 | 31
+TEST_1
+ALGO_2
+i = 245
+return = 20 | 34
+TEST_2
+ALGO_2
+i = 246
+return = 22 | 31
+TEST_1
+i = 247
+return = 5 | 37
+TEST_2
+ALGO_2
+i = 248
+return = 13 | 13
+TEST_1
+i = 249
+return = 14 | 12
+TEST_2
+ALGO_2
+i = 250
+return = 21 | 37
+TEST_1
+ALGO_2
+ALGO_2
+i = 251
+return = 16 | 1
+TEST_2
+ALGO_2
+i = 252
+return = 16 | 16
+TEST_1
+ALGO_2
+ALGO_2
+i = 253
+return = 14 | 13
+TEST_2
+ALGO_2
+i = 254
+return = 16 | 15
+TEST_1
+i = 255
+return = 18 | 20
+TEST_2
+ALGO_2
+ALGO_2
+i = 256
+return = 15 | 0
+TEST_1
+i = 257
+return = 15 | 20
+TEST_2
+ALGO_2
+i = 258
+return = 14 | 4
+TEST_1
+ALGO_2
+ALGO_2
+i = 259
+return = 15 | 8
+TEST_2
+ALGO_2
+i = 260
+return = 16 | 5
+TEST_1
+i = 261
+return = 14 | 23
+TEST_2
+ALGO_2
+i = 262
+return = 15 | 1
+TEST_1
+i = 263
+return = 17 | 8
+TEST_2
+ALGO_2
+i = 264
+return = 19 | 33
+TEST_1
+ALGO_2
+ALGO_2
+i = 265
+return = 16 | 14
+TEST_2
+ALGO_2
+ALGO_2
+i = 266
+return = 16 | 20
+TEST_1
+ALGO_2
+ALGO_2
+i = 267
+return = 16 | 26
+TEST_2
+ALGO_2
+i = 268
+return = 16 | 14
+TEST_1
+i = 269
+return = 18 | 9
+TEST_2
+ALGO_2
+ALGO_2
+i = 270
+return = 18 | 14
+TEST_1
+i = 271
+return = 15 | 13
+TEST_2
+ALGO_2
+i = 272
+return = 16 | 7
+TEST_1
+ALGO_2
+ALGO_2
+i = 273
+return = 19 | 8
+TEST_2
+ALGO_2
+i = 274
+return = 21 | 27
+TEST_1
+i = 275
+return = 17 | 2
+TEST_2
+ALGO_2
+i = 276
+return = 16 | 1
+TEST_1
+i = 277
+return = 13 | 26
+TEST_2
+ALGO_2
+i = 278
+return = 19 | 18
+TEST_1
+i = 279
+return = 17 | -1
+TEST_2
+ALGO_2
+ALGO_2
+i = 280
+return = 19 | 0
+TEST_1
+ALGO_2
+ALGO_2
+i = 281
+return = 19 | 8
+TEST_2
+ALGO_2
+i = 282
+return = 17 | 2
+TEST_1
+ALGO_2
+ALGO_2
+i = 283
+return = 18 | 14
+TEST_2
+ALGO_2
+ALGO_2
+i = 284
+return = 19 | 13
+TEST_1
+i = 285
+return = 20 | 11
+TEST_2
+ALGO_2
+i = 286
+return = 19 | -15
+TEST_1
+i = 287
+return = 20 | 10
+TEST_2
+ALGO_2
+i = 288
+return = 18 | 16
+TEST_1
+ALGO_2
+ALGO_2
+i = 289
+return = 19 | 8
+TEST_2
+ALGO_2
+i = 290
+return = 22 | 38
+TEST_1
+ALGO_2
+ALGO_2
+i = 291
+return = 18 | 20
+TEST_2
+ALGO_2
+ALGO_2
+i = 292
+return = 20 | -1
+TEST_1
+i = 293
+return = 19 | 7
+TEST_2
+ALGO_2
+i = 294
+return = 18 | 5
+TEST_1
+i = 295
+return = 19 | 21
+TEST_2
+ALGO_2
+ALGO_2
+i = 296
+return = 19 | 23
+TEST_1
+ALGO_2
+ALGO_2
+i = 297
+return = 21 | 7
+TEST_2
+ALGO_2
+ALGO_2
+i = 298
+return = 21 | 14
+TEST_1
+ALGO_2
+ALGO_2
+i = 299
+return = 20 | 3
+TEST_2
+ALGO_2
+i = 300
+return = 18 | 35
+TEST_1
+ALGO_2
+ALGO_2
+i = 301
+return = 21 | 18
+TEST_2
+ALGO_2
+i = 302
+return = 20 | 3
+TEST_1
+i = 303
+return = 20 | 21
+TEST_2
+ALGO_2
+i = 304
+return = 18 | 34
+TEST_1
+i = 305
+return = 17 | 33
+TEST_2
+ALGO_2
+i = 306
+return = 19 | 29
+TEST_1
+i = 307
+return = 19 | 22
+TEST_2
+ALGO_2
+ALGO_2
+i = 308
+return = 19 | 23
+TEST_1
+ALGO_2
+ALGO_2
+i = 309
+return = 21 | 29
+TEST_2
+ALGO_2
+i = 310
+return = 21 | -1
+TEST_1
+ALGO_2
+ALGO_2
+i = 311
+return = 21 | 0
+TEST_2
+ALGO_2
+ALGO_2
+i = 312
+return = 21 | 7
+TEST_1
+ALGO_2
+ALGO_2
+i = 313
+return = 19 | 8
+TEST_2
+ALGO_2
+i = 314
+return = 21 | 8
+TEST_1
+ALGO_2
+ALGO_2
+i = 315
 return = 0 | 0
