@@ -51,15 +51,15 @@ int		static	placement_p1(int fd, t_player *p, int m_x, int m_y)
 	find_offset(fd, p);
 	save_1 = p->offset_x;
 	y = p->offset_y;
-	ft_dprintf(fd, "PLACEMENT_[%d][%d]\n", m_y, m_x);
-	ft_dprintf(fd, "off_y = %d | off_x = %d\n", p->offset_y, p->offset_x);
+	//ft_dprintf(fd, "PLACEMENT_[%d][%d]\n", m_y, m_x);
+	//ft_dprintf(fd, "off_y = %d | off_x = %d\n", p->offset_y, p->offset_x);
 	while(y < p->p_y && m_y < p->m_y)
 	{
 		x = 0 + save_1;
 		while (p->piece[y][x])
 		{
-			ft_dprintf(fd, "p[%d][%d] = %c | m[%d][%d] = %c\n"
-					, y, x, p->piece[y][x], m_y, m_x, p->map[m_y][m_x]);
+			//ft_dprintf(fd, "p[%d][%d] = %c | m[%d][%d] = %c\n"
+		//			, y, x, p->piece[y][x], m_y, m_x, p->map[m_y][m_x]);
 			if (check != 0 && p->piece[y][x] != '\0' &&
 					p->piece[y][x] == '*' && p->map[m_y][m_x] != '.')	
 				return (0);
@@ -77,8 +77,7 @@ int		static	placement_p1(int fd, t_player *p, int m_x, int m_y)
 	}
 	return (1);
 }
-
-static	void	find_placement(int fd, t_player *p)
+static	int	find_placement_0(int fd, t_player *p)
 {
 	int x;
 	int y;
@@ -91,34 +90,85 @@ static	void	find_placement(int fd, t_player *p)
 		x = 0;
 		while (p->map[y][x])
 		{
-			if (p->nb == 1 && p->map[y][x] == 'O' 
+			if (p->nb == 1 && p->map[y][x] == 'O' && ft_strchr(p->map[y + 1], 'O') == 0
 					&& placement_p1(fd, p, x, y) == 1
 					&& analyse_placement(p, y, x) == 0)
 			{
 				p->r_y = y - p->offset_y;
 				p->r_x = x - p->offset_x;
-				return ;
-			}
-			if (p->nb == 2 && p->map[y][x] == 'X' 
-					&& placement_p1(fd, p, x, y) == 1
-					&& analyse_placement(p, y, x) == 0)
-			{
-				p->r_y = y - p->offset_y;
-				p->r_x = x - p->offset_x;
-				return ;
+				return (1);
 			}
 			x++;
 		}
 		y++;
 	}
-	p->r_y = 0;
-	p->r_x = 0;
+	return (0);
+}	
+
+static	int	find_placement_2(int fd, t_player *p)
+{
+	int x;
+	int y;
+
+	y = 0;
+	p->wid = analyse_y_p(p);
+	p->len = analyse_x_p(p);
+	while(y < p->m_y)
+	{
+		x = 0;
+		while (p->map[y][x])
+		{
+			if (p->nb == 1 && p->map[y][x] == 'O'
+					&& placement_p1(fd, p, x, y) == 1
+					&& analyse_placement(p, y, x) == 0)
+			{
+				p->r_y = y - p->offset_y;
+				p->r_x = x - p->offset_x;
+				return (1);
+			}
+			x++;
+		}
+		y++;
+	}
+	return (0);
+}	
+
+static	int 	find_placement_1(int fd, t_player *p)
+{
+	int x;
+	int y;
+
+	p->wid = analyse_y_p(p);
+	p->len = analyse_x_p(p);
+	x = p->m_y;
+	y = 0;
+	while (ft_strchr(p->map[y], 'X'))
+			y++;
+	while (x >= 0)
+	{
+		if (p->nb == 1 && p->map[y][x] == 'O'
+				&& placement_p1(fd, p, x, y) == 1
+				&& analyse_placement(p, y, x) == 0)
+		{
+			p->r_y = y - p->offset_y;
+			p->r_x = x - p->offset_x;
+			return(1);
+		}
+		x--;
+	}
+	return (0);
 }
-				
+		
 void		algo(int fd, t_player *p)
 {
 	find_opponent(p);
-	find_placement(fd, p);	
+	if(find_placement_1(fd, p) == 0)
+		if(find_placement_0(fd, p) == 0)
+			if (find_placement_2(fd, p) == 0)
+			{
+				p->r_y = 0;
+				p->r_x = 0;
+			}
 	ft_printf("%d %d\n", p->r_y, p->r_x);
 	ft_dprintf(fd, "return = %d | %d\n", p->r_y, p->r_x);
 	p->j = 0;
