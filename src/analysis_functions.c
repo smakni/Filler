@@ -6,7 +6,7 @@
 /*   By: smakni <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/13 14:21:14 by smakni            #+#    #+#             */
-/*   Updated: 2018/12/13 20:55:18 by smakni           ###   ########.fr       */
+/*   Updated: 2018/12/14 19:27:15 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ int		analyse_y_p(t_player *p)
 			count++;
 		y++;
 	}
-	return (count);
+	return (count - 1);
 }
 
 int		analyse_x_p(t_player *p)

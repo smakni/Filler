@@ -6,7 +6,7 @@
 /*   By: smakni <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/04 19:10:23 by smakni            #+#    #+#             */
-/*   Updated: 2018/12/13 17:48:18 by smakni           ###   ########.fr       */
+/*   Updated: 2018/12/14 18:49:20 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,4 +47,8 @@ int				analyse_placement(t_player *p, int y, int x);
 int				analyse_y_p(t_player *p);
 int				analyse_x_p(t_player *p);
 void			find_opponent(t_player *p);
+void			find_offset(int fd, t_player *p);
+int				find_placement_2(int fd, t_player *p);
+int				find_placement_3(int fd, t_player *p);
+
 #endif

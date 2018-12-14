@@ -6,7 +6,7 @@
 #    By: smakni <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/11/23 13:20:28 by smakni            #+#    #+#              #
-#    Updated: 2018/12/13 14:29:29 by smakni           ###   ########.fr        #
+#    Updated: 2018/12/14 19:17:05 by smakni           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -28,6 +28,7 @@ LDLIBS		=	-lft
 
 SRC_NAME	=	filler.c \
 				algo.c \
+				algo_2.c \
 				save_data.c \
 				read_data.c \
 				print_data.c \
@@ -44,7 +45,7 @@ all: $(NAME)
 
 $(NAME): $(OBJ) 
 		make -C libft
-		$(CC) $(LDFLAGS) $(LDLIBS) $(OBJ) -o $@
+		$(CC) -fsanitize=address -g3 $(LDFLAGS) $(LDLIBS) $(OBJ) -o $@
 
 $(OBJ_PATH)/%.o: $(SRC_PATH)/%.c
 	@mkdir $(OBJ_PATH) 2> /dev/null || true
