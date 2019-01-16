@@ -1,157 +1,150 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   algo.c                                             :+:      :+:    :+:   */
+/*   algo_0.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: smakni <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/12/11 20:39:43 by smakni            #+#    #+#             */
-/*   Updated: 2018/12/14 19:27:12 by smakni           ###   ########.fr       */
+/*   Created: 2019/01/14 12:20:12 by smakni            #+#    #+#             */
+/*   Updated: 2019/01/16 17:21:13 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <filler.h>
-/*
-static 	int	nb_p(t_player *p)
+
+static int		test_piece(int fd, int m_y, int m_x, t_player *p)
 {
 	int y;
 	int x;
-
-	y = 0;
-	while (y < p->p_y)
-		x = 0;
-*/
-static	int test_piece(int fd, t_player *p, int p_y, int p_x, int m_y, int m_x)
-{
+	int tmp_m_x;
 	int check;
-	int y;
-	int x;
-	int save;
 
-	(void)fd;
-	check = 0;
 	y = 0;
-	m_y = m_y - p_y;
-	m_x = m_x - p_x;
-	save = m_x;
-	//check2 = 0;
-	while (y < p->p_y && m_y < p->m_y)
+	x = 0;
+	tmp_m_x = m_x;
+	check = 0;
+	ft_dprintf(fd, "----------\nTEST_PIECE_Y(%d)_X(%d)\n", m_y, m_x);
+	while(y < p->p_y && m_y < p->m_y)
 	{
 		x = 0;
-		while (x < p->p_x)
+		m_x = tmp_m_x;
+		while (p->piece[y][x])
 		{
-			//ft_dprintf(fd, "p[%d][%d] = %c | m[%d][%d] = %c\ncheck - %d\n"
-			//		, y, x, p->piece[y][x], m_y, m_x, p->map[m_y][m_x], check);
-			if (p->piece[y][x] == '*' && (m_y < 0 || m_x < 0 || m_x > p->m_x || m_y > p->m_y))
-				return (0);
-			if (check == 0 && p->piece[y][x] == '*' && p->map[m_y][m_x] == 'O')
-				  check++;
-			else if (check == 0 && p->piece[y][x] == '*' && p->map[m_y][m_x] == 'X')
-				return (0);
-			else if (check == 1 && p->piece[y][x] == '*' && p->map[m_y][m_x] != '.')
-				return (0);
+//			ft_dprintf(fd, "PIECE[%d][%d] = %c | MAP[%d][%d] = %c | CHECK = %d\n",
+//					y, x, p->piece[y][x], m_y, m_x, p->map[m_y][m_x], check);
+			if (check == 0 && p->piece[y][x] != '\0' && 
+					p->piece[y][x] == '*' && p->map[m_y][m_x] == 'O')
+			{
+				p->save += p->map[y][x];
+				check++;
+				ft_dprintf(fd, "SAVE++ = %d\n", p->save);
+			}
+			else if (check == 1 && p->piece[y][x] == '*' 
+					&& (p->map[m_y][m_x] == 'O' || p->map[m_y][m_x] == 'X'))
+				return (-1);
+			else if (p->piece[y][x] == 'O' && (m_y < 0 || m_y > p->m_y 
+					|| m_x < 0 || m_x > p->m_x))
+				return (-1);
+			else if (p->piece[y][x] == '*'
+					&& (p->map[m_y][m_x] != 'O' || p->map[m_y][m_x] != 'X'))
+			{
+				p->save += p->map[m_y][m_x];
+				ft_dprintf(fd, "SAVE++ = %d\n", p->save);
+			}
 			x++;
 			m_x++;
 		}
-		m_x = save;
 		y++;
 		m_y++;
 	}
-	if (check != 1)
-		return (0);
-	return (1);
-}
-
-static	int	test_placement_up(int fd, t_player *p, int m_y, int m_x)
-{
-	int y;
-	int	x;
-
-	(void)fd;
-	//ft_dprintf(fd, "ALGO_1\n");
-	y = p->p_y - 1;
-	while (y > 0)
-	{
-		x = p->p_x - 1;
-		while (x > 0)
-		{
-			//ft_dprintf(fd, "PLACEMENT_[%d][%d]\n", m_y, m_x);
-			if (test_piece(fd, p, y, x, m_y, m_x) == 1 &&
-					analyse_placement(p, m_y - y, m_x - x) == 0)
-			{
-			//	ft_dprintf(fd, "y %d | x = %d\n", y, x);
-				p->r_y = m_y - y;
-				p->r_x = m_x - x;
-				if (p->r_y != 0 && p->r_x != 0)
-					return (1);
-			}
-			x--;
-		}
-		y--;
-	}
+	ft_dprintf(fd, "----------\n");
+	if (check == 0)
+		return (-1);
 	return (0);
 }
 
-static	int	find_placement_1(int fd, t_player *p)
+static int 	algo_0(int fd, t_player *p)
 {
 	int y;
 	int x;
+	int tmp_y;
+	int tmp_x;
+	int check;
+	int save_path;
 
-	(void)fd;
 	y = 0;
+	x = 0;
+	check = 0;
+	save_path = 0;
 	p->wid = analyse_y_p(p);
 	p->len = analyse_x_p(p);
 	while (y < p->m_y)
 	{
 		x = 0;
-		while (x < p->m_x)
+		while (p->map[y][x])
 		{
-			if (p->map[y][x] == 'O' && test_placement_up(fd, p, y, x) == 1)
-				return (1);
+			if (p->map[y][x] == 'O')
+			{
+				ft_dprintf(fd, "==============================\n");
+				ft_dprintf(fd, "MAP[%d][%d] = %c\n", y, x, p->map[y][x]);
+				ft_dprintf(fd, "==============================\n");
+				p->offset_y = 0;
+				p->offset_x = 0;
+				tmp_y = 0;
+				tmp_y = 0;
+				while (p->offset_y < p->p_y)
+				{
+					p->offset_x = 0;
+					while (p->offset_x < p->p_x)
+					{
+						p->save = 0;
+						tmp_y = y - p->offset_y;
+						tmp_x = x - p->offset_x;
+						if (test_piece(fd, tmp_y, tmp_x, p) == 0)
+						{
+							ft_dprintf(fd, ">>>>SAVE<<<<\n");
+							ft_dprintf(fd, "SAVE_TMP = %d\n", p->save);
+							if (check == 0 
+									&& analyse_placement(p, tmp_y, tmp_x) == 0)
+							{	
+								save_path = p->save;
+								p->r_y = tmp_y;
+								p->r_x = tmp_x;
+								check++;
+							}
+							else if (check > 0 && p->save < save_path 
+									&& analyse_placement(p, tmp_y, tmp_x) == 0)
+							{	
+								save_path = p->save;
+								p->r_y = tmp_y;
+								p->r_x = tmp_x;
+							}
+						}
+						ft_dprintf(fd, "SAVE = %d\n=========\n", save_path);
+						p->offset_x++;
+					}
+					p->offset_y++;
+				}
+			}
 			x++;
 		}
 		y++;
 	}
+	if (save_path == 0)
+		return (-1);
 	return (0);
 }
 
 void		algo(int fd, t_player *p)
 {
-	static int i = 0;
-
-	find_opponent(p);
-	if (i % 2 == 0)
+	usleep(50000);
+	if (algo_0(fd, p) == -1)
 	{
-		ft_dprintf(fd, "TEST_1\n");
-		if (find_placement_1(fd, p) == 0) 
-			{
-			if (find_placement_3(fd, p) == 0)
-			{	
-				if (find_placement_2(fd, p) == 0)
-					{
-						p->r_y = 0;
-						p->r_x = 0;
-					}
-			}
-		}
+		ft_dprintf(fd, "END_ALL\n");
+		p->r_y = 0;
+		p->r_x = 0;
 	}
-	else
-	{
-		ft_dprintf(fd, "TEST_2\n");
-		if (find_placement_3(fd, p) == 0) 
-			{
-			if (find_placement_1(fd, p) == 0)
-			{	
-				if (find_placement_2(fd, p) == 0)
-					{
-						p->r_y = 0;
-						p->r_x = 0;
-					}
-			}
-		}
-	}
-	i++;
-	ft_dprintf(fd, "i = %d\nreturn = %d | %d\n", i, p->r_y, p->r_x);
+	ft_dprintf(fd, ">>>>>>>>r_y = %d | r_x = %d<<<<<<<<<<\n", p->r_y, p->r_x);
 	ft_printf("%d %d\n", p->r_y, p->r_x);
 	p->j = 0;
 	p->i = 0;

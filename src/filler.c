@@ -6,7 +6,7 @@
 /*   By: smakni <smakni@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/04 19:06:40 by smakni            #+#    #+#             */
-/*   Updated: 2019/01/16 13:31:15 by smakni           ###   ########.fr       */
+/*   Updated: 2019/01/16 17:19:20 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,7 +47,7 @@ int		main(void)
 		if (save_data(p) == 1)
 		{
 			analyse_map(fd, p);
-			print_data(fd, p);
+//			print_data(fd, p);
 			algo(fd, p);
 			ft_tabdel(p->piece, p->p_y);
 			if (p->r_y == 0 && p->r_x == 0)
