@@ -6,7 +6,7 @@
 /*   By: smakni <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/04 19:10:23 by smakni            #+#    #+#             */
-/*   Updated: 2018/12/14 18:49:20 by smakni           ###   ########.fr       */
+/*   Updated: 2019/01/16 13:59:30 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,7 @@ typedef	struct	s_player
 	int		offset_x;
 	int		op_y;
 	int		op_x;
+	int		save;
 	char	**map;
 	char	**piece;
 	int		wid;
@@ -46,9 +47,14 @@ void			first_read(char *line, t_player *p);
 int				analyse_placement(t_player *p, int y, int x);
 int				analyse_y_p(t_player *p);
 int				analyse_x_p(t_player *p);
+void			analyse_map(int fd, t_player *p);
 void			find_opponent(t_player *p);
 void			find_offset(int fd, t_player *p);
+int				find_placement_1(int fd, t_player *p);
 int				find_placement_2(int fd, t_player *p);
 int				find_placement_3(int fd, t_player *p);
+int				find_placement_4(int fd, t_player *p);
+int				find_placement_5(int fd, t_player *p);
+int				find_placement_6(int fd, t_player *p);
 
 #endif
