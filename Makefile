@@ -6,15 +6,15 @@
 #    By: smakni <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/11/23 13:20:28 by smakni            #+#    #+#              #
-#    Updated: 2018/12/14 19:17:05 by smakni           ###   ########.fr        #
+#    Updated: 2019/01/16 16:30:46 by smakni           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME		=	smakni.filler
 
-CC			=	gcc
+CC			=	gcc -g3
 
-CFLAGS		+=	-Wall -Werror -Wextra -g3 
+CFLAGS		+=	 
 
 CPPFLAGS	=	-I include -I libft/include
 				
@@ -27,7 +27,8 @@ LDFLAGS		=	-L libft
 LDLIBS		=	-lft
 
 SRC_NAME	=	filler.c \
-				algo.c \
+				algo_0.c \
+				algo_1.c \
 				algo_2.c \
 				save_data.c \
 				read_data.c \
@@ -50,6 +51,10 @@ $(NAME): $(OBJ)
 $(OBJ_PATH)/%.o: $(SRC_PATH)/%.c
 	@mkdir $(OBJ_PATH) 2> /dev/null || true
 	$(CC) $(CFLAGS) $(CPPFLAGS) -o $@ -c $<
+
+resanitize: fclean $(OBJ) 
+		make -C libft
+		$(CC) -fsanitize=address -g3 $(LDFLAGS) $(LDLIBS) $(OBJ) -o $@
 
 clean:
 	rm -fv $(OBJ)
