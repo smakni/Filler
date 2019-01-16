@@ -33,8 +33,6 @@ typedef	struct	s_player
 	int		save;
 	char	**map;
 	char	**piece;
-	int		wid;
-	int		len;
 	int		i;
 	int		j;
 	int		check_read;

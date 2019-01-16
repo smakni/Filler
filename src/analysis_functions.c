@@ -14,8 +14,8 @@
 
 int		analyse_placement(t_player *p, int y, int x)
 {
-	if (y + p->wid < p->m_y
-		&& x + p->len < p->m_x)
+	if (y + p->p_y <= p->m_y
+		&& x + p->p_x <= p->m_x)
 		return (0);
 	else
 		return (-1);

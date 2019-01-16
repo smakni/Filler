@@ -27,8 +27,6 @@ void	init_player(t_player *p)
 	p->op_x = 0;
 	p->map = NULL;
 	p->piece = NULL;
-	p->wid = 0;
-	p->len = 0;
 	p->i = 0;
 	p->j = 0;
 	p->check_read = 0;
