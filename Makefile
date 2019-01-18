@@ -6,7 +6,7 @@
 #    By: smakni <smakni@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/11/23 13:20:28 by smakni            #+#    #+#              #
-#    Updated: 2019/01/18 15:17:12 by smakni           ###   ########.fr        #
+#    Updated: 2019/01/18 19:50:32 by smakni           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -43,7 +43,7 @@ all: $(NAME)
 
 $(NAME): $(OBJ) 
 		make -C libft
-		$(CC) $(LDFLAGS) $(LDLIBS) $(OBJ) -o $@
+		$(CC) $(CFLAGS) $(LDFLAGS) $(LDLIBS) $(OBJ) -o $@
 
 $(OBJ_PATH)/%.o: $(SRC_PATH)/%.c
 	@mkdir $(OBJ_PATH) 2> /dev/null || true
