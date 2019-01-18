@@ -6,7 +6,7 @@
 /*   By: smakni <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/12 11:49:57 by smakni            #+#    #+#             */
-/*   Updated: 2019/01/18 15:40:24 by smakni           ###   ########.fr       */
+/*   Updated: 2019/01/18 17:00:03 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,7 +49,7 @@ static	void	save_piece_data(char *line, t_player *p)
 void			first_read(char *line, t_player *p)
 {
 	if (p->nb == 0)
-	{	
+	{
 		p->nb = ft_atoi(&(line[10]));
 		if (p->nb == 1)
 		{

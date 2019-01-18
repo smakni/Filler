@@ -6,7 +6,7 @@
 /*   By: smakni <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/18 12:52:16 by smakni            #+#    #+#             */
-/*   Updated: 2019/01/18 16:02:44 by smakni           ###   ########.fr       */
+/*   Updated: 2019/01/18 17:10:04 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,38 @@ static	void	fill_map(t_player *p, int y, int x, char c)
 	}
 }
 
+static	void	step_1(t_player *p)
+{
+	int		y;
+	int		x;
+
+	y = 0;
+	x = 0;
+	while (y < p->m_y - 1)
+	{
+		x = 0;
+		while (p->map[y][x])
+		{
+			if (p->map[y][x] == p->op_c)
+				fill_map(p, y, x, '!');
+			x++;
+		}
+		y++;
+	}
+}
+
+static	void	step_2(t_player *p, int y, int x, char c)
+{
+	while (p->map[y][x])
+	{
+		if ((c == p->my_c + 2 || c == '0') && p->map[y][x] == c - 3)
+			fill_map(p, y, x, c);
+		else if (p->map[y][x] == c - 1)
+			fill_map(p, y, x, c);
+		x++;
+	}
+}
+
 void			analyse_map(int fd, t_player *p)
 {
 	int		y;
@@ -41,17 +73,7 @@ void			analyse_map(int fd, t_player *p)
 	y = 0;
 	x = 0;
 	c = '!';
-	while (y < p->m_y - 1)
-	{
-		x = 0;
-		while (p->map[y][x])
-		{
-			if (p->map[y][x] == p->op_c)
-				fill_map(p, y, x, c);
-			x++;
-		}
-		y++;
-	}
+	step_1(p);
 	while (c < '~')
 	{
 		c++;
@@ -61,14 +83,7 @@ void			analyse_map(int fd, t_player *p)
 		while (y < p->m_y - 1)
 		{
 			x = 0;
-			while (p->map[y][x])
-			{
-				if ((c == p->my_c + 2 || c == '0') && p->map[y][x] == c - 3)
-					fill_map(p, y, x, c);
-				else if (p->map[y][x] == c - 1)
-					fill_map(p, y, x, c);
-				x++;
-			}
+			step_2(p, y, x, c);
 			y++;
 		}
 	}
