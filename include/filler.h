@@ -6,7 +6,7 @@
 /*   By: smakni <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/04 19:10:23 by smakni            #+#    #+#             */
-/*   Updated: 2019/01/16 13:59:30 by smakni           ###   ########.fr       */
+/*   Updated: 2019/01/18 15:49:25 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,8 @@
 typedef	struct	s_player
 {
 	int		nb;
+	char	my_c;
+	char	op_c;
 	int		m_y;
 	int		m_x;
 	int		p_y;
@@ -28,8 +30,6 @@ typedef	struct	s_player
 	int		r_x;
 	int		offset_y;
 	int		offset_x;
-	int		op_y;
-	int		op_x;
 	int		save;
 	char	**map;
 	char	**piece;

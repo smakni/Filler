@@ -6,7 +6,7 @@
 /*   By: smakni <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/12 11:49:57 by smakni            #+#    #+#             */
-/*   Updated: 2018/12/13 17:11:24 by smakni           ###   ########.fr       */
+/*   Updated: 2019/01/18 15:40:24 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,7 +49,19 @@ static	void	save_piece_data(char *line, t_player *p)
 void			first_read(char *line, t_player *p)
 {
 	if (p->nb == 0)
+	{	
 		p->nb = ft_atoi(&(line[10]));
+		if (p->nb == 1)
+		{
+			p->my_c = 'O';
+			p->op_c = 'X';
+		}
+		else if (p->nb == 2)
+		{
+			p->my_c = 'X';
+			p->op_c = 'O';
+		}
+	}
 	else if (line[1] == 'l' && p->check_read == 0)
 		save_map_data(line, p);
 	else

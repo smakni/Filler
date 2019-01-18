@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   search_functions.c                                 :+:      :+:    :+:   */
+/*   heatmap.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: smakni <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/12/13 14:27:01 by smakni            #+#    #+#             */
-/*   Updated: 2019/01/16 13:31:08 by smakni           ###   ########.fr       */
+/*   Created: 2019/01/18 12:52:16 by smakni            #+#    #+#             */
+/*   Updated: 2019/01/18 16:02:44 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 static	void	fill_map(t_player *p, int y, int x, char c)
 {
-	int i;
+	int		i;
 
 	i = 0;
 	while (i < 2)
@@ -33,10 +33,11 @@ static	void	fill_map(t_player *p, int y, int x, char c)
 
 void			analyse_map(int fd, t_player *p)
 {
-	int y;
-	int x;
-	char c;
+	int		y;
+	int		x;
+	char	c;
 
+	(void)fd;
 	y = 0;
 	x = 0;
 	c = '!';
@@ -45,7 +46,7 @@ void			analyse_map(int fd, t_player *p)
 		x = 0;
 		while (p->map[y][x])
 		{
-			if (p->map[y][x] == 'X')
+			if (p->map[y][x] == p->op_c)
 				fill_map(p, y, x, c);
 			x++;
 		}
@@ -54,7 +55,7 @@ void			analyse_map(int fd, t_player *p)
 	while (c < '~')
 	{
 		c++;
-		if (c == '.' || c == 'O')
+		if (c == '.' || c == p->my_c)
 			c += 2;
 		y = 0;
 		while (y < p->m_y - 1)
@@ -62,9 +63,7 @@ void			analyse_map(int fd, t_player *p)
 			x = 0;
 			while (p->map[y][x])
 			{
-				if (c == '0' && p->map[y][x] == c - 3)
-					fill_map(p, y, x, c);
-				else if (c == 'Q' && p->map[y][x] == c - 3)
+				if ((c == p->my_c + 2 || c == '0') && p->map[y][x] == c - 3)
 					fill_map(p, y, x, c);
 				else if (p->map[y][x] == c - 1)
 					fill_map(p, y, x, c);
