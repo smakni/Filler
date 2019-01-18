@@ -6,7 +6,7 @@
 /*   By: smakni <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/14 12:20:12 by smakni            #+#    #+#             */
-/*   Updated: 2019/01/18 17:21:23 by smakni           ###   ########.fr       */
+/*   Updated: 2019/01/18 20:53:32 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,31 +26,31 @@ static int		test_piece(int fd, int m_y, int m_x, t_player *p)
 	check = 0;
 	while (y < p->p_y)
 	{
-		if (ft_strchr(p->piece[y], '*') != 0)
-		{
 			x = 0;
 			m_x = tmp_m_x;
-			while (x < p->p_x)
+			if (ft_strchr(p->piece[y], '*') != 0)
 			{
-				if (ft_strchr(&(p->piece[y][x]), '*') == 0)
-					break ;
-				if (p->piece[y][x] == '*' && ((m_y < 0 || m_y >= p->m_y
-						|| m_x < 0 || m_x >= p->m_x)
-						|| (check == 1 && p->map[m_y][m_x] == p->my_c)
-						|| p->map[m_y][m_x] == p->op_c))
-					return (-1);
-				else if (check == 0 && p->piece[y][x] == '*'
-						&& p->map[m_y][m_x] == p->my_c)
+				while (x < p->p_x)
 				{
-					p->save += p->map[y][x];
-					check++;
+					if (p->piece[y][x] == '*')
+					{
+						if (((m_y < 0 || m_y >= p->m_y
+							|| m_x < 0 || m_x >= p->m_x)
+							|| (check == 1 && p->map[m_y][m_x] == p->my_c)
+							|| p->map[m_y][m_x] == p->op_c))
+						return (-1);
+						else if (check == 0 && p->map[m_y][m_x] == p->my_c)
+						{
+							p->save += p->map[y][x];
+							check++;
+						}
+						else if (p->map[m_y][m_x] != p->my_c)
+								p->save += p->map[m_y][m_x];
+					}
+					x++;
+					m_x++;
 				}
-				else if (p->piece[y][x] == '*' && p->map[m_y][m_x] != p->my_c)
-					p->save += p->map[m_y][m_x];
-				x++;
-				m_x++;
 			}
-		}
 		y++;
 		m_y++;
 	}
@@ -99,7 +99,7 @@ static	int		algo_0(int fd, t_player *p)
 								p->r_x = tmp_x;
 								check++;
 							}
-							else if (check > 0 && p->save < save_path)
+						else if (check > 0 && p->save < save_path)
 							{
 								save_path = p->save;
 								p->r_y = tmp_y;
