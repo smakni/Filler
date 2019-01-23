@@ -6,19 +6,7 @@
 /*   By: smakni <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/23 15:49:25 by smakni            #+#    #+#             */
-/*   Updated: 2019/01/23 16:39:29 by smakni           ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   algo_0.c                                           :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: smakni <marvin@42.fr>                      +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/01/14 12:20:12 by smakni            #+#    #+#             */
-/*   Updated: 2019/01/23 15:49:00 by smakni           ###   ########.fr       */
+/*   Updated: 2019/01/23 18:19:56 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,9 +44,9 @@ static int		test_piece(int fd, int m_y, int m_x, t_player *p)
 				}
 				else if (p->map[m_y][m_x] != p->my_c)
 					p->save += p->map[m_y][m_x];
-				}
-				x++;
-				m_x++;
+			}
+			x++;
+			m_x++;
 		}
 		y++;
 		m_y++;
@@ -101,24 +89,24 @@ static	int		algo_0(int fd, t_player *p)
 						{
 							if (p->piece[p->offset_y][p->offset_x] == '*')
 							{
-							tmp_y = y - p->offset_y;
-							tmp_x = x - p->offset_x;
-							if (test_piece(fd, tmp_y, tmp_x, p) == 0)
-							{
-								if (check == 0)
+								tmp_y = y - p->offset_y;
+								tmp_x = x - p->offset_x;
+								if (test_piece(fd, tmp_y, tmp_x, p) == 0)
 								{
-									save_path = p->save;
-									p->r_y = tmp_y;
-									p->r_x = tmp_x;
-									check++;
+									if (check == 0)
+									{
+										save_path = p->save;
+										p->r_y = tmp_y;
+										p->r_x = tmp_x;
+										check++;
+									}
+									else if (check > 0 && p->save < save_path)
+									{
+										save_path = p->save;
+										p->r_y = tmp_y;
+										p->r_x = tmp_x;
+									}
 								}
-								else if (check > 0 && p->save < save_path)
-								{
-									save_path = p->save;
-									p->r_y = tmp_y;
-									p->r_x = tmp_x;
-								}
-							}
 							}
 							p->save = 0;
 							p->offset_x++;
@@ -139,7 +127,6 @@ static	int		algo_0(int fd, t_player *p)
 void		algo(int fd, t_player *p)
 {
 	(void)fd;
-//	usleep(70000);
 	if (algo_0(fd, p) == -1)
 	{
 		p->r_y = 0;
