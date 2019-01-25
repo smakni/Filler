@@ -6,7 +6,7 @@
 /*   By: smakni <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/12 11:49:57 by smakni            #+#    #+#             */
-/*   Updated: 2019/01/18 17:00:03 by smakni           ###   ########.fr       */
+/*   Updated: 2019/01/25 14:30:01 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,27 +46,37 @@ static	void	save_piece_data(char *line, t_player *p)
 	p->piece = ft_memalloc(sizeof(char *) * p->p_y);
 }
 
-void			first_read(char *line, t_player *p)
+void			first_read(int fd, char *line, t_player *p)
 {
 	if (p->nb == 0)
 	{
-		p->nb = ft_atoi(&(line[10]));
-		if (p->nb == 1)
+		ft_dprintf(fd, "line = %s\n", line);
+		if (ft_strstr(line, "p1") && ft_strstr(line, "smakni.filler"))
 		{
+			p->nb = 1;
 			p->my_c = 'O';
 			p->op_c = 'X';
 		}
-		else if (p->nb == 2)
+		else if (ft_strstr(line, "p2") && ft_strstr(line, "smakni.filler"))
 		{
+			p->nb = 2;
 			p->my_c = 'X';
 			p->op_c = 'O';
 		}
+		else
+			exit (-1);
 	}
-	else if (line[1] == 'l' && p->check_read == 0)
-		save_map_data(line, p);
-	else
+	else if (ft_strnequ("Plateau ", line, 8) && p->check_read == 0)
 	{
-		p->check_read = 1;
+		p->line = 1;
+		ft_dprintf(fd, "Plateau_line = %s\n", line);
+		save_map_data(line, p);
+		p->check_read++;
+	}
+	else if (ft_strnequ("Piece ", line, 6))
+	{
+		ft_dprintf(fd, "Piece_line = %s\n", line);
+		p->check_read++;
 		save_piece_data(line, p);
 	}
 }

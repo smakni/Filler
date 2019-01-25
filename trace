@@ -1,1209 +1,5660 @@
-TEST_1
-ALGO_2
-i = 1
-return = 3 | 2
-TEST_2
-ALGO_2
-i = 2
-return = 3 | 3
-TEST_1
-ALGO_2
-i = 3
-return = 3 | 1
-TEST_2
-ALGO_2
-i = 4
-return = 3 | -2
-TEST_1
-i = 5
-return = 1 | 2
-TEST_2
-ALGO_2
-i = 6
-return = 2 | 5
-TEST_1
-i = 7
-return = -2 | -1
-TEST_2
-ALGO_2
-i = 8
-return = 0 | 3
-TEST_1
-i = 9
-return = -1 | 4
-TEST_2
-ALGO_2
-i = 10
-return = 1 | 5
-TEST_1
-i = 11
-return = 2 | 3
-TEST_2
-ALGO_2
-i = 12
-return = 3 | 8
-TEST_1
-i = 13
-return = 1 | 1
-TEST_2
-ALGO_2
-i = 14
-return = 3 | 5
-TEST_1
-i = 15
-return = 3 | 5
-TEST_2
-ALGO_2
-i = 16
-return = 3 | 11
-TEST_1
-i = 17
-return = -1 | -4
-TEST_2
-ALGO_2
-i = 18
-return = 3 | 10
-TEST_1
-ALGO_2
-i = 19
-return = 3 | 10
-TEST_2
-ALGO_2
-i = 20
-return = 3 | 11
-TEST_1
-i = 21
-return = 1 | 3
-TEST_2
-ALGO_2
-i = 22
-return = 2 | 12
-TEST_1
-i = 23
-return = 2 | 14
-TEST_2
-ALGO_2
-i = 24
-return = 4 | 11
-TEST_1
-i = 25
-return = 2 | 6
-TEST_2
-ALGO_2
-i = 26
-return = 4 | 7
-TEST_1
-i = 27
-return = -2 | 4
-TEST_2
-ALGO_2
-i = 28
-return = 4 | 14
-TEST_1
-i = 29
-return = 3 | 14
-TEST_2
-ALGO_2
-i = 30
-return = 3 | 13
-TEST_1
-i = 31
-return = 1 | 8
-TEST_2
-ALGO_2
-i = 32
-return = 1 | 10
-TEST_1
-i = 33
-return = 2 | 10
-TEST_2
-ALGO_2
-i = 34
-return = 4 | 18
-TEST_1
-i = 35
-return = 1 | 11
-TEST_2
-ALGO_2
-i = 36
-return = 4 | 19
-TEST_1
-i = 37
-return = 1 | 10
-TEST_2
-ALGO_2
-i = 38
-return = 4 | 19
-TEST_1
-i = 39
-return = 1 | 17
-TEST_2
-ALGO_2
-i = 40
-return = 2 | 19
-TEST_1
-i = 41
-return = -1 | 17
-TEST_2
-ALGO_2
-i = 42
-return = 2 | 19
-TEST_1
-i = 43
-return = 1 | 16
-TEST_2
-ALGO_2
-i = 44
-return = 2 | 21
-TEST_1
-i = 45
-return = 1 | 22
-TEST_2
-ALGO_2
-i = 46
-return = 3 | 21
-TEST_1
-i = 47
-return = 1 | 23
-TEST_2
-ALGO_2
-i = 48
-return = 3 | 22
-TEST_1
-i = 49
-return = 1 | 28
-TEST_2
-ALGO_2
-i = 50
-return = 5 | 21
-TEST_1
-i = 51
-return = -1 | 22
-TEST_2
-ALGO_2
-i = 52
-return = 1 | 31
-TEST_1
-ALGO_2
-i = 53
-return = 4 | 30
-TEST_2
-ALGO_2
-i = 54
-return = 4 | 30
-TEST_1
-i = 55
-return = 1 | 27
-TEST_2
-ALGO_2
-i = 56
-return = 2 | 32
-TEST_1
-ALGO_2
-i = 57
-return = 2 | 32
-TEST_2
-ALGO_2
-i = 58
-return = 3 | 33
-TEST_1
-i = 59
-return = 1 | -1
-TEST_2
-ALGO_2
-i = 60
-return = 2 | 33
-TEST_1
-i = 61
-return = -1 | 33
-TEST_2
-ALGO_2
-i = 62
-return = 0 | 36
-TEST_1
-ALGO_2
-i = 63
-return = 4 | 35
-TEST_2
-ALGO_2
-i = 64
-return = 3 | 36
-TEST_1
-i = 65
-return = 1 | 22
-TEST_2
-ALGO_2
-i = 66
-return = 4 | 33
-TEST_1
-i = 67
-return = 1 | 12
-TEST_2
-ALGO_2
-i = 68
-return = 4 | 30
-TEST_1
-i = 69
-return = 2 | 23
-TEST_2
-ALGO_2
-i = 70
-return = 4 | 35
-TEST_1
-i = 71
-return = 1 | 20
-TEST_2
-ALGO_2
-i = 72
-return = 5 | 35
-TEST_1
-i = 73
-return = 1 | 26
-TEST_2
-ALGO_2
-i = 74
-return = 5 | 36
-TEST_1
-ALGO_2
-i = 75
-return = 7 | 25
-TEST_2
-ALGO_2
-i = 76
-return = 7 | 26
-TEST_1
-i = 77
-return = 3 | 1
-TEST_2
-ALGO_2
-i = 78
-return = 5 | 36
-TEST_1
-i = 79
-return = 1 | 30
-TEST_2
-ALGO_2
-i = 80
-return = 7 | 30
-TEST_1
-ALGO_2
-i = 81
-return = 4 | 38
-TEST_2
-ALGO_2
-i = 82
-return = 7 | 31
-TEST_1
-i = 83
-return = -2 | 10
-TEST_2
-ALGO_2
-i = 84
-return = 2 | 4
-TEST_1
-i = 85
-return = 2 | 36
-TEST_2
-ALGO_2
-i = 86
-return = 7 | 24
-TEST_1
-ALGO_2
-i = 87
-return = 9 | 23
-TEST_2
-ALGO_2
-i = 88
-return = 9 | 24
-TEST_1
-i = 89
-return = 8 | 21
-TEST_2
-ALGO_2
-i = 90
-return = 7 | 26
-TEST_1
-i = 91
-return = 5 | 20
-TEST_2
-ALGO_2
-i = 92
-return = 8 | 27
-TEST_1
-ALGO_2
-i = 93
-return = 7 | 32
-TEST_2
-ALGO_2
-i = 94
-return = 9 | 29
-TEST_1
-i = 95
-return = 3 | 28
-TEST_2
-ALGO_2
-i = 96
-return = 9 | 32
-TEST_1
-ALGO_2
-i = 97
-return = 10 | 30
-TEST_2
-ALGO_2
-i = 98
-return = 6 | 36
-TEST_1
-i = 99
-return = -1 | 5
-TEST_2
-ALGO_2
-i = 100
-return = 10 | 33
-TEST_1
-i = 101
-return = 4 | 20
-TEST_2
-ALGO_2
-i = 102
-return = 10 | 21
-TEST_1
-i = 103
-return = -1 | 15
-TEST_2
-ALGO_2
-i = 104
-return = 9 | 25
-TEST_1
-ALGO_2
-i = 105
-return = 10 | 35
-TEST_2
-ALGO_2
-i = 106
-return = 11 | 27
-TEST_1
-i = 107
-return = 4 | 4
-TEST_2
-ALGO_2
-i = 108
-return = 13 | 25
-TEST_1
-ALGO_2
-i = 109
-return = 5 | 37
-TEST_2
-ALGO_2
-ALGO_2
-i = 110
-return = 0 | 12
-TEST_1
-i = 111
-return = -1 | 11
-TEST_2
-ALGO_2
-i = 112
-return = 6 | 15
-TEST_1
-i = 113
-return = -1 | 37
-TEST_2
-ALGO_2
-i = 114
-return = 13 | 29
-TEST_1
-i = 115
-return = -1 | 15
-TEST_2
-ALGO_2
-i = 116
-return = -3 | 17
-TEST_1
-ALGO_2
-i = 117
-return = 14 | 27
-TEST_2
-ALGO_2
-i = 118
-return = 10 | 30
-TEST_1
-i = 119
-return = 3 | 20
-TEST_2
-ALGO_2
-i = 120
-return = 10 | 31
-TEST_1
-i = 121
-return = -1 | 24
-TEST_2
-ALGO_2
-i = 122
-return = 16 | 29
-TEST_1
-i = 123
-return = 4 | 1
-TEST_2
-ALGO_2
-i = 124
-return = 6 | 1
-TEST_1
-i = 125
-return = 2 | 33
-TEST_2
-ALGO_2
-i = 126
-return = 9 | 19
-TEST_1
-i = 127
-return = -1 | 32
-TEST_2
-ALGO_2
-i = 128
-return = 9 | 14
-TEST_1
-ALGO_2
-ALGO_2
-i = 129
-return = 0 | 25
-TEST_2
-ALGO_2
-ALGO_2
-i = 130
-return = 0 | 27
-TEST_1
-ALGO_2
-ALGO_2
-i = 131
-return = 0 | 30
-TEST_2
-ALGO_2
-i = 132
-return = 11 | 30
-TEST_1
-ALGO_2
-i = 133
-return = 11 | 31
-TEST_2
-ALGO_2
-i = 134
-return = 12 | 29
-TEST_1
-i = 135
-return = 7 | 13
-TEST_2
-ALGO_2
-i = 136
-return = -1 | 35
-TEST_1
-ALGO_2
-ALGO_2
-i = 137
-return = 6 | 3
-TEST_2
-ALGO_2
-i = 138
-return = 6 | 3
-TEST_1
-ALGO_2
-ALGO_2
-i = 139
-return = 1 | 0
-TEST_2
-ALGO_2
-i = 140
-return = 5 | 10
-TEST_1
-ALGO_2
-ALGO_2
-i = 141
-return = 0 | 36
-TEST_2
-ALGO_2
-ALGO_2
-i = 142
-return = 8 | 3
-TEST_1
-i = 143
-return = 7 | 10
-TEST_2
-ALGO_2
-ALGO_2
-i = 144
-return = 1 | 0
-TEST_1
-i = 145
-return = 7 | 7
-TEST_2
-ALGO_2
-i = 146
-return = 1 | 31
-TEST_1
-i = 147
-return = 4 | 22
-TEST_2
-ALGO_2
-i = 148
-return = 5 | 15
-TEST_1
-i = 149
-return = 6 | 19
-TEST_2
-ALGO_2
-i = 150
-return = 5 | -3
-TEST_1
-i = 151
-return = 7 | -1
-TEST_2
-ALGO_2
-i = 152
-return = 3 | 13
-TEST_1
-ALGO_2
-ALGO_2
-i = 153
-return = 4 | 6
-TEST_2
-ALGO_2
-i = 154
-return = 2 | 37
-TEST_1
-i = 155
-return = 5 | 21
-TEST_2
-ALGO_2
-i = 156
-return = 4 | 25
-TEST_1
-i = 157
-return = 7 | 16
-TEST_2
-ALGO_2
-i = 158
-return = 8 | -2
-TEST_1
-i = 159
-return = 9 | 7
-TEST_2
-ALGO_2
-i = 160
-return = 6 | 27
-TEST_1
-ALGO_2
-ALGO_2
-i = 161
-return = 7 | 2
-TEST_2
-ALGO_2
-i = 162
-return = 7 | 11
-TEST_1
-i = 163
-return = 9 | 3
-TEST_2
-ALGO_2
-ALGO_2
-i = 164
-return = 11 | 0
-TEST_1
-i = 165
-return = 6 | 23
-TEST_2
-ALGO_2
-ALGO_2
-i = 166
-return = 7 | 15
-TEST_1
-ALGO_2
-ALGO_2
-i = 167
-return = 8 | 32
-TEST_2
-ALGO_2
-i = 168
-return = 10 | 3
-TEST_1
-ALGO_2
-ALGO_2
-i = 169
-return = 10 | 12
-TEST_2
-ALGO_2
-i = 170
-return = 1 | 38
-TEST_1
-i = 171
-return = 6 | 21
-TEST_2
-ALGO_2
-i = 172
-return = 10 | 5
-TEST_1
-i = 173
-return = 9 | 16
-TEST_2
-ALGO_2
-ALGO_2
-i = 174
-return = 8 | 19
-TEST_1
-ALGO_2
-ALGO_2
-i = 175
-return = 9 | 0
-TEST_2
-ALGO_2
-i = 176
-return = 10 | 12
-TEST_1
-i = 177
-return = 10 | 15
-TEST_2
-ALGO_2
-i = 178
-return = 13 | 25
-TEST_1
-i = 179
-return = 8 | 28
-TEST_2
-ALGO_2
-i = 180
-return = 7 | 31
-TEST_1
-i = 181
-return = 9 | 18
-TEST_2
-ALGO_2
-i = 182
-return = 12 | 24
-TEST_1
-ALGO_2
-ALGO_2
-i = 183
-return = 11 | 13
-TEST_2
-ALGO_2
-i = 184
-return = 12 | 3
-TEST_1
-i = 185
-return = 12 | 6
-TEST_2
-ALGO_2
-i = 186
-return = 10 | 15
-TEST_1
-i = 187
-return = 7 | 35
-TEST_2
-ALGO_2
-i = 188
-return = 13 | 4
-TEST_1
-i = 189
-return = 11 | 20
-TEST_2
-ALGO_2
-i = 190
-return = 8 | 20
-TEST_1
-ALGO_2
-ALGO_2
-i = 191
-return = 7 | 28
-TEST_2
-ALGO_2
-i = 192
-return = 14 | 1
-TEST_1
-ALGO_2
-ALGO_2
-i = 193
-return = 11 | 1
-TEST_2
-ALGO_2
-i = 194
-return = 12 | 10
-TEST_1
-ALGO_2
-ALGO_2
-i = 195
-return = 12 | 14
-TEST_2
-ALGO_2
-ALGO_2
-i = 196
-return = 13 | 14
-TEST_1
-i = 197
-return = 8 | 6
-TEST_2
-ALGO_2
-i = 198
-return = 2 | 36
-TEST_1
-ALGO_2
-ALGO_2
-i = 199
-return = 10 | 5
-TEST_2
-ALGO_2
-i = 200
-return = 12 | 19
-TEST_1
-i = 201
-return = 5 | 35
-TEST_2
-ALGO_2
-i = 202
-return = 5 | 37
-TEST_1
-i = 203
-return = 11 | 20
-TEST_2
-ALGO_2
-i = 204
-return = 11 | 16
-TEST_1
-i = 205
-return = 11 | 7
-TEST_2
-ALGO_2
-ALGO_2
-i = 206
-return = 10 | 25
-TEST_1
-i = 207
-return = 12 | 8
-TEST_2
-ALGO_2
-i = 208
-return = 14 | 25
-TEST_1
-ALGO_2
-ALGO_2
-i = 209
-return = 14 | 23
-TEST_2
-ALGO_2
-i = 210
-return = 16 | 25
-TEST_1
-i = 211
-return = 12 | 16
-TEST_2
-ALGO_2
-i = 212
-return = 15 | 28
-TEST_1
-i = 213
-return = 10 | 27
-TEST_2
-ALGO_2
-i = 214
-return = 17 | 23
-TEST_1
-i = 215
-return = 16 | 24
-TEST_2
-ALGO_2
-i = 216
-return = 17 | 26
-TEST_1
-i = 217
-return = 14 | -3
-TEST_2
-ALGO_2
-i = 218
-return = 18 | 25
-TEST_1
-i = 219
-return = 18 | 23
-TEST_2
-ALGO_2
-i = 220
-return = 18 | 25
-TEST_1
-ALGO_2
-i = 221
-return = 19 | 28
-TEST_2
-ALGO_2
-i = 222
-return = 20 | 24
-TEST_1
-i = 223
-return = 10 | 2
-TEST_2
-ALGO_2
-i = 224
-return = 19 | 27
-TEST_1
-i = 225
-return = 13 | 8
-TEST_2
-ALGO_2
-i = 226
-return = 20 | 28
-TEST_1
-ALGO_2
-i = 227
-return = 20 | 31
-TEST_2
-ALGO_2
-i = 228
-return = 19 | 32
-TEST_1
-ALGO_2
-i = 229
-return = 20 | 33
-TEST_2
-ALGO_2
-i = 230
-return = 20 | 35
-TEST_1
-i = 231
-return = 13 | -2
-TEST_2
-ALGO_2
-i = 232
-return = 20 | 33
-TEST_1
-i = 233
-return = 16 | 20
-TEST_2
-ALGO_2
-i = 234
-return = 19 | 32
-TEST_1
-i = 235
-return = 15 | 19
-TEST_2
-ALGO_2
-i = 236
-return = 15 | 18
-TEST_1
-ALGO_2
-i = 237
-return = 18 | 38
-TEST_2
-ALGO_2
-i = 238
-return = 22 | 29
-TEST_1
-i = 239
-return = 13 | 8
-TEST_2
-ALGO_2
-i = 240
-return = 13 | 5
-TEST_1
-ALGO_2
-ALGO_2
-i = 241
-return = 15 | 11
-TEST_2
-ALGO_2
-i = 242
-return = 13 | 22
-TEST_1
-i = 243
-return = 14 | 15
-TEST_2
-ALGO_2
-i = 244
-return = 21 | 31
-TEST_1
-ALGO_2
-i = 245
-return = 20 | 34
-TEST_2
-ALGO_2
-i = 246
-return = 22 | 31
-TEST_1
-i = 247
-return = 5 | 37
-TEST_2
-ALGO_2
-i = 248
-return = 13 | 13
-TEST_1
-i = 249
-return = 14 | 12
-TEST_2
-ALGO_2
-i = 250
-return = 21 | 37
-TEST_1
-ALGO_2
-ALGO_2
-i = 251
-return = 16 | 1
-TEST_2
-ALGO_2
-i = 252
-return = 16 | 16
-TEST_1
-ALGO_2
-ALGO_2
-i = 253
-return = 14 | 13
-TEST_2
-ALGO_2
-i = 254
-return = 16 | 15
-TEST_1
-i = 255
-return = 18 | 20
-TEST_2
-ALGO_2
-ALGO_2
-i = 256
-return = 15 | 0
-TEST_1
-i = 257
-return = 15 | 20
-TEST_2
-ALGO_2
-i = 258
-return = 14 | 4
-TEST_1
-ALGO_2
-ALGO_2
-i = 259
-return = 15 | 8
-TEST_2
-ALGO_2
-i = 260
-return = 16 | 5
-TEST_1
-i = 261
-return = 14 | 23
-TEST_2
-ALGO_2
-i = 262
-return = 15 | 1
-TEST_1
-i = 263
-return = 17 | 8
-TEST_2
-ALGO_2
-i = 264
-return = 19 | 33
-TEST_1
-ALGO_2
-ALGO_2
-i = 265
-return = 16 | 14
-TEST_2
-ALGO_2
-ALGO_2
-i = 266
-return = 16 | 20
-TEST_1
-ALGO_2
-ALGO_2
-i = 267
-return = 16 | 26
-TEST_2
-ALGO_2
-i = 268
-return = 16 | 14
-TEST_1
-i = 269
-return = 18 | 9
-TEST_2
-ALGO_2
-ALGO_2
-i = 270
-return = 18 | 14
-TEST_1
-i = 271
-return = 15 | 13
-TEST_2
-ALGO_2
-i = 272
-return = 16 | 7
-TEST_1
-ALGO_2
-ALGO_2
-i = 273
-return = 19 | 8
-TEST_2
-ALGO_2
-i = 274
-return = 21 | 27
-TEST_1
-i = 275
-return = 17 | 2
-TEST_2
-ALGO_2
-i = 276
-return = 16 | 1
-TEST_1
-i = 277
-return = 13 | 26
-TEST_2
-ALGO_2
-i = 278
-return = 19 | 18
-TEST_1
-i = 279
-return = 17 | -1
-TEST_2
-ALGO_2
-ALGO_2
-i = 280
-return = 19 | 0
-TEST_1
-ALGO_2
-ALGO_2
-i = 281
-return = 19 | 8
-TEST_2
-ALGO_2
-i = 282
-return = 17 | 2
-TEST_1
-ALGO_2
-ALGO_2
-i = 283
-return = 18 | 14
-TEST_2
-ALGO_2
-ALGO_2
-i = 284
-return = 19 | 13
-TEST_1
-i = 285
-return = 20 | 11
-TEST_2
-ALGO_2
-i = 286
-return = 19 | -15
-TEST_1
-i = 287
-return = 20 | 10
-TEST_2
-ALGO_2
-i = 288
-return = 18 | 16
-TEST_1
-ALGO_2
-ALGO_2
-i = 289
-return = 19 | 8
-TEST_2
-ALGO_2
-i = 290
-return = 22 | 38
-TEST_1
-ALGO_2
-ALGO_2
-i = 291
-return = 18 | 20
-TEST_2
-ALGO_2
-ALGO_2
-i = 292
-return = 20 | -1
-TEST_1
-i = 293
-return = 19 | 7
-TEST_2
-ALGO_2
-i = 294
-return = 18 | 5
-TEST_1
-i = 295
-return = 19 | 21
-TEST_2
-ALGO_2
-ALGO_2
-i = 296
-return = 19 | 23
-TEST_1
-ALGO_2
-ALGO_2
-i = 297
-return = 21 | 7
-TEST_2
-ALGO_2
-ALGO_2
-i = 298
-return = 21 | 14
-TEST_1
-ALGO_2
-ALGO_2
-i = 299
-return = 20 | 3
-TEST_2
-ALGO_2
-i = 300
-return = 18 | 35
-TEST_1
-ALGO_2
-ALGO_2
-i = 301
-return = 21 | 18
-TEST_2
-ALGO_2
-i = 302
-return = 20 | 3
-TEST_1
-i = 303
-return = 20 | 21
-TEST_2
-ALGO_2
-i = 304
-return = 18 | 34
-TEST_1
-i = 305
-return = 17 | 33
-TEST_2
-ALGO_2
-i = 306
-return = 19 | 29
-TEST_1
-i = 307
-return = 19 | 22
-TEST_2
-ALGO_2
-ALGO_2
-i = 308
-return = 19 | 23
-TEST_1
-ALGO_2
-ALGO_2
-i = 309
-return = 21 | 29
-TEST_2
-ALGO_2
-i = 310
-return = 21 | -1
-TEST_1
-ALGO_2
-ALGO_2
-i = 311
-return = 21 | 0
-TEST_2
-ALGO_2
-ALGO_2
-i = 312
-return = 21 | 7
-TEST_1
-ALGO_2
-ALGO_2
-i = 313
-return = 19 | 8
-TEST_2
-ALGO_2
-i = 314
-return = 21 | 8
-TEST_1
-ALGO_2
-ALGO_2
-i = 315
-return = 0 | 0
+line = $$$ exec p1 : [./smakni.filler]
+Plateau_line = Plateau 15 17:
+vline = 000 .................
+saved_map = .....................
+vline = 001 .................
+saved_map = .....................
+vline = 002 .................
+saved_map = .....................
+vline = 003 .................
+saved_map = .....................
+vline = 004 .................
+saved_map = .....................
+vline = 005 .................
+saved_map = .....................
+vline = 006 .................
+saved_map = .....................
+vline = 007 .................
+saved_map = .....................
+vline = 008 ..O..............
+saved_map = ..O..................
+vline = 009 .................
+saved_map = .....................
+vline = 010 .................
+saved_map = .....................
+vline = 011 .................
+saved_map = .....................
+vline = 012 ..............X..
+saved_map = ..............X...X..
+vline = 013 .................
+saved_map = .....................
+vline = 014 .................
+saved_map = .....................
+Piece_line = Piece 1 3:
+line = *
+line = *
+line = *
+saved_piece = ***
+p1
+map = 15 | 17
+<;:9876543210-,-0-,..
+;:9876543210-,+,-,+..
+:9876543210-,+*+,+*..
+9876543210-,+*)*+*)..
+876543210-,+*)()*)(..
+76543210-,+*)('()('..
+6543210-,+*)('&'('&..
+543210-,+*)('&%&'&%..
+43O10-,+*)('&%$%&%$..
+3210-,+*)('&%$#$%$#..
+210-,+*)('&%$#"#$#"..
+10-,+*)('&%$#"!"#"!..
+0-,+*)('&%$#"!X!"!X..
+10-,+*)('&%$#"!"#"!..
+210-,+*)('&%$#"#$#"..
+piece = 1 | 3
+***
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 .................
+saved_map = .................+*..
+vline = 003 .................
+saved_map = .................*)..
+vline = 004 .................
+saved_map = .................)(..
+vline = 005 .................
+saved_map = .................('..
+vline = 006 .................
+saved_map = .................'&..
+vline = 007 .................
+saved_map = .................&%..
+vline = 008 ..OOO............
+saved_map = ..OOO............%$..
+vline = 009 .................
+saved_map = .................$#..
+vline = 010 .................
+saved_map = .................#"..
+vline = 011 .............XX..
+saved_map = .............XX.."!..
+vline = 012 ..............X..
+saved_map = ..............X..!X..
+vline = 013 .................
+saved_map = ................."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 2 1:
+line = *
+saved_piece = *
+line = *
+saved_piece = *
+p1
+map = 15 | 17
+:9876543210-,++,--,..
+9876543210-,+**+,,+..
+876543210-,+*))*++*..
+76543210-,+*)(()**)..
+6543210-,+*)(''())(..
+543210-,+*)('&&'(('..
+43210-,+*)('&%%&''&..
+3210-,+*)('&%$$%&&%..
+21OOO+*)('&%$##$%%$..
+10-,+*)('&%$#""#$$#..
+0-,+*)('&%$#"!!"##"..
+-,+*)('&%$#"!XX!""!..
+0-,+*)('&%$#"!X!"!X..
+10-,+*)('&%$#"!"#"!..
+210-,+*)('&%$#"#$#"..
+piece = 2 | 1
+*
+*
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 .................
+saved_map = .................+*..
+vline = 003 .................
+saved_map = .................*)..
+vline = 004 .................
+saved_map = .................)(..
+vline = 005 .................
+saved_map = .................('..
+vline = 006 .................
+saved_map = .................'&..
+vline = 007 .................
+saved_map = .................&%..
+vline = 008 ..OOO............
+saved_map = ..OOO............%$..
+vline = 009 ....O............
+saved_map = ....O............$#..
+vline = 010 ............XX...
+saved_map = ............XX...#"..
+vline = 011 .............XX..
+saved_map = .............XX.."!..
+vline = 012 ..............X..
+saved_map = ..............X..!X..
+vline = 013 .................
+saved_map = ................."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 2 2:
+line = *
+line = .
+saved_piece = *.
+line = *
+line = .
+saved_piece = *.
+p1
+map = 15 | 17
+876543210-,+**+,--,..
+76543210-,+*))*+,,+..
+6543210-,+*)(()*++*..
+543210-,+*)(''()**)..
+43210-,+*)('&&'())(..
+3210-,+*)('&%%&'(('..
+210-,+*)('&%$$%&''&..
+10-,+*)('&%$##$%&&%..
+0-OOO)('&%$#""#$%%$..
+-,+*O('&%$#"!!"#$$#..
+,+*)('&%$#"!XX!"##"..
+-,+*)('&%$#"!XX!""!..
+0-,+*)('&%$#"!X!"!X..
+10-,+*)('&%$#"!"#"!..
+210-,+*)('&%$#"#$#"..
+piece = 2 | 2
+*.
+*.
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 .................
+saved_map = .................+*..
+vline = 003 .................
+saved_map = .................*)..
+vline = 004 .................
+saved_map = .................)(..
+vline = 005 .................
+saved_map = .................('..
+vline = 006 .................
+saved_map = .................'&..
+vline = 007 .................
+saved_map = .................&%..
+vline = 008 ..OOO............
+saved_map = ..OOO............%$..
+vline = 009 ....O.......X....
+saved_map = ....O.......X....$#..
+vline = 010 ....O.......XX...
+saved_map = ....O.......XX...#"..
+vline = 011 .............XX..
+saved_map = .............XX.."!..
+vline = 012 ..............X..
+saved_map = ..............X..!X..
+vline = 013 .................
+saved_map = ................."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 2 3:
+line = .
+line = .
+line = *
+saved_piece = ..*
+line = *
+line = *
+line = *
+saved_piece = ***
+p1
+map = 15 | 17
+76543210-,+*)*+,--,..
+6543210-,+*)()*+,,+..
+543210-,+*)('()*++*..
+43210-,+*)('&'()**)..
+3210-,+*)('&%&'())(..
+210-,+*)('&%$%&'(('..
+10-,+*)('&%$#$%&''&..
+0-,+*)('&%$#"#$%&&%..
+10OOO('&%$#"!"#$%%$..
+10-,O'&%$#"!X!"#$$#..
+0-,+O'&%$#"!XX!"##"..
+-,+*)('&%$#"!XX!""!..
+0-,+*)('&%$#"!X!"!X..
+10-,+*)('&%$#"!"#"!..
+210-,+*)('&%$#"#$#"..
+piece = 2 | 3
+..*
+***
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 .................
+saved_map = .................+*..
+vline = 003 .................
+saved_map = .................*)..
+vline = 004 .................
+saved_map = .................)(..
+vline = 005 .................
+saved_map = .................('..
+vline = 006 .................
+saved_map = .................'&..
+vline = 007 .................
+saved_map = .................&%..
+vline = 008 ..OOO............
+saved_map = ..OOO............%$..
+vline = 009 ....O.O....XX....
+saved_map = ....O.O....XX....$#..
+vline = 010 ....OOO.....XX...
+saved_map = ....OOO.....XX...#"..
+vline = 011 .............XX..
+saved_map = .............XX.."!..
+vline = 012 ..............X..
+saved_map = ..............X..!X..
+vline = 013 .................
+saved_map = ................."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 1 2:
+line = *
+line = *
+saved_piece = **
+p1
+map = 15 | 17
+6543210-,+*))*+,--,..
+543210-,+*)(()*+,,+..
+43210-,+*)(''()*++*..
+3210-,+*)('&&'()**)..
+210-,+*)('&%%&'())(..
+10-,+*)('&%$$%&'(('..
+0-,+*)('&%$##$%&''&..
+-,+*)('&%$#""#$%&&%..
+0-OOO'&%$#"!!"#$%%$..
+10-,O(O$#"!XX!"#$$#..
+0-,+OOO%$#"!XX!"##"..
+-,+*)('&%$#"!XX!""!..
+0-,+*)('&%$#"!X!"!X..
+10-,+*)('&%$#"!"#"!..
+210-,+*)('&%$#"#$#"..
+piece = 1 | 2
+**
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 .................
+saved_map = .................+*..
+vline = 003 .................
+saved_map = .................*)..
+vline = 004 .................
+saved_map = .................)(..
+vline = 005 .................
+saved_map = .................('..
+vline = 006 .................
+saved_map = .................'&..
+vline = 007 .................
+saved_map = .................&%..
+vline = 008 ..OOO............
+saved_map = ..OOO............%$..
+vline = 009 ....O.OO.XXXX....
+saved_map = ....O.OO.XXXX....$#..
+vline = 010 ....OOO.....XX...
+saved_map = ....OOO.....XX...#"..
+vline = 011 .............XX..
+saved_map = .............XX.."!..
+vline = 012 ..............X..
+saved_map = ..............X..!X..
+vline = 013 .................
+saved_map = ................."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 1 3:
+line = *
+line = *
+line = .
+saved_piece = **.
+p1
+map = 15 | 17
+43210-,+*))))*+,--,..
+3210-,+*)(((()*+,,+..
+210-,+*)(''''()*++*..
+10-,+*)('&&&&'()**)..
+0-,+*)('&%%%%&'())(..
+-,+*)('&%$$$$%&'(('..
+,+*)('&%$####$%&''&..
++*)('&%$#""""#$%&&%..
+,+OOO%$#"!!!!"#$%%$..
+-,+*O&OO!XXXX!"#$$#..
+,+*)OOO#"!!!XX!"##"..
++*)('&%$#"""!XX!""!..
+,+*)('&%$###"!X!"!X..
+-,+*)('&%$$$#"!"#"!..
+0-,+*)('&%%%$#"#$#"..
+piece = 1 | 3
+**.
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 .................
+saved_map = .................+*..
+vline = 003 .................
+saved_map = .................*)..
+vline = 004 .................
+saved_map = .................)(..
+vline = 005 .................
+saved_map = .................('..
+vline = 006 .................
+saved_map = .................'&..
+vline = 007 .................
+saved_map = .................&%..
+vline = 008 ..OOO............
+saved_map = ..OOO............%$..
+vline = 009 ....O.OOOXXXX....
+saved_map = ....O.OOOXXXX....$#..
+vline = 010 ....OOO...XXXX...
+saved_map = ....OOO...XXXX...#"..
+vline = 011 .............XX..
+saved_map = .............XX.."!..
+vline = 012 ..............X..
+saved_map = ..............X..!X..
+vline = 013 .................
+saved_map = ................."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 2 2:
+line = *
+line = *
+saved_piece = **
+line = .
+line = .
+saved_piece = ..
+p1
+map = 15 | 17
+43210-,+*))))*+,--,..
+3210-,+*)(((()*+,,+..
+210-,+*)(''''()*++*..
+10-,+*)('&&&&'()**)..
+0-,+*)('&%%%%&'())(..
+-,+*)('&%$$$$%&'(('..
+,+*)('&%$####$%&''&..
++*)('&%$#""""#$%&&%..
+,+OOO%$#"!!!!"#$%%$..
+-,+*O&OOOXXXX!"#$$#..
+,+*)OOO#"!XXXX!"##"..
++*)('&%$#"!!!XX!""!..
+,+*)('&%$#"""!X!"!X..
+-,+*)('&%$###"!"#"!..
+0-,+*)('&%$$$#"#$#"..
+piece = 2 | 2
+**
+..
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 .................
+saved_map = .................+*..
+vline = 003 .................
+saved_map = .................*)..
+vline = 004 .................
+saved_map = .................)(..
+vline = 005 .................
+saved_map = .................('..
+vline = 006 .................
+saved_map = .................'&..
+vline = 007 .................
+saved_map = .................&%..
+vline = 008 ..OOO............
+saved_map = ..OOO............%$..
+vline = 009 ....O.OOOXXXX....
+saved_map = ....O.OOOXXXX....$#..
+vline = 010 ....OOOOXXXXXX...
+saved_map = ....OOOOXXXXXX...#"..
+vline = 011 .........XX..XX..
+saved_map = .........XX..XX.."!..
+vline = 012 ..............X..
+saved_map = ..............X..!X..
+vline = 013 .................
+saved_map = ................."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 2 2:
+line = *
+line = *
+saved_piece = **
+line = .
+line = .
+saved_piece = ..
+p1
+map = 15 | 17
+43210-,+*))))*+,--,..
+3210-,+*)(((()*+,,+..
+210-,+*)(''''()*++*..
+10-,+*)('&&&&'()**)..
+0-,+*)('&%%%%&'())(..
+-,+*)('&%$$$$%&'(('..
+,+*)('&%$####$%&''&..
++*)('&%$#""""#$%&&%..
+,+OOO%$#"!!!!"#$%%$..
++*)(O&OOOXXXX!"#$$#..
+*)('OOOOXXXXXX!"##"..
+)('&%$#"!XX!!XX!""!..
+*)('&%$#"!!""!X!"!X..
++*)('&%$#""##"!"#"!..
+,+*)('&%$##$$#"#$#"..
+piece = 2 | 2
+**
+..
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 .................
+saved_map = .................+*..
+vline = 003 .................
+saved_map = .................*)..
+vline = 004 .................
+saved_map = .................)(..
+vline = 005 .................
+saved_map = .................('..
+vline = 006 .................
+saved_map = .................'&..
+vline = 007 .................
+saved_map = .................&%..
+vline = 008 ..OOOO......X....
+saved_map = ..OOOO......X....%$..
+vline = 009 ....O.OOOXXXXX...
+saved_map = ....O.OOOXXXXX...$#..
+vline = 010 ....OOOOXXXXXX...
+saved_map = ....OOOOXXXXXX...#"..
+vline = 011 .........XX..XX..
+saved_map = .........XX..XX.."!..
+vline = 012 ..............X..
+saved_map = ..............X..!X..
+vline = 013 .................
+saved_map = ................."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 2 3:
+line = *
+line = .
+line = .
+saved_piece = *..
+line = *
+line = .
+line = .
+saved_piece = *..
+p1
+map = 15 | 17
+43210-,+*)))()*+,-,..
+3210-,+*)((('()*+,+..
+210-,+*)('''&'()*+*..
+10-,+*)('&&&%&'()*)..
+0-,+*)('&%%%$%&'()(..
+-,+*)('&%$$$#$%&'('..
+,+*)('&%$###"#$%&'&..
++*)('&%$#"""!"#$%&%..
+,+OOOO$#"!!!X!"#$%$..
++*)(O.OOOXXXXX!"#$#..
+*)('OOOOXXXXXX!"##"..
+)('&%$#"!XX!!XX!""!..
+*)('&%$#"!!""!X!"!X..
++*)('&%$#""##"!"#"!..
+,+*)('&%$##$$#"#$#"..
+piece = 2 | 3
+*..
+*..
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 .................
+saved_map = .................+*..
+vline = 003 .................
+saved_map = .................*)..
+vline = 004 .................
+saved_map = .................)(..
+vline = 005 .................
+saved_map = .................('..
+vline = 006 .................
+saved_map = .................'&..
+vline = 007 .................
+saved_map = .................&%..
+vline = 008 ..OOOO..O...X....
+saved_map = ..OOOO..O...X....%$..
+vline = 009 ....O.OOOXXXXX...
+saved_map = ....O.OOOXXXXX...$#..
+vline = 010 ....OOOOXXXXXX...
+saved_map = ....OOOOXXXXXX...#"..
+vline = 011 ........XXX..XX..
+saved_map = ........XXX..XX.."!..
+vline = 012 ..............X..
+saved_map = ..............X..!X..
+vline = 013 .................
+saved_map = ................."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 2 1:
+line = *
+saved_piece = *
+line = *
+saved_piece = *
+p1
+map = 15 | 17
+43210-,+*)))()*+,-,..
+3210-,+*)((('()*+,+..
+210-,+*)('''&'()*+*..
+10-,+*)('&&&%&'()*)..
+0-,+*)('&%%%$%&'()(..
+-,+*)('&%$$$#$%&'('..
+,+*)('&%$###"#$%&'&..
++*)('&%$#"""!"#$%&%..
++*OOOO&%O!!!X!"#$%$..
+*)('O.OOOXXXXX!"#$#..
+)('&OOOOXXXXXX!"##"..
+('&%$#"!XXX!!XX!""!..
+)('&%$#"!!!""!X!"!X..
+*)('&%$#"""##"!"#"!..
++*)('&%$###$$#"#$#"..
+piece = 2 | 1
+*
+*
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 .................
+saved_map = .................+*..
+vline = 003 .................
+saved_map = .................*)..
+vline = 004 .................
+saved_map = .................)(..
+vline = 005 .................
+saved_map = .................('..
+vline = 006 .................
+saved_map = .................'&..
+vline = 007 .................
+saved_map = .................&%..
+vline = 008 ..OOOO..O...X....
+saved_map = ..OOOO..O...X....%$..
+vline = 009 ....O.OOOXXXXX...
+saved_map = ....O.OOOXXXXX...$#..
+vline = 010 ....OOOOXXXXXX...
+saved_map = ....OOOOXXXXXX...#"..
+vline = 011 .......OXXX..XX..
+saved_map = .......OXXX..XX.."!..
+vline = 012 ......XXX.....X..
+saved_map = ......XXX.....X..!X..
+vline = 013 .................
+saved_map = ................."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 2 3:
+line = *
+line = .
+line = .
+saved_piece = *..
+line = *
+line = .
+line = .
+saved_piece = *..
+p1
+map = 15 | 17
+43210-,+*)))()*+,-,..
+3210-,+*)((('()*+,+..
+210-,+*)('''&'()*+*..
+10-,+*)('&&&%&'()*)..
+0-,+*)('&%%%$%&'()(..
+-,+*)('&%$$$#$%&'('..
+,+*)('&%$###"#$%&'&..
++*)('&%$#"""!"#$%&%..
+*)OOOO&%O!!!X!"#$%$..
+)('&O.OOOXXXXX!"#$#..
+('&%OOOOXXXXXX!"##"..
+'&%$#"!OXXX!!XX!""!..
+&%$#"!XXX!!""!X!"!X..
+'&%$#"!!!""##"!"#"!..
+('&%$#"""##$$#"#$#"..
+piece = 2 | 3
+*..
+*..
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 .................
+saved_map = .................+*..
+vline = 003 .................
+saved_map = .................*)..
+vline = 004 .................
+saved_map = .................)(..
+vline = 005 .................
+saved_map = .................('..
+vline = 006 .................
+saved_map = .................'&..
+vline = 007 .................
+saved_map = .................&%..
+vline = 008 ..OOOO..O...X....
+saved_map = ..OOOO..O...X....%$..
+vline = 009 ....O.OOOXXXXX...
+saved_map = ....O.OOOXXXXX...$#..
+vline = 010 ....OOOOXXXXXX...
+saved_map = ....OOOOXXXXXX...#"..
+vline = 011 ......OOXXX..XX..
+saved_map = ......OOXXX..XX.."!..
+vline = 012 .....XXXX.....X..
+saved_map = .....XXXX.....X..!X..
+vline = 013 .....XX..........
+saved_map = .....XX.........."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 2 3:
+line = .
+line = *
+line = *
+saved_piece = .**
+line = .
+line = .
+line = .
+saved_piece = ...
+p1
+map = 15 | 17
+32210-,+*)))()*+,-,..
+2110-,+*)((('()*+,+..
+100-,+*)('''&'()*+*..
+0--,+*)('&&&%&'()*)..
+-,,+*)('&%%%$%&'()(..
+,++*)('&%$$$#$%&'('..
++**)('&%$###"#$%&'&..
+*))('&%$#"""!"#$%&%..
+)(OOOO&%O!!!X!"#$%$..
+('&%O.OOOXXXXX!"#$#..
+'&%$OOOOXXXXXX!"##"..
+&%$#"!OOXXX!!XX!""!..
+%$#"!XXXX!!""!X!"!X..
+%$#"!XX!!""##"!"#"!..
+&%$#"!!""##$$#"#$#"..
+piece = 2 | 3
+.**
+...
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 .................
+saved_map = .................+*..
+vline = 003 .................
+saved_map = .................*)..
+vline = 004 .................
+saved_map = .................)(..
+vline = 005 .................
+saved_map = .................('..
+vline = 006 .................
+saved_map = .................'&..
+vline = 007 .................
+saved_map = .................&%..
+vline = 008 ..OOOO..OO..X....
+saved_map = ..OOOO..OO..X....%$..
+vline = 009 ....O.OOOXXXXX...
+saved_map = ....O.OOOXXXXX...$#..
+vline = 010 ....OOOOXXXXXX...
+saved_map = ....OOOOXXXXXX...#"..
+vline = 011 ......OOXXX..XX..
+saved_map = ......OOXXX..XX.."!..
+vline = 012 ....XXXXX.....X..
+saved_map = ....XXXXX.....X..!X..
+vline = 013 .....XX..........
+saved_map = .....XX.........."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 2 1:
+line = *
+saved_piece = *
+line = *
+saved_piece = *
+p1
+map = 15 | 17
+212210-,+*))()*+,-,..
+10110-,+*)(('()*+,+..
+0-00-,+*)(''&'()*+*..
+-,--,+*)('&&%&'()*)..
+,+,,+*)('&%%$%&'()(..
++*++*)('&%$$#$%&'('..
+*)**)('&%$##"#$%&'&..
+)())('&%$#""!"#$%&%..
+('OOOO'&OO!!X!"#$%$..
+'&%$O.OOOXXXXX!"#$#..
+&%$#OOOOXXXXXX!"##"..
+%$#"!!OOXXX!!XX!""!..
+$#"!XXXXX!!""!X!"!X..
+%$#"!XX!!""##"!"#"!..
+&%$#"!!""##$$#"#$#"..
+piece = 2 | 1
+*
+*
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 .................
+saved_map = .................+*..
+vline = 003 .................
+saved_map = .................*)..
+vline = 004 .................
+saved_map = .................)(..
+vline = 005 .................
+saved_map = .................('..
+vline = 006 .................
+saved_map = .................'&..
+vline = 007 .................
+saved_map = .................&%..
+vline = 008 ..OOOO..OO..X....
+saved_map = ..OOOO..OO..X....%$..
+vline = 009 ....O.OOOXXXXX...
+saved_map = ....O.OOOXXXXX...$#..
+vline = 010 ....OOOOXXXXXX...
+saved_map = ....OOOOXXXXXX...#"..
+vline = 011 ....O.OOXXX..XX..
+saved_map = ....O.OOXXX..XX.."!..
+vline = 012 ....XXXXX.....X..
+saved_map = ....XXXXX.....X..!X..
+vline = 013 ...XXXX..........
+saved_map = ...XXXX.........."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 2 3:
+line = *
+line = *
+line = .
+saved_piece = **.
+line = .
+line = *
+line = *
+saved_piece = .**
+p1
+map = 15 | 17
+212210-,+*))()*+,-,..
+10110-,+*)(('()*+,+..
+0-00-,+*)(''&'()*+*..
+-,--,+*)('&&%&'()*)..
+,+,,+*)('&%%$%&'()(..
++*++*)('&%$$#$%&'('..
+*)**)('&%$##"#$%&'&..
+)())('&%$#""!"#$%&%..
+('OOOO'&OO!!X!"#$%$..
+'&%$O.OOOXXXXX!"#$#..
+&%$#OOOOXXXXXX!"##"..
+%$#"O!OOXXX!!XX!""!..
+$#"!XXXXX!!""!X!"!X..
+#"!XXXX!!""##"!"#"!..
+$#"!!!!""##$$#"#$#"..
+piece = 2 | 3
+**.
+.**
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 .................
+saved_map = .................+*..
+vline = 003 .................
+saved_map = .................*)..
+vline = 004 .................
+saved_map = .................)(..
+vline = 005 .................
+saved_map = .................('..
+vline = 006 .................
+saved_map = .................'&..
+vline = 007 ........OO.......
+saved_map = ........OO.......&%..
+vline = 008 ..OOOO..OOO.X....
+saved_map = ..OOOO..OOO.X....%$..
+vline = 009 ....O.OOOXXXXX...
+saved_map = ....O.OOOXXXXX...$#..
+vline = 010 ....OOOOXXXXXX...
+saved_map = ....OOOOXXXXXX...#"..
+vline = 011 ....O.OOXXX..XX..
+saved_map = ....O.OOXXX..XX.."!..
+vline = 012 ...XXXXXX.....X..
+saved_map = ...XXXXXX.....X..!X..
+vline = 013 ...XXXX..........
+saved_map = ...XXXX.........."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 2 2:
+line = .
+line = *
+saved_piece = .*
+line = *
+line = *
+saved_piece = **
+p1
+map = 15 | 17
+1012210-,+*)()*+,-,..
+0-0110-,+*)('()*+,+..
+-,-00-,+*)('&'()*+*..
+,+,--,+*)('&%&'()*)..
++*+,,+*)('&%$%&'()(..
+*)*++*)('&%$#$%&'('..
+)()**)('&%$#"#$%&'&..
+('()**)(OO#"!"#$%&%..
+'&OOOO*)OOO!X!"#$%$..
+&%$#O.OOOXXXXX!"#$#..
+%$#"OOOOXXXXXX!"##"..
+$#"!O!OOXXX!!XX!""!..
+#"!XXXXXX!!""!X!"!X..
+#"!XXXX!!""##"!"#"!..
+$#"!!!!""##$$#"#$#"..
+piece = 2 | 2
+.*
+**
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 .................
+saved_map = .................+*..
+vline = 003 .................
+saved_map = .................*)..
+vline = 004 .................
+saved_map = .................)(..
+vline = 005 .................
+saved_map = .................('..
+vline = 006 .................
+saved_map = .................'&..
+vline = 007 ........OO.O.....
+saved_map = ........OO.O.....&%..
+vline = 008 ..OOOO..OOOOXX...
+saved_map = ..OOOO..OOOOXX...%$..
+vline = 009 ....O.OOOXXXXX...
+saved_map = ....O.OOOXXXXX...$#..
+vline = 010 ....OOOOXXXXXX...
+saved_map = ....OOOOXXXXXX...#"..
+vline = 011 ....O.OOXXX..XX..
+saved_map = ....O.OOXXX..XX.."!..
+vline = 012 ...XXXXXX.....X..
+saved_map = ...XXXXXX.....X..!X..
+vline = 013 ...XXXX..........
+saved_map = ...XXXX.........."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 2 2:
+line = *
+line = *
+saved_piece = **
+line = .
+line = *
+saved_piece = .*
+p1
+map = 15 | 17
+1012210-,+*)(()*+-,..
+0-0110-,+*)(''()*,+..
+-,-00-,+*)('&&'()+*..
+,+,--,+*)('&%%&'(*)..
++*+,,+*)('&%$$%&')(..
+*)*++*)('&%$##$%&('..
+)()**)('&%$#""#$%'&..
+('()**)(OO%O!!"#$&%..
+'&OOOO*)OOOOXX!"#%$..
+&%$#O.OOOXXXXX!"#$#..
+%$#"OOOOXXXXXX!"##"..
+$#"!O!OOXXX!!XX!""!..
+#"!XXXXXX!!""!X!"!X..
+#"!XXXX!!""##"!"#"!..
+$#"!!!!""##$$#"#$#"..
+piece = 2 | 2
+**
+.*
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 .................
+saved_map = .................+*..
+vline = 003 .................
+saved_map = .................*)..
+vline = 004 .................
+saved_map = .................)(..
+vline = 005 .................
+saved_map = .................('..
+vline = 006 ..........OO.....
+saved_map = ..........OO.....'&..
+vline = 007 ........OO.O.....
+saved_map = ........OO.O.....&%..
+vline = 008 ..OOOO..OOOOXX...
+saved_map = ..OOOO..OOOOXX...%$..
+vline = 009 ....O.OOOXXXXX...
+saved_map = ....O.OOOXXXXX...$#..
+vline = 010 ....OOOOXXXXXX...
+saved_map = ....OOOOXXXXXX...#"..
+vline = 011 ..X.O.OOXXX..XX..
+saved_map = ..X.O.OOXXX..XX.."!..
+vline = 012 ..XXXXXXX.....X..
+saved_map = ..XXXXXXX.....X..!X..
+vline = 013 ...XXXX..........
+saved_map = ...XXXX.........."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 1 3:
+line = *
+line = *
+line = *
+saved_piece = ***
+p1
+map = 15 | 17
+-,-0110-,+*)(()*+-,..
+,+,-00-,+*)(''()*,+..
++*+,--,+*)('&&'()+*..
+*)*+,,+*)('&%%&'(*)..
+)()*++*)('&%$$%&')(..
+('()**)('&%$##$%&('..
+'&'()**)('OO""#$%'&..
+&%&'()**OO.O!!"#$&%..
+%$OOOO++OOOOXX!"#%$..
+$#"#O.OOOXXXXX!"#$#..
+#"!"OOOOXXXXXX!"##"..
+"!X!O!OOXXX!!XX!""!..
+"!XXXXXXX!!""!X!"!X..
+#"!XXXX!!""##"!"#"!..
+$#"!!!!""##$$#"#$#"..
+piece = 1 | 3
+***
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 .................
+saved_map = .................+*..
+vline = 003 .................
+saved_map = .................*)..
+vline = 004 .................
+saved_map = .................)(..
+vline = 005 .................
+saved_map = .................('..
+vline = 006 ..........OO.....
+saved_map = ..........OO.....'&..
+vline = 007 ........OO.OOO...
+saved_map = ........OO.OOO...&%..
+vline = 008 ..OOOO..OOOOXX...
+saved_map = ..OOOO..OOOOXX...%$..
+vline = 009 ....O.OOOXXXXX...
+saved_map = ....O.OOOXXXXX...$#..
+vline = 010 ....OOOOXXXXXX...
+saved_map = ....OOOOXXXXXX...#"..
+vline = 011 ..XXO.OOXXX..XX..
+saved_map = ..XXO.OOXXX..XX.."!..
+vline = 012 ..XXXXXXX.....X..
+saved_map = ..XXXXXXX.....X..!X..
+vline = 013 ...XXXX..........
+saved_map = ...XXXX.........."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 1 3:
+line = *
+line = *
+line = *
+saved_piece = ***
+p1
+map = 15 | 17
+-,-0123210-,+*)*+-,..
+,+,-01210-,+*)()*,+..
++*+,-010-,+*)('()+*..
+*)*+,-0-,+*)('&'(*)..
+)()*+,-,+*)('&%&')(..
+('()*+,+*)('&%$%&('..
+'&'()*+,+*OO%$#$%'&..
+&%&'()*+OO.OOO"#$&%..
+%$OOOO+,OOOOXX!"#%$..
+$#""O.OOOXXXXX!"#$#..
+#"!!OOOOXXXXXX!"##"..
+"!XXO!OOXXX!!XX!""!..
+"!XXXXXXX!!""!X!"!X..
+#"!XXXX!!""##"!"#"!..
+$#"!!!!""##$$#"#$#"..
+piece = 1 | 3
+***
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 .................
+saved_map = .................+*..
+vline = 003 .................
+saved_map = .................*)..
+vline = 004 .................
+saved_map = .................)(..
+vline = 005 .................
+saved_map = .................('..
+vline = 006 ..........OO.....
+saved_map = ..........OO.....'&..
+vline = 007 ........OO.OOO...
+saved_map = ........OO.OOO...&%..
+vline = 008 ..OOOO..OOOOXX...
+saved_map = ..OOOO..OOOOXX...%$..
+vline = 009 ....O.OOOXXXXX...
+saved_map = ....O.OOOXXXXX...$#..
+vline = 010 X.OOOOOOXXXXXX...
+saved_map = X.OOOOOOXXXXXX...#"..
+vline = 011 .XXXO.OOXXX..XX..
+saved_map = .XXXO.OOXXX..XX.."!..
+vline = 012 ..XXXXXXX.....X..
+saved_map = ..XXXXXXX.....X..!X..
+vline = 013 ...XXXX..........
+saved_map = ...XXXX.........."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 1 3:
+line = *
+line = *
+line = *
+saved_piece = ***
+p1
+map = 15 | 17
+*+,-012210-,+*)*+-,..
+)*+,-0110-,+*)()*,+..
+()*+,-00-,+*)('()+*..
+'()*+,--,+*)('&'(*)..
+&'()*+,,+*)('&%&')(..
+%&'()*++*)('&%$%&('..
+$%&'()*++*OO%$#$%'&..
+#$%&'()*OO.OOO"#$&%..
+"#OOOO*+OOOOXX!"#%$..
+!"#$O.OOOXXXXX!"#$#..
+X!OOOOOOXXXXXX!"##"..
+!XXXO!OOXXX!!XX!""!..
+"!XXXXXXX!!""!X!"!X..
+#"!XXXX!!""##"!"#"!..
+$#"!!!!""##$$#"#$#"..
+piece = 1 | 3
+***
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 .................
+saved_map = .................+*..
+vline = 003 .................
+saved_map = .................*)..
+vline = 004 .................
+saved_map = .................)(..
+vline = 005 .................
+saved_map = .................('..
+vline = 006 ..........OO.....
+saved_map = ..........OO.....'&..
+vline = 007 ........OO.OOOOO.
+saved_map = ........OO.OOOOO.&%..
+vline = 008 ..OOOO..OOOOXXXX.
+saved_map = ..OOOO..OOOOXXXX.%$..
+vline = 009 ....O.OOOXXXXX...
+saved_map = ....O.OOOXXXXX...$#..
+vline = 010 X.OOOOOOXXXXXX...
+saved_map = X.OOOOOOXXXXXX...#"..
+vline = 011 .XXXO.OOXXX..XX..
+saved_map = .XXXO.OOXXX..XX.."!..
+vline = 012 ..XXXXXXX.....X..
+saved_map = ..XXXXXXX.....X..!X..
+vline = 013 ...XXXX..........
+saved_map = ...XXXX.........."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 2 2:
+line = .
+line = .
+saved_piece = ..
+line = *
+line = *
+saved_piece = **
+p1
+map = 15 | 17
+*+,-01233210-,+*)-,..
+)*+,-012210-,+*)(,+..
+()*+,-0110-,+*)('+*..
+'()*+,-00-,+*)('&*)..
+&'()*+,--,+*)('&%)(..
+%&'()*+,,+*)('&%$('..
+$%&'()*+,,OO'&%$#'&..
+#$%&'()*OO.OOOOO"&%..
+"#OOOO*+OOOOXXXX!%$..
+!"#$O.OOOXXXXX!!"$#..
+X!OOOOOOXXXXXX!"##"..
+!XXXO!OOXXX!!XX!""!..
+"!XXXXXXX!!""!X!"!X..
+#"!XXXX!!""##"!"#"!..
+$#"!!!!""##$$#"#$#"..
+piece = 2 | 2
+..
+**
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 .................
+saved_map = .................+*..
+vline = 003 .................
+saved_map = .................*)..
+vline = 004 .................
+saved_map = .................)(..
+vline = 005 .................
+saved_map = .................('..
+vline = 006 ..........OO.....
+saved_map = ..........OO.....'&..
+vline = 007 ........OO.OOOOO.
+saved_map = ........OO.OOOOO.&%..
+vline = 008 ..OOOO..OOOOXXXX.
+saved_map = ..OOOO..OOOOXXXX.%$..
+vline = 009 X...O.OOOXXXXX...
+saved_map = X...O.OOOXXXXX...$#..
+vline = 010 XOOOOOOOXXXXXX...
+saved_map = XOOOOOOOXXXXXX...#"..
+vline = 011 .XXXO.OOXXX..XX..
+saved_map = .XXXO.OOXXX..XX.."!..
+vline = 012 ..XXXXXXX.....X..
+saved_map = ..XXXXXXX.....X..!X..
+vline = 013 ...XXXX..........
+saved_map = ...XXXX.........."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 1 2:
+line = *
+line = *
+saved_piece = **
+p1
+map = 15 | 17
+)*+,-0123210-,+*)-,..
+()*+,-01210-,+*)(,+..
+'()*+,-010-,+*)('+*..
+&'()*+,-0-,+*)('&*)..
+%&'()*+,-,+*)('&%)(..
+$%&'()*+,+*)('&%$('..
+#$%&'()*+,OO'&%$#'&..
+"#$%&'()OO.OOOOO"&%..
+!"OOOO)*OOOOXXXX!%$..
+X!"#O.OOOXXXXX!!"$#..
+XOOOOOOOXXXXXX!"##"..
+!XXXO!OOXXX!!XX!""!..
+"!XXXXXXX!!""!X!"!X..
+#"!XXXX!!""##"!"#"!..
+$#"!!!!""##$$#"#$#"..
+piece = 1 | 2
+**
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 .................
+saved_map = .................+*..
+vline = 003 .................
+saved_map = .................*)..
+vline = 004 .................
+saved_map = .................)(..
+vline = 005 .................
+saved_map = .................('..
+vline = 006 ..........OO.....
+saved_map = ..........OO.....'&..
+vline = 007 ........OO.OOOOO.
+saved_map = ........OO.OOOOO.&%..
+vline = 008 X.OOOO..OOOOXXXX.
+saved_map = X.OOOO..OOOOXXXX.%$..
+vline = 009 X...O.OOOXXXXX...
+saved_map = X...O.OOOXXXXX...$#..
+vline = 010 XOOOOOOOXXXXXX...
+saved_map = XOOOOOOOXXXXXX...#"..
+vline = 011 .XXXOOOOXXX..XX..
+saved_map = .XXXOOOOXXX..XX.."!..
+vline = 012 ..XXXXXXX.....X..
+saved_map = ..XXXXXXX.....X..!X..
+vline = 013 ...XXXX..........
+saved_map = ...XXXX.........."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 2 1:
+line = *
+saved_piece = *
+line = *
+saved_piece = *
+p1
+map = 15 | 17
+()*+,-012210-,+*)-,..
+'()*+,-0110-,+*)(,+..
+&'()*+,-00-,+*)('+*..
+%&'()*+,--,+*)('&*)..
+$%&'()*+,,+*)('&%)(..
+#$%&'()*++*)('&%$('..
+"#$%&'()*+OO'&%$#'&..
+!"#$%&'(OO.OOOOO"&%..
+X!OOOO()OOOOXXXX!%$..
+X!"#O.OOOXXXXX!!"$#..
+XOOOOOOOXXXXXX!"##"..
+!XXXOOOOXXX!!XX!""!..
+"!XXXXXXX!!""!X!"!X..
+#"!XXXX!!""##"!"#"!..
+$#"!!!!""##$$#"#$#"..
+piece = 2 | 1
+*
+*
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 .................
+saved_map = .................+*..
+vline = 003 .................
+saved_map = .................*)..
+vline = 004 .................
+saved_map = .................)(..
+vline = 005 .................
+saved_map = .................('..
+vline = 006 ..........OO.....
+saved_map = ..........OO.....'&..
+vline = 007 ........OO.OOOOO.
+saved_map = ........OO.OOOOO.&%..
+vline = 008 XXOOOO..OOOOXXXX.
+saved_map = XXOOOO..OOOOXXXX.%$..
+vline = 009 XO..O.OOOXXXXX...
+saved_map = XO..O.OOOXXXXX...$#..
+vline = 010 XOOOOOOOXXXXXX...
+saved_map = XOOOOOOOXXXXXX...#"..
+vline = 011 .XXXOOOOXXX..XX..
+saved_map = .XXXOOOOXXX..XX.."!..
+vline = 012 ..XXXXXXX.....X..
+saved_map = ..XXXXXXX.....X..!X..
+vline = 013 ...XXXX..........
+saved_map = ...XXXX.........."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 2 3:
+line = *
+line = *
+line = .
+saved_piece = **.
+line = .
+line = *
+line = *
+saved_piece = .**
+p1
+map = 15 | 17
+(()*+,-01210-,+*)-,..
+''()*+,-010-,+*)(,+..
+&&'()*+,-0-,+*)('+*..
+%%&'()*+,-,+*)('&*)..
+$$%&'()*+,+*)('&%)(..
+##$%&'()*+*)('&%$('..
+""#$%&'()*OO'&%$#'&..
+!!"#$%&'OO.OOOOO"&%..
+XXOOOO'(OOOOXXXX!%$..
+XO..O.OOOXXXXX!!"$#..
+XOOOOOOOXXXXXX!"##"..
+!XXXOOOOXXX!!XX!""!..
+"!XXXXXXX!!""!X!"!X..
+#"!XXXX!!""##"!"#"!..
+$#"!!!!""##$$#"#$#"..
+piece = 2 | 3
+**.
+.**
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 .................
+saved_map = .................+*..
+vline = 003 .................
+saved_map = .................*)..
+vline = 004 .................
+saved_map = .................)(..
+vline = 005 .................
+saved_map = .................('..
+vline = 006 ..........OO..OO.
+saved_map = ..........OO..OO.'&..
+vline = 007 .X......OO.OOOOOO
+saved_map = .X......OO.OOOOOO&%..
+vline = 008 XXOOOO..OOOOXXXX.
+saved_map = XXOOOO..OOOOXXXX.%$..
+vline = 009 XO..O.OOOXXXXX...
+saved_map = XO..O.OOOXXXXX...$#..
+vline = 010 XOOOOOOOXXXXXX...
+saved_map = XOOOOOOOXXXXXX...#"..
+vline = 011 .XXXOOOOXXX..XX..
+saved_map = .XXXOOOOXXX..XX.."!..
+vline = 012 ..XXXXXXX.....X..
+saved_map = ..XXXXXXX.....X..!X..
+vline = 013 ...XXXX..........
+saved_map = ...XXXX.........."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 2 1:
+line = *
+saved_piece = *
+line = *
+saved_piece = *
+p1
+map = 15 | 17
+('()*+,-012343210-,..
+'&'()*+,-0123210-,+..
+&%&'()*+,-01210-,+*..
+%$%&'()*+,-010-,+*)..
+$#$%&'()*+,-0-,+*)(..
+#"#$%&'()*+,-,+*)('..
+"!"#$%&'()OO0-OO('&..
+!X!"#$%&OO.OOOOOO&%..
+XXOOOO&'OOOOXXXX!%$..
+XO..O.OOOXXXXX!!"$#..
+XOOOOOOOXXXXXX!"##"..
+!XXXOOOOXXX!!XX!""!..
+"!XXXXXXX!!""!X!"!X..
+#"!XXXX!!""##"!"#"!..
+$#"!!!!""##$$#"#$#"..
+piece = 2 | 1
+*
+*
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 .................
+saved_map = .................+*..
+vline = 003 .................
+saved_map = .................*)..
+vline = 004 .................
+saved_map = .................)(..
+vline = 005 .................
+saved_map = .................('..
+vline = 006 ..X.......OO..OO.
+saved_map = ..X.......OO..OO.'&..
+vline = 007 .XX.....OO.OOOOOO
+saved_map = .XX.....OO.OOOOOO&%..
+vline = 008 XXOOOO..OOOOXXXXO
+saved_map = XXOOOO..OOOOXXXXO%$..
+vline = 009 XO..O.OOOXXXXX...
+saved_map = XO..O.OOOXXXXX...$#..
+vline = 010 XOOOOOOOXXXXXX...
+saved_map = XOOOOOOOXXXXXX...#"..
+vline = 011 .XXXOOOOXXX..XX..
+saved_map = .XXXOOOOXXX..XX.."!..
+vline = 012 ..XXXXXXX.....X..
+saved_map = ..XXXXXXX.....X..!X..
+vline = 013 ...XXXX..........
+saved_map = ...XXXX.........."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 1 2:
+line = *
+line = *
+saved_piece = **
+p1
+map = 15 | 17
+('&'()*+,-0123210-,..
+'&%&'()*+,-01210-,+..
+&%$%&'()*+,-010-,+*..
+%$#$%&'()*+,-0-,+*)..
+$#"#$%&'()*+,-,+*)(..
+#"!"#$%&'()*+,+*)('..
+"!X!"#$%&'OO,-OO('&..
+!XX!"#$%OO.OOOOOO&%..
+XXOOOO%&OOOOXXXXO%$..
+XO..O.OOOXXXXX!!"$#..
+XOOOOOOOXXXXXX!"##"..
+!XXXOOOOXXX!!XX!""!..
+"!XXXXXXX!!""!X!"!X..
+#"!XXXX!!""##"!"#"!..
+$#"!!!!""##$$#"#$#"..
+piece = 1 | 2
+**
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 .................
+saved_map = .................+*..
+vline = 003 .................
+saved_map = .................*)..
+vline = 004 .................
+saved_map = .................)(..
+vline = 005 .................
+saved_map = .................('..
+vline = 006 ..X.......OO..OO.
+saved_map = ..X.......OO..OO.'&..
+vline = 007 .XXX...OOO.OOOOOO
+saved_map = .XXX...OOO.OOOOOO&%..
+vline = 008 XXOOOO..OOOOXXXXO
+saved_map = XXOOOO..OOOOXXXXO%$..
+vline = 009 XO..O.OOOXXXXX...
+saved_map = XO..O.OOOXXXXX...$#..
+vline = 010 XOOOOOOOXXXXXX...
+saved_map = XOOOOOOOXXXXXX...#"..
+vline = 011 .XXXOOOOXXX..XX..
+saved_map = .XXXOOOOXXX..XX.."!..
+vline = 012 ..XXXXXXX.....X..
+saved_map = ..XXXXXXX.....X..!X..
+vline = 013 ...XXXX..........
+saved_map = ...XXXX.........."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 2 3:
+line = *
+line = *
+line = *
+saved_piece = ***
+line = *
+line = .
+line = .
+saved_piece = *..
+p1
+map = 15 | 17
+('&'()*+,-0123210-,..
+'&%&'()*+,-01210-,+..
+&%$%&'()*+,-010-,+*..
+%$#$%&'()*+,-0-,+*)..
+$#"#$%&'()*+,-,+*)(..
+#"!"#$%&'()*+,+*)('..
+"!X!"#$%&'OO,-OO('&..
+!XXX!"#OOO.OOOOOO&%..
+XXOOOO$%OOOOXXXXO%$..
+XO..O.OOOXXXXX!!"$#..
+XOOOOOOOXXXXXX!"##"..
+!XXXOOOOXXX!!XX!""!..
+"!XXXXXXX!!""!X!"!X..
+#"!XXXX!!""##"!"#"!..
+$#"!!!!""##$$#"#$#"..
+piece = 2 | 3
+***
+*..
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 .................
+saved_map = .................+*..
+vline = 003 .................
+saved_map = .................*)..
+vline = 004 .................
+saved_map = .................)(..
+vline = 005 .................
+saved_map = .................('..
+vline = 006 ..XX......OO..OO.
+saved_map = ..XX......OO..OO.'&..
+vline = 007 .XXXOOOOOO.OOOOOO
+saved_map = .XXXOOOOOO.OOOOOO&%..
+vline = 008 XXOOOO..OOOOXXXXO
+saved_map = XXOOOO..OOOOXXXXO%$..
+vline = 009 XO..O.OOOXXXXX...
+saved_map = XO..O.OOOXXXXX...$#..
+vline = 010 XOOOOOOOXXXXXX...
+saved_map = XOOOOOOOXXXXXX...#"..
+vline = 011 .XXXOOOOXXX..XX..
+saved_map = .XXXOOOOXXX..XX.."!..
+vline = 012 ..XXXXXXX.....X..
+saved_map = ..XXXXXXX.....X..!X..
+vline = 013 ...XXXX..........
+saved_map = ...XXXX.........."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 2 3:
+line = .
+line = *
+line = *
+saved_piece = .**
+line = .
+line = .
+line = .
+saved_piece = ...
+p1
+map = 15 | 17
+('&&'()*+,-012210-,..
+'&%%&'()*+,-0110-,+..
+&%$$%&'()*+,-00-,+*..
+%$##$%&'()*+,--,+*)..
+$#""#$%&'()*+,,+*)(..
+#"!!"#$%&'()*++*)('..
+"!XX!"#$%&OO+,OO('&..
+!XXXOOOOOO.OOOOOO&%..
+XXOOOO..OOOOXXXXO%$..
+XO..O.OOOXXXXX!!"$#..
+XOOOOOOOXXXXXX!"##"..
+!XXXOOOOXXX!!XX!""!..
+"!XXXXXXX!!""!X!"!X..
+#"!XXXX!!""##"!"#"!..
+$#"!!!!""##$$#"#$#"..
+piece = 2 | 3
+.**
+...
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 .................
+saved_map = .................+*..
+vline = 003 .................
+saved_map = .................*)..
+vline = 004 .................
+saved_map = .................)(..
+vline = 005 ..X..............
+saved_map = ..X..............('..
+vline = 006 ..XX.....OOO..OO.
+saved_map = ..XX.....OOO..OO.'&..
+vline = 007 .XXXOOOOOO.OOOOOO
+saved_map = .XXXOOOOOO.OOOOOO&%..
+vline = 008 XXOOOO..OOOOXXXXO
+saved_map = XXOOOO..OOOOXXXXO%$..
+vline = 009 XO..O.OOOXXXXX...
+saved_map = XO..O.OOOXXXXX...$#..
+vline = 010 XOOOOOOOXXXXXX...
+saved_map = XOOOOOOOXXXXXX...#"..
+vline = 011 .XXXOOOOXXX..XX..
+saved_map = .XXXOOOOXXX..XX.."!..
+vline = 012 ..XXXXXXX.....X..
+saved_map = ..XXXXXXX.....X..!X..
+vline = 013 ...XXXX..........
+saved_map = ...XXXX.........."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 2 1:
+line = *
+saved_piece = *
+line = *
+saved_piece = *
+p1
+map = 15 | 17
+'&%&'()*+,-012210-,..
+&%$%&'()*+,-0110-,+..
+%$#$%&'()*+,-00-,+*..
+$#"#$%&'()*+,--,+*)..
+#"!"#$%&'()*+,,+*)(..
+"!X!"#$%&'()*++*)('..
+"!XX!"#$%OOO+,OO('&..
+!XXXOOOOOO.OOOOOO&%..
+XXOOOO..OOOOXXXXO%$..
+XO..O.OOOXXXXX!!"$#..
+XOOOOOOOXXXXXX!"##"..
+!XXXOOOOXXX!!XX!""!..
+"!XXXXXXX!!""!X!"!X..
+#"!XXXX!!""##"!"#"!..
+$#"!!!!""##$$#"#$#"..
+piece = 2 | 1
+*
+*
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 .................
+saved_map = .................+*..
+vline = 003 .................
+saved_map = .................*)..
+vline = 004 .................
+saved_map = .................)(..
+vline = 005 ..X..............
+saved_map = ..X..............('..
+vline = 006 ..XXO....OOO..OO.
+saved_map = ..XXO....OOO..OO.'&..
+vline = 007 .XXXOOOOOO.OOOOOO
+saved_map = .XXXOOOOOO.OOOOOO&%..
+vline = 008 XXOOOO..OOOOXXXXO
+saved_map = XXOOOO..OOOOXXXXO%$..
+vline = 009 XO..O.OOOXXXXX...
+saved_map = XO..O.OOOXXXXX...$#..
+vline = 010 XOOOOOOOXXXXXX...
+saved_map = XOOOOOOOXXXXXX...#"..
+vline = 011 XXXXOOOOXXX..XX..
+saved_map = XXXXOOOOXXX..XX.."!..
+vline = 012 ..XXXXXXX.....X..
+saved_map = ..XXXXXXX.....X..!X..
+vline = 013 ...XXXX..........
+saved_map = ...XXXX.........."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 2 2:
+line = *
+line = *
+saved_piece = **
+line = .
+line = *
+saved_piece = .*
+p1
+map = 15 | 17
+'&%&'()*+,-012210-,..
+&%$%&'()*+,-0110-,+..
+%$#$%&'()*+,-00-,+*..
+$#"#$%&'()*+,--,+*)..
+#"!"#$%&'()*+,,+*)(..
+"!X!"#$%&'()*++*)('..
+"!XXO$%&'OOO+,OO('&..
+!XXXOOOOOO.OOOOOO&%..
+XXOOOO..OOOOXXXXO%$..
+XO..O.OOOXXXXX!!"$#..
+XOOOOOOOXXXXXX!"##"..
+XXXXOOOOXXX!!XX!""!..
+!!XXXXXXX!!""!X!"!X..
+""!XXXX!!""##"!"#"!..
+##"!!!!""##$$#"#$#"..
+piece = 2 | 2
+**
+.*
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 .................
+saved_map = .................+*..
+vline = 003 .................
+saved_map = .................*)..
+vline = 004 .................
+saved_map = .................)(..
+vline = 005 .XXOO............
+saved_map = .XXOO............('..
+vline = 006 ..XXO....OOO..OO.
+saved_map = ..XXO....OOO..OO.'&..
+vline = 007 .XXXOOOOOO.OOOOOO
+saved_map = .XXXOOOOOO.OOOOOO&%..
+vline = 008 XXOOOO..OOOOXXXXO
+saved_map = XXOOOO..OOOOXXXXO%$..
+vline = 009 XO..O.OOOXXXXX...
+saved_map = XO..O.OOOXXXXX...$#..
+vline = 010 XOOOOOOOXXXXXX...
+saved_map = XOOOOOOOXXXXXX...#"..
+vline = 011 XXXXOOOOXXX..XX..
+saved_map = XXXXOOOOXXX..XX.."!..
+vline = 012 ..XXXXXXX.....X..
+saved_map = ..XXXXXXX.....X..!X..
+vline = 013 ...XXXX..........
+saved_map = ...XXXX.........."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 2 1:
+line = *
+saved_piece = *
+line = *
+saved_piece = *
+p1
+map = 15 | 17
+&%%&'()*+,-012210-,..
+%$$%&'()*+,-0110-,+..
+$##$%&'()*+,-00-,+*..
+#""#$%&'()*+,--,+*)..
+"!!"#$%&'()*+,,+*)(..
+!XXOO%&'()*+,,+*)('..
+"!XXO&'()OOO--OO('&..
+!XXXOOOOOO.OOOOOO&%..
+XXOOOO..OOOOXXXXO%$..
+XO..O.OOOXXXXX!!"$#..
+XOOOOOOOXXXXXX!"##"..
+XXXXOOOOXXX!!XX!""!..
+!!XXXXXXX!!""!X!"!X..
+""!XXXX!!""##"!"#"!..
+##"!!!!""##$$#"#$#"..
+piece = 2 | 1
+*
+*
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 .................
+saved_map = .................+*..
+vline = 003 .................
+saved_map = .................*)..
+vline = 004 ...O.............
+saved_map = ...O.............)(..
+vline = 005 XXXOO............
+saved_map = XXXOO............('..
+vline = 006 ..XXO....OOO..OO.
+saved_map = ..XXO....OOO..OO.'&..
+vline = 007 .XXXOOOOOO.OOOOOO
+saved_map = .XXXOOOOOO.OOOOOO&%..
+vline = 008 XXOOOO..OOOOXXXXO
+saved_map = XXOOOO..OOOOXXXXO%$..
+vline = 009 XO..O.OOOXXXXX...
+saved_map = XO..O.OOOXXXXX...$#..
+vline = 010 XOOOOOOOXXXXXX...
+saved_map = XOOOOOOOXXXXXX...#"..
+vline = 011 XXXXOOOOXXX..XX..
+saved_map = XXXXOOOOXXX..XX.."!..
+vline = 012 ..XXXXXXX.....X..
+saved_map = ..XXXXXXX.....X..!X..
+vline = 013 ...XXXX..........
+saved_map = ...XXXX.........."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 2 3:
+line = .
+line = *
+line = *
+saved_piece = .**
+line = *
+line = *
+line = *
+saved_piece = ***
+p1
+map = 15 | 17
+%%%&'()*+,-012210-,..
+$$$%&'()*+,-0110-,+..
+###$%&'()*+,-00-,+*..
+"""#$%&'()*+,--,+*)..
+!!!O%&'()*+,--,+*)(..
+XXXOO'()*+,--,+*)('..
+!!XXO()*+OOO0-OO('&..
+!XXXOOOOOO.OOOOOO&%..
+XXOOOO..OOOOXXXXO%$..
+XO..O.OOOXXXXX!!"$#..
+XOOOOOOOXXXXXX!"##"..
+XXXXOOOOXXX!!XX!""!..
+!!XXXXXXX!!""!X!"!X..
+""!XXXX!!""##"!"#"!..
+##"!!!!""##$$#"#$#"..
+piece = 2 | 3
+.**
+***
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 .................
+saved_map = .................+*..
+vline = 003 ..OO.............
+saved_map = ..OO.............*)..
+vline = 004 .OOO.............
+saved_map = .OOO.............)(..
+vline = 005 XXXOO............
+saved_map = XXXOO............('..
+vline = 006 ..XXO....OOO..OO.
+saved_map = ..XXO....OOO..OO.'&..
+vline = 007 .XXXOOOOOO.OOOOOO
+saved_map = .XXXOOOOOO.OOOOOO&%..
+vline = 008 XXOOOO..OOOOXXXXO
+saved_map = XXOOOO..OOOOXXXXO%$..
+vline = 009 XO..O.OOOXXXXXXXX
+saved_map = XO..O.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXX...
+saved_map = XOOOOOOOXXXXXX...#"..
+vline = 011 XXXXOOOOXXX..XX..
+saved_map = XXXXOOOOXXX..XX.."!..
+vline = 012 ..XXXXXXX.....X..
+saved_map = ..XXXXXXX.....X..!X..
+vline = 013 ...XXXX..........
+saved_map = ...XXXX.........."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 2 1:
+line = *
+saved_piece = *
+line = *
+saved_piece = *
+p1
+map = 15 | 17
+%&'()*+,-01233210-,..
+$%&'()*+,-012210-,+..
+#$%&'()*+,-0110-,+*..
+"#OO()*+,-0110-,+*)..
+!OOO)*+,-0110-,+*)(..
+XXXOO+,-0110-,+*)('..
+!!XXO,-01OOO0-OO('&..
+!XXXOOOOOO.OOOOOO&%..
+XXOOOO..OOOOXXXXO%$..
+XO..O.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXX!!!#"..
+XXXXOOOOXXX!!XX!""!..
+!!XXXXXXX!!""!X!"!X..
+""!XXXX!!""##"!"#"!..
+##"!!!!""##$$#"#$#"..
+piece = 2 | 1
+*
+*
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 .................
+saved_map = .................+*..
+vline = 003 .OOO.............
+saved_map = .OOO.............*)..
+vline = 004 .OOO.............
+saved_map = .OOO.............)(..
+vline = 005 XXXOO............
+saved_map = XXXOO............('..
+vline = 006 .XXXO....OOO..OO.
+saved_map = .XXXO....OOO..OO.'&..
+vline = 007 .XXXOOOOOO.OOOOOO
+saved_map = .XXXOOOOOO.OOOOOO&%..
+vline = 008 XXOOOO..OOOOXXXXO
+saved_map = XXOOOO..OOOOXXXXO%$..
+vline = 009 XO..O.OOOXXXXXXXX
+saved_map = XO..O.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXX...
+saved_map = XOOOOOOOXXXXXX...#"..
+vline = 011 XXXXOOOOXXX..XX..
+saved_map = XXXXOOOOXXX..XX.."!..
+vline = 012 ..XXXXXXX.....X..
+saved_map = ..XXXXXXX.....X..!X..
+vline = 013 ...XXXX..........
+saved_map = ...XXXX.........."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 2 3:
+line = .
+line = *
+line = *
+saved_piece = .**
+line = .
+line = .
+line = *
+saved_piece = ..*
+p1
+map = 15 | 17
+%&'()*+,-01233210-,..
+$%&'()*+,-012210-,+..
+#$%&'()*+,-0110-,+*..
+"OOO()*+,-0110-,+*)..
+!OOO)*+,-0110-,+*)(..
+XXXOO+,-0110-,+*)('..
+!XXXO,-01OOO0-OO('&..
+!XXXOOOOOO.OOOOOO&%..
+XXOOOO..OOOOXXXXO%$..
+XO..O.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXX!!!#"..
+XXXXOOOOXXX!!XX!""!..
+!!XXXXXXX!!""!X!"!X..
+""!XXXX!!""##"!"#"!..
+##"!!!!""##$$#"#$#"..
+piece = 2 | 3
+.**
+..*
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 OO...............
+saved_map = OO...............+*..
+vline = 003 .OOO.............
+saved_map = .OOO.............*)..
+vline = 004 .OOO.............
+saved_map = .OOO.............)(..
+vline = 005 XXXOO............
+saved_map = XXXOO............('..
+vline = 006 .XXXO....OOO..OO.
+saved_map = .XXXO....OOO..OO.'&..
+vline = 007 .XXXOOOOOO.OOOOOO
+saved_map = .XXXOOOOOO.OOOOOO&%..
+vline = 008 XXOOOO..OOOOXXXXO
+saved_map = XXOOOO..OOOOXXXXO%$..
+vline = 009 XO..O.OOOXXXXXXXX
+saved_map = XO..O.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXX...
+saved_map = XOOOOOOOXXXXXX...#"..
+vline = 011 XXXXOOOOXXX..XX..
+saved_map = XXXXOOOOXXX..XX.."!..
+vline = 012 XXXXXXXXX.....X..
+saved_map = XXXXXXXXX.....X..!X..
+vline = 013 ...XXXX..........
+saved_map = ...XXXX.........."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 2 3:
+line = .
+line = *
+line = *
+saved_piece = .**
+line = .
+line = .
+line = .
+saved_piece = ...
+p1
+map = 15 | 17
+@?>=<;:9876543210-,..
+?>=<;:9876543210-,+..
+OO<;:9876543210-,+*..
+"OOO9876543210-,+*)..
+!OOO876543210-,+*)(..
+XXXOO6543210-,+*)('..
+!XXXO7654OOO0-OO('&..
+!XXXOOOOOO.OOOOOO&%..
+XXOOOO..OOOOXXXXO%$..
+XO..O.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXX!!!#"..
+XXXXOOOOXXX!!XX!""!..
+XXXXXXXXX!!""!X!"!X..
+!!!XXXX!!""##"!"#"!..
+"""!!!!""##$$#"#$#"..
+piece = 2 | 3
+.**
+...
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 OO...............
+saved_map = OO...............+*..
+vline = 003 .OOO.............
+saved_map = .OOO.............*)..
+vline = 004 OOOO.............
+saved_map = OOOO.............)(..
+vline = 005 XXXOO............
+saved_map = XXXOO............('..
+vline = 006 XXXXO....OOO..OO.
+saved_map = XXXXO....OOO..OO.'&..
+vline = 007 .XXXOOOOOO.OOOOOO
+saved_map = .XXXOOOOOO.OOOOOO&%..
+vline = 008 XXOOOO..OOOOXXXXO
+saved_map = XXOOOO..OOOOXXXXO%$..
+vline = 009 XO..O.OOOXXXXXXXX
+saved_map = XO..O.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXX...
+saved_map = XOOOOOOOXXXXXX...#"..
+vline = 011 XXXXOOOOXXX..XX..
+saved_map = XXXXOOOOXXX..XX.."!..
+vline = 012 XXXXXXXXX.....X..
+saved_map = XXXXXXXXX.....X..!X..
+vline = 013 ...XXXX..........
+saved_map = ...XXXX.........."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 2 3:
+line = .
+line = *
+line = .
+saved_piece = .*.
+line = *
+line = *
+line = .
+saved_piece = **.
+p1
+map = 15 | 17
+@?>=<;:9876543210-,..
+?>=<;:9876543210-,+..
+OO<;:9876543210-,+*..
+.OOO9876543210-,+*)..
+OOOO876543210-,+*)(..
+XXXOO6543210-,+*)('..
+XXXXO7654OOO0-OO('&..
+!XXXOOOOOO.OOOOOO&%..
+XXOOOO..OOOOXXXXO%$..
+XO..O.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXX!!!#"..
+XXXXOOOOXXX!!XX!""!..
+XXXXXXXXX!!""!X!"!X..
+!!!XXXX!!""##"!"#"!..
+"""!!!!""##$$#"#$#"..
+piece = 2 | 3
+.*.
+**.
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 OO...............
+saved_map = OO...............+*..
+vline = 003 .OOO.............
+saved_map = .OOO.............*)..
+vline = 004 OOOO.............
+saved_map = OOOO.............)(..
+vline = 005 XXXOO...........O
+saved_map = XXXOO...........O('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOO.OOOOOO
+saved_map = XXXXOOOOOO.OOOOOO&%..
+vline = 008 XXOOOO..OOOOXXXXO
+saved_map = XXOOOO..OOOOXXXXO%$..
+vline = 009 XO..O.OOOXXXXXXXX
+saved_map = XO..O.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXX...
+saved_map = XOOOOOOOXXXXXX...#"..
+vline = 011 XXXXOOOOXXX..XX..
+saved_map = XXXXOOOOXXX..XX.."!..
+vline = 012 XXXXXXXXX.....X..
+saved_map = XXXXXXXXX.....X..!X..
+vline = 013 ...XXXX..........
+saved_map = ...XXXX.........."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 2 2:
+line = *
+line = *
+saved_piece = **
+line = .
+line = .
+saved_piece = ..
+p1
+map = 15 | 17
+@?>=<;:9876543210-,..
+?>=<;:9876543210-,+..
+OO<;:9876543210-,+*..
+.OOO9876543210-,+*)..
+OOOO876543210-,+*)(..
+XXXOO876543210-,O('..
+XXXXO9876OOO21OOO'&..
+XXXXOOOOOO.OOOOOO&%..
+XXOOOO..OOOOXXXXO%$..
+XO..O.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXX!!!#"..
+XXXXOOOOXXX!!XX!""!..
+XXXXXXXXX!!""!X!"!X..
+!!!XXXX!!""##"!"#"!..
+"""!!!!""##$$#"#$#"..
+piece = 2 | 2
+**
+..
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 OO...............
+saved_map = OO...............+*..
+vline = 003 .OOO.............
+saved_map = .OOO.............*)..
+vline = 004 OOOO.............
+saved_map = OOOO.............)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOO.OOOOOO
+saved_map = XXXXOOOOOO.OOOOOO&%..
+vline = 008 XXOOOO..OOOOXXXXO
+saved_map = XXOOOO..OOOOXXXXO%$..
+vline = 009 XO..O.OOOXXXXXXXX
+saved_map = XO..O.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXX...
+saved_map = XOOOOOOOXXXXXX...#"..
+vline = 011 XXXXOOOOXXX..XX..
+saved_map = XXXXOOOOXXX..XX.."!..
+vline = 012 XXXXXXXXX.....X..
+saved_map = XXXXXXXXX.....X..!X..
+vline = 013 ...XXXXX.........
+saved_map = ...XXXXX........."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 2 1:
+line = *
+saved_piece = *
+line = *
+saved_piece = *
+p1
+map = 15 | 17
+@?>=<;:9876543210-,..
+?>=<;:9876543210-,+..
+OO<;:9876543210-,+*..
+.OOO9876543210-,+*)..
+OOOO876543210-,+*)(..
+XXXOO876543210-OO('..
+XXXXO9876OOO21OOO'&..
+XXXXOOOOOO.OOOOOO&%..
+XXOOOO..OOOOXXXXO%$..
+XO..O.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXX!!!#"..
+XXXXOOOOXXX!!XX!""!..
+XXXXXXXXX!!""!X!"!X..
+!!!XXXXX!""##"!"#"!..
+"""!!!!!"##$$#"#$#"..
+piece = 2 | 1
+*
+*
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 OO...............
+saved_map = OO...............+*..
+vline = 003 .OOO.............
+saved_map = .OOO.............*)..
+vline = 004 OOOO............O
+saved_map = OOOO............O)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOO.OOOOOO
+saved_map = XXXXOOOOOO.OOOOOO&%..
+vline = 008 XXOOOO..OOOOXXXXO
+saved_map = XXOOOO..OOOOXXXXO%$..
+vline = 009 XO..O.OOOXXXXXXXX
+saved_map = XO..O.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXX..
+saved_map = XOOOOOOOXXXXXXX..#"..
+vline = 011 XXXXOOOOXXX..XX..
+saved_map = XXXXOOOOXXX..XX.."!..
+vline = 012 XXXXXXXXX.....X..
+saved_map = XXXXXXXXX.....X..!X..
+vline = 013 ...XXXXX.........
+saved_map = ...XXXXX........."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 1 3:
+line = .
+line = *
+line = *
+saved_piece = .**
+p1
+map = 15 | 17
+@?>=<;:9876543210-,..
+?>=<;:9876543210-,+..
+OO<;:9876543210-,+*..
+.OOO9876543210-,+*)..
+OOOO:9876543210-O)(..
+XXXOO:987654321OO('..
+XXXXO;:98OOO43OOO'&..
+XXXXOOOOOO.OOOOOO&%..
+XXOOOO..OOOOXXXXO%$..
+XO..O.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXX!!#"..
+XXXXOOOOXXX!!XX!""!..
+XXXXXXXXX!!""!X!"!X..
+!!!XXXXX!""##"!"#"!..
+"""!!!!!"##$$#"#$#"..
+piece = 1 | 3
+.**
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 OO...............
+saved_map = OO...............+*..
+vline = 003 .OOO.............
+saved_map = .OOO.............*)..
+vline = 004 OOOO...........OO
+saved_map = OOOO...........OO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOO.OOOOOO
+saved_map = XXXXOOOOOO.OOOOOO&%..
+vline = 008 XXOOOO..OOOOXXXXO
+saved_map = XXOOOO..OOOOXXXXO%$..
+vline = 009 XO..O.OOOXXXXXXXX
+saved_map = XO..O.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXX.X
+saved_map = XOOOOOOOXXXXXXX.X#"..
+vline = 011 XXXXOOOOXXX..XX..
+saved_map = XXXXOOOOXXX..XX.."!..
+vline = 012 XXXXXXXXX.....X..
+saved_map = XXXXXXXXX.....X..!X..
+vline = 013 ...XXXXX.........
+saved_map = ...XXXXX........."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 2 3:
+line = .
+line = *
+line = *
+saved_piece = .**
+line = .
+line = .
+line = .
+saved_piece = ...
+p1
+map = 15 | 17
+@?>=<;:9876543210-,..
+?>=<;:9876543210-,+..
+OO<;:9876543210-,+*..
+.OOO9876543210-,+*)..
+OOOO:9876543210OO)(..
+XXXOO:987654321OO('..
+XXXXO;:98OOO43OOO'&..
+XXXXOOOOOO.OOOOOO&%..
+XXOOOO..OOOOXXXXO%$..
+XO..O.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXX!X#"..
+XXXXOOOOXXX!!XX!!"!..
+XXXXXXXXX!!""!X!"!X..
+!!!XXXXX!""##"!"#"!..
+"""!!!!!"##$$#"#$#"..
+piece = 2 | 3
+.**
+...
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 OO...............
+saved_map = OO...............+*..
+vline = 003 OOOO.............
+saved_map = OOOO.............*)..
+vline = 004 OOOO...........OO
+saved_map = OOOO...........OO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOO.OOOOOO
+saved_map = XXXXOOOOOO.OOOOOO&%..
+vline = 008 XXOOOO..OOOOXXXXO
+saved_map = XXOOOO..OOOOXXXXO%$..
+vline = 009 XO..O.OOOXXXXXXXX
+saved_map = XO..O.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXX.X
+saved_map = XOOOOOOOXXXXXXX.X#"..
+vline = 011 XXXXOOOOXXX..XX..
+saved_map = XXXXOOOOXXX..XX.."!..
+vline = 012 XXXXXXXXX.....X..
+saved_map = XXXXXXXXX.....X..!X..
+vline = 013 XX.XXXXX.........
+saved_map = XX.XXXXX........."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 2 2:
+line = .
+line = *
+saved_piece = .*
+line = *
+line = *
+saved_piece = **
+p1
+map = 15 | 17
+@?>=<;:9876543210-,..
+?>=<;:9876543210-,+..
+OO<;:9876543210-,+*..
+OOOO9876543210-,+*)..
+OOOO:9876543210OO)(..
+XXXOO:987654321OO('..
+XXXXO;:98OOO43OOO'&..
+XXXXOOOOOO.OOOOOO&%..
+XXOOOO..OOOOXXXXO%$..
+XO..O.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXX!X#"..
+XXXXOOOOXXX!!XX!!"!..
+XXXXXXXXX!!""!X!"!X..
+XX!XXXXX!""##"!"#"!..
+!!"!!!!!"##$$#"#$#"..
+piece = 2 | 2
+.*
+**
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 OO...............
+saved_map = OO...............+*..
+vline = 003 OOOO...........O.
+saved_map = OOOO...........O.*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOO.OOOOOO
+saved_map = XXXXOOOOOO.OOOOOO&%..
+vline = 008 XXOOOO..OOOOXXXXO
+saved_map = XXOOOO..OOOOXXXXO%$..
+vline = 009 XO..O.OOOXXXXXXXX
+saved_map = XO..O.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXX.X
+saved_map = XOOOOOOOXXXXXXX.X#"..
+vline = 011 XXXXOOOOXXX..XXXX
+saved_map = XXXXOOOOXXX..XXXX"!..
+vline = 012 XXXXXXXXX.....X..
+saved_map = XXXXXXXXX.....X..!X..
+vline = 013 XX.XXXXX.........
+saved_map = XX.XXXXX........."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 2 3:
+line = *
+line = *
+line = .
+saved_piece = **.
+line = .
+line = .
+line = .
+saved_piece = ...
+p1
+map = 15 | 17
+@?>=<;:9876543210-,..
+?>=<;:9876543210-,+..
+OO<;:9876543210-,+*..
+OOOO;:987654321O+*)..
+OOOO<;:9876543OOO)(..
+XXXOO<;:9876545OO('..
+XXXXO=<;:OOO65OOO'&..
+XXXXOOOOOO.OOOOOO&%..
+XXOOOO..OOOOXXXXO%$..
+XO..O.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXX!X#"..
+XXXXOOOOXXX!!XXXX"!..
+XXXXXXXXX!!""!X!!!X..
+XX!XXXXX!""##"!"""!..
+!!"!!!!!"##$$#"###"..
+piece = 2 | 3
+**.
+...
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 OO...............
+saved_map = OO...............+*..
+vline = 003 OOOO...........OO
+saved_map = OOOO...........OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOO.OOOOOO
+saved_map = XXXXOOOOOO.OOOOOO&%..
+vline = 008 XXOOOO..OOOOXXXXO
+saved_map = XXOOOO..OOOOXXXXO%$..
+vline = 009 XO..O.OOOXXXXXXXX
+saved_map = XO..O.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXX..XXXX
+saved_map = XXXXOOOOXXX..XXXX"!..
+vline = 012 XXXXXXXXX.....X..
+saved_map = XXXXXXXXX.....X..!X..
+vline = 013 XX.XXXXX.........
+saved_map = XX.XXXXX........."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 2 2:
+line = .
+line = .
+saved_piece = ..
+line = *
+line = *
+saved_piece = **
+p1
+map = 15 | 17
+@?>=<;:9876543210-,..
+?>=<;:9876543210-,+..
+OO<;:9876543210-,+*..
+OOOO;:987654321OO*)..
+OOOO<;:9876543OOO)(..
+XXXOO<;:9876545OO('..
+XXXXO=<;:OOO65OOO'&..
+XXXXOOOOOO.OOOOOO&%..
+XXOOOO..OOOOXXXXO%$..
+XO..O.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXX!!XXXX"!..
+XXXXXXXXX!!""!X!!!X..
+XX!XXXXX!""##"!"""!..
+!!"!!!!!"##$$#"###"..
+piece = 2 | 2
+..
+**
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 OO...............
+saved_map = OO...............+*..
+vline = 003 OOOO...........OO
+saved_map = OOOO...........OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOO..OOOOXXXXO
+saved_map = XXOOOO..OOOOXXXXO%$..
+vline = 009 XO..O.OOOXXXXXXXX
+saved_map = XO..O.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXX.XXXX
+saved_map = XXXXOOOOXXXX.XXXX"!..
+vline = 012 XXXXXXXXX.....X..
+saved_map = XXXXXXXXX.....X..!X..
+vline = 013 XX.XXXXX.........
+saved_map = XX.XXXXX........."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 6 4:
+line = .
+line = .
+line = .
+line = .
+saved_piece = ....
+line = *
+line = .
+line = .
+line = .
+saved_piece = *...
+line = *
+line = .
+line = .
+line = .
+saved_piece = *...
+line = .
+line = .
+line = .
+line = .
+saved_piece = ....
+line = .
+line = .
+line = .
+line = .
+saved_piece = ....
+line = .
+line = .
+line = .
+line = .
+saved_piece = ....
+p1
+map = 15 | 17
+@?>=<;:9876543210-,..
+?>=<;:9876543210-,+..
+OO<;:9876543210-,+*..
+OOOO;:987654321OO*)..
+OOOO<;:9876543OOO)(..
+XXXOO<;:9876545OO('..
+XXXXO=<;:OOO65OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOO..OOOOXXXXO%$..
+XO..O.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXX!XXXX"!..
+XXXXXXXXX!!!"!X!!!X..
+XX!XXXXX!"""#"!"""!..
+!!"!!!!!"###$#"###"..
+piece = 6 | 4
+....
+*...
+*...
+....
+....
+....
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 .................
+saved_map = .................,+..
+vline = 002 OO..............O
+saved_map = OO..............O+*..
+vline = 003 OOOO...........OO
+saved_map = OOOO...........OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOO..OOOOXXXXO
+saved_map = XXOOOO..OOOOXXXXO%$..
+vline = 009 XO..O.OOOXXXXXXXX
+saved_map = XO..O.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXX.XXXX
+saved_map = XXXXOOOOXXXX.XXXX"!..
+vline = 012 XXXXXXXXXX....X..
+saved_map = XXXXXXXXXX....X..!X..
+vline = 013 XX.XXXXX.........
+saved_map = XX.XXXXX........."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 2 3:
+line = .
+line = *
+line = *
+saved_piece = .**
+line = *
+line = *
+line = *
+saved_piece = ***
+p1
+map = 15 | 17
+@?>=<;:9876543210-,..
+?>=<;:9876543210-,+..
+OO>=<;:987654321O+*..
+OOOO=<;:9876543OO*)..
+OOOO>=<;:98765OOO)(..
+XXXOO>=<;:98767OO('..
+XXXXO?>=<OOO87OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOO..OOOOXXXXO%$..
+XO..O.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXX!XXXX"!..
+XXXXXXXXXX!!"!X!!!X..
+XX!XXXXX!!""#"!"""!..
+!!"!!!!!""##$#"###"..
+piece = 2 | 3
+.**
+***
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 ...............OO
+saved_map = ...............OO,+..
+vline = 002 OO............OOO
+saved_map = OO............OOO+*..
+vline = 003 OOOO...........OO
+saved_map = OOOO...........OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOO..OOOOXXXXO
+saved_map = XXOOOO..OOOOXXXXO%$..
+vline = 009 XO..O.OOOXXXXXXXX
+saved_map = XO..O.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXX.XXXX
+saved_map = XXXXOOOOXXXX.XXXX"!..
+vline = 012 XXXXXXXXXX....X..
+saved_map = XXXXXXXXXX....X..!X..
+vline = 013 XXXXXXXX.........
+saved_map = XXXXXXXX........."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 1 2:
+line = *
+line = *
+saved_piece = **
+p1
+map = 15 | 17
+@?>=<;:9876543210-,..
+A@?>=<;:9876543OO,+..
+OO@?>=<;:98765OOO+*..
+OOOO?>=<;:98767OO*)..
+OOOO@?>=<;:987OOO)(..
+XXXOO@?>=<;:989OO('..
+XXXXOA@?>OOO:9OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOO..OOOOXXXXO%$..
+XO..O.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXX!XXXX"!..
+XXXXXXXXXX!!"!X!!!X..
+XXXXXXXX!!""#"!"""!..
+!!!!!!!!""##$#"###"..
+piece = 1 | 2
+**
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 ...............OO
+saved_map = ...............OO,+..
+vline = 002 OO............OOO
+saved_map = OO............OOO+*..
+vline = 003 OOOO...........OO
+saved_map = OOOO...........OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XO..O.OOOXXXXXXXX
+saved_map = XO..O.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXX.XXXX
+saved_map = XXXXOOOOXXXX.XXXX"!..
+vline = 012 XXXXXXXXXXX...X..
+saved_map = XXXXXXXXXXX...X..!X..
+vline = 013 XXXXXXXX..XXX....
+saved_map = XXXXXXXX..XXX...."!..
+vline = 014 .................
+saved_map = .................#"..
+Piece_line = Piece 2 3:
+line = .
+line = .
+line = *
+saved_piece = ..*
+line = .
+line = *
+line = *
+saved_piece = .**
+p1
+map = 15 | 17
+@?>=<;:9876543210-,..
+A@?>=<;:9876543OO,+..
+OO@?>=<;:98765OOO+*..
+OOOO?>=<;:98767OO*)..
+OOOO@?>=<;:987OOO)(..
+XXXOO@?>=<;:989OO('..
+XXXXOA@?>OOO:9OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XO..O.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXX!XXXX"!..
+XXXXXXXXXXX!!!X!!!X..
+XXXXXXXX!!XXX!!"""!..
+!!!!!!!!""!!!""###"..
+piece = 2 | 3
+..*
+.**
+vline = 000 .................
+saved_map = .................-,..
+vline = 001 ...............OO
+saved_map = ...............OO,+..
+vline = 002 OO............OOO
+saved_map = OO............OOO+*..
+vline = 003 OOOO...........OO
+saved_map = OOOO...........OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXX.XXXX
+saved_map = XXXXOOOOXXXX.XXXX"!..
+vline = 012 XXXXXXXXXXX...X..
+saved_map = XXXXXXXXXXX...X..!X..
+vline = 013 XXXXXXXXX.XXX....
+saved_map = XXXXXXXXX.XXX...."!..
+vline = 014 ........X........
+saved_map = ........X........#"..
+Piece_line = Piece 2 2:
+line = *
+line = .
+saved_piece = *.
+line = *
+line = *
+saved_piece = **
+p1
+map = 15 | 17
+@?>=<;:9876543210-,..
+A@?>=<;:9876543OO,+..
+OO@?>=<;:98765OOO+*..
+OOOO?>=<;:98767OO*)..
+OOOO@?>=<;:987OOO)(..
+XXXOO@?>=<;:989OO('..
+XXXXOA@?>OOO:9OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXX!XXXX"!..
+XXXXXXXXXXX!!!X!!!X..
+XXXXXXXXX!XXX!!"""!..
+!!!!!!!!X"!!!""###"..
+piece = 2 | 2
+*.
+**
+vline = 000 ..............O..
+saved_map = ..............O..-,..
+vline = 001 ..............OOO
+saved_map = ..............OOO,+..
+vline = 002 OO............OOO
+saved_map = OO............OOO+*..
+vline = 003 OOOO...........OO
+saved_map = OOOO...........OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXX.X..
+saved_map = XXXXXXXXXXXXX.X..!X..
+vline = 013 XXXXXXXXX.XXX....
+saved_map = XXXXXXXXX.XXX...."!..
+vline = 014 ........X........
+saved_map = ........X........#"..
+Piece_line = Piece 2 3:
+line = .
+line = *
+line = *
+saved_piece = .**
+line = .
+line = .
+line = .
+saved_piece = ...
+p1
+map = 15 | 17
+..............O10-,..
+..............OOO,+..
+OO............OOO+*..
+OOOO...........OO*)..
+OOOO..........OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXX!X!!!X..
+XXXXXXXXX!XXX!!"""!..
+!!!!!!!!X"!!!""###"..
+piece = 2 | 3
+.**
+...
+vline = 000 .............OO..
+saved_map = .............OO..-,..
+vline = 001 ..............OOO
+saved_map = ..............OOO,+..
+vline = 002 OO............OOO
+saved_map = OO............OOO+*..
+vline = 003 OOOO...........OO
+saved_map = OOOO...........OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXX.X..
+saved_map = XXXXXXXXXXXXX.X..!X..
+vline = 013 XXXXXXXXXXXXX....
+saved_map = XXXXXXXXXXXXX...."!..
+vline = 014 ........X........
+saved_map = ........X........#"..
+Piece_line = Piece 2 1:
+line = *
+saved_piece = *
+line = *
+saved_piece = *
+p1
+map = 15 | 17
+.............OO10-,..
+..............OOO,+..
+OO............OOO+*..
+OOOO...........OO*)..
+OOOO..........OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXX!X!!!X..
+XXXXXXXXXXXXX!!"""!..
+!!!!!!!!X!!!!""###"..
+piece = 2 | 1
+*
+*
+vline = 000 .............OO..
+saved_map = .............OO..-,..
+vline = 001 .............OOOO
+saved_map = .............OOOO,+..
+vline = 002 OO............OOO
+saved_map = OO............OOO+*..
+vline = 003 OOOO...........OO
+saved_map = OOOO...........OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXX.X..
+saved_map = XXXXXXXXXXXXX.X..!X..
+vline = 013 XXXXXXXXXXXXX....
+saved_map = XXXXXXXXXXXXX...."!..
+vline = 014 .......XX........
+saved_map = .......XX........#"..
+Piece_line = Piece 2 1:
+line = *
+saved_piece = *
+line = *
+saved_piece = *
+p1
+map = 15 | 17
+.............OO10-,..
+.............OOOO,+..
+OO............OOO+*..
+OOOO...........OO*)..
+OOOO..........OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXX!X!!!X..
+XXXXXXXXXXXXX!!"""!..
+!!!!!!!XX!!!!""###"..
+piece = 2 | 1
+*
+*
+vline = 000 .............OO..
+saved_map = .............OO..-,..
+vline = 001 .............OOOO
+saved_map = .............OOOO,+..
+vline = 002 OO...........OOOO
+saved_map = OO...........OOOO+*..
+vline = 003 OOOO...........OO
+saved_map = OOOO...........OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXX.X..
+saved_map = XXXXXXXXXXXXX.X..!X..
+vline = 013 XXXXXXXXXXXXX....
+saved_map = XXXXXXXXXXXXX...."!..
+vline = 014 ....X..XX........
+saved_map = ....X..XX........#"..
+Piece_line = Piece 2 3:
+line = .
+line = .
+line = .
+saved_piece = ...
+line = *
+line = *
+line = .
+saved_piece = **.
+p1
+map = 15 | 17
+.............OO10-,..
+.............OOOO,+..
+OO...........OOOO+*..
+OOOO...........OO*)..
+OOOO..........OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXX!X!!!X..
+XXXXXXXXXXXXX!!"""!..
+!!!!X!!XX!!!!""###"..
+piece = 2 | 3
+...
+**.
+vline = 000 ............OOO..
+saved_map = ............OOO..-,..
+vline = 001 .............OOOO
+saved_map = .............OOOO,+..
+vline = 002 OO...........OOOO
+saved_map = OO...........OOOO+*..
+vline = 003 OOOO...........OO
+saved_map = OOOO...........OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXX.X..
+saved_map = XXXXXXXXXXXXX.X..!X..
+vline = 013 XXXXXXXXXXXXX....
+saved_map = XXXXXXXXXXXXX...."!..
+vline = 014 XXX.X..XX........
+saved_map = XXX.X..XX........#"..
+Piece_line = Piece 1 3:
+line = .
+line = *
+line = *
+saved_piece = .**
+p1
+map = 15 | 17
+............OOO10-,..
+.............OOOO,+..
+OO...........OOOO+*..
+OOOO...........OO*)..
+OOOO..........OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXX!X!!!X..
+XXXXXXXXXXXXX!!"""!..
+XXX!X!!XX!!!!""###"..
+piece = 1 | 3
+.**
+vline = 000 ...........OOOO..
+saved_map = ...........OOOO..-,..
+vline = 001 .............OOOO
+saved_map = .............OOOO,+..
+vline = 002 OO...........OOOO
+saved_map = OO...........OOOO+*..
+vline = 003 OOOO...........OO
+saved_map = OOOO...........OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXX.X..
+saved_map = XXXXXXXXXXXXX.X..!X..
+vline = 013 XXXXXXXXXXXXX....
+saved_map = XXXXXXXXXXXXX...."!..
+vline = 014 XXXXX..XX........
+saved_map = XXXXX..XX........#"..
+Piece_line = Piece 1 3:
+line = .
+line = *
+line = *
+saved_piece = .**
+p1
+map = 15 | 17
+...........OOOO10-,..
+.............OOOO,+..
+OO...........OOOO+*..
+OOOO...........OO*)..
+OOOO..........OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXX!X!!!X..
+XXXXXXXXXXXXX!!"""!..
+XXXXX!!XX!!!!""###"..
+piece = 1 | 3
+.**
+vline = 000 ..........OOOOO..
+saved_map = ..........OOOOO..-,..
+vline = 001 .............OOOO
+saved_map = .............OOOO,+..
+vline = 002 OO...........OOOO
+saved_map = OO...........OOOO+*..
+vline = 003 OOOO...........OO
+saved_map = OOOO...........OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXX..
+saved_map = XXXXXXXXXXXXXXX..!X..
+vline = 013 XXXXXXXXXXXXXX...
+saved_map = XXXXXXXXXXXXXX..."!..
+vline = 014 XXXXX..XX........
+saved_map = XXXXX..XX........#"..
+Piece_line = Piece 1 3:
+line = .
+line = *
+line = *
+saved_piece = .**
+p1
+map = 15 | 17
+..........OOOOO10-,..
+.............OOOO,+..
+OO...........OOOO+*..
+OOOO...........OO*)..
+OOOO..........OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXX!!!X..
+XXXXXXXXXXXXXX!"""!..
+XXXXX!!XX!!!!!"###"..
+piece = 1 | 3
+.**
+vline = 000 .........OOOOOO..
+saved_map = .........OOOOOO..-,..
+vline = 001 .............OOOO
+saved_map = .............OOOO,+..
+vline = 002 OO...........OOOO
+saved_map = OO...........OOOO+*..
+vline = 003 OOOO...........OO
+saved_map = OOOO...........OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXX..
+saved_map = XXXXXXXXXXXXXXX..!X..
+vline = 013 XXXXXXXXXXXXXX...
+saved_map = XXXXXXXXXXXXXX..."!..
+vline = 014 XXXXXX.XX........
+saved_map = XXXXXX.XX........#"..
+Piece_line = Piece 2 3:
+line = .
+line = *
+line = *
+saved_piece = .**
+line = .
+line = .
+line = .
+saved_piece = ...
+p1
+map = 15 | 17
+.........OOOOOO10-,..
+.............OOOO,+..
+OO...........OOOO+*..
+OOOO...........OO*)..
+OOOO..........OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXX!!!X..
+XXXXXXXXXXXXXX!"""!..
+XXXXXX!XX!!!!!"###"..
+piece = 2 | 3
+.**
+...
+vline = 000 ........OOOOOOO..
+saved_map = ........OOOOOOO..-,..
+vline = 001 .............OOOO
+saved_map = .............OOOO,+..
+vline = 002 OO...........OOOO
+saved_map = OO...........OOOO+*..
+vline = 003 OOOO...........OO
+saved_map = OOOO...........OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXX..
+saved_map = XXXXXXXXXXXXXXX..!X..
+vline = 013 XXXXXXXXXXXXXX...
+saved_map = XXXXXXXXXXXXXX..."!..
+vline = 014 XXXXXXXXX........
+saved_map = XXXXXXXXX........#"..
+Piece_line = Piece 1 3:
+line = .
+line = *
+line = *
+saved_piece = .**
+p1
+map = 15 | 17
+........OOOOOOO10-,..
+.............OOOO,+..
+OO...........OOOO+*..
+OOOO...........OO*)..
+OOOO..........OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXX!!!X..
+XXXXXXXXXXXXXX!"""!..
+XXXXXXXXX!!!!!"###"..
+piece = 1 | 3
+.**
+vline = 000 .......OOOOOOOO..
+saved_map = .......OOOOOOOO..-,..
+vline = 001 .............OOOO
+saved_map = .............OOOO,+..
+vline = 002 OO...........OOOO
+saved_map = OO...........OOOO+*..
+vline = 003 OOOO...........OO
+saved_map = OOOO...........OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXX.X
+saved_map = XXXXXXXXXXXXXXX.X!X..
+vline = 013 XXXXXXXXXXXXXX...
+saved_map = XXXXXXXXXXXXXX..."!..
+vline = 014 XXXXXXXXX........
+saved_map = XXXXXXXXX........#"..
+Piece_line = Piece 2 3:
+line = *
+line = .
+line = *
+saved_piece = *.*
+line = *
+line = *
+line = *
+saved_piece = ***
+p1
+map = 15 | 17
+.......OOOOOOOO10-,..
+.............OOOO,+..
+OO...........OOOO+*..
+OOOO...........OO*)..
+OOOO..........OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXX!X!X..
+XXXXXXXXXXXXXX!"!"!..
+XXXXXXXXX!!!!!"#"#"..
+piece = 2 | 3
+*.*
+***
+vline = 000 .....O.OOOOOOOO..
+saved_map = .....O.OOOOOOOO..-,..
+vline = 001 .....OOO.....OOOO
+saved_map = .....OOO.....OOOO,+..
+vline = 002 OO...........OOOO
+saved_map = OO...........OOOO+*..
+vline = 003 OOOO...........OO
+saved_map = OOOO...........OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXX...
+saved_map = XXXXXXXXXXXXXX..."!..
+vline = 014 XXXXXXXXX........
+saved_map = XXXXXXXXX........#"..
+Piece_line = Piece 2 3:
+line = *
+line = *
+line = *
+saved_piece = ***
+line = .
+line = .
+line = .
+saved_piece = ...
+p1
+map = 15 | 17
+.....O.OOOOOOOO10-,..
+.....OOO.....OOOO,+..
+OO...........OOOO+*..
+OOOO...........OO*)..
+OOOO..........OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXX!!!"!..
+XXXXXXXXX!!!!!"""#"..
+piece = 2 | 3
+***
+...
+vline = 000 ....OOOOOOOOOOO..
+saved_map = ....OOOOOOOOOOO..-,..
+vline = 001 .....OOO.....OOOO
+saved_map = .....OOO.....OOOO,+..
+vline = 002 OO...........OOOO
+saved_map = OO...........OOOO+*..
+vline = 003 OOOO...........OO
+saved_map = OOOO...........OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXX...
+saved_map = XXXXXXXXXXXXXX..."!..
+vline = 014 XXXXXXXXXX.......
+saved_map = XXXXXXXXXX.......#"..
+Piece_line = Piece 2 1:
+line = *
+saved_piece = *
+line = *
+saved_piece = *
+p1
+map = 15 | 17
+....OOOOOOOOOOO10-,..
+.....OOO.....OOOO,+..
+OO...........OOOO+*..
+OOOO...........OO*)..
+OOOO..........OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXX!!!"!..
+XXXXXXXXXX!!!!"""#"..
+piece = 2 | 1
+*
+*
+vline = 000 ....OOOOOOOOOOO..
+saved_map = ....OOOOOOOOOOO..-,..
+vline = 001 ....OOOO.....OOOO
+saved_map = ....OOOO.....OOOO,+..
+vline = 002 OO...........OOOO
+saved_map = OO...........OOOO+*..
+vline = 003 OOOO...........OO
+saved_map = OOOO...........OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXX..X
+saved_map = XXXXXXXXXXXXXX..X"!..
+vline = 014 XXXXXXXXXX.......
+saved_map = XXXXXXXXXX.......#"..
+Piece_line = Piece 1 3:
+line = .
+line = *
+line = *
+saved_piece = .**
+p1
+map = 15 | 17
+....OOOOOOOOOOO10-,..
+....OOOO.....OOOO,+..
+OO...........OOOO+*..
+OOOO...........OO*)..
+OOOO..........OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXX!!X"!..
+XXXXXXXXXX!!!!""!#"..
+piece = 1 | 3
+.**
+vline = 000 ...OOOOOOOOOOOO..
+saved_map = ...OOOOOOOOOOOO..-,..
+vline = 001 ....OOOO.....OOOO
+saved_map = ....OOOO.....OOOO,+..
+vline = 002 OO...........OOOO
+saved_map = OO...........OOOO+*..
+vline = 003 OOOO...........OO
+saved_map = OOOO...........OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXX.X
+saved_map = XXXXXXXXXXXXXXX.X"!..
+vline = 014 XXXXXXXXXX.......
+saved_map = XXXXXXXXXX.......#"..
+Piece_line = Piece 1 2:
+line = *
+line = *
+saved_piece = **
+p1
+map = 15 | 17
+...OOOOOOOOOOOO10-,..
+....OOOO.....OOOO,+..
+OO...........OOOO+*..
+OOOO...........OO*)..
+OOOO..........OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXX!X"!..
+XXXXXXXXXX!!!!!"!#"..
+piece = 1 | 2
+**
+vline = 000 ..OOOOOOOOOOOOO..
+saved_map = ..OOOOOOOOOOOOO..-,..
+vline = 001 ....OOOO.....OOOO
+saved_map = ....OOOO.....OOOO,+..
+vline = 002 OO...........OOOO
+saved_map = OO...........OOOO+*..
+vline = 003 OOOO...........OO
+saved_map = OOOO...........OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXX.......
+saved_map = XXXXXXXXXX.......#"..
+Piece_line = Piece 1 2:
+line = *
+line = *
+saved_piece = **
+p1
+map = 15 | 17
+..OOOOOOOOOOOOO10-,..
+....OOOO.....OOOO,+..
+OO...........OOOO+*..
+OOOO...........OO*)..
+OOOO..........OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXX!!!!!!!#"..
+piece = 1 | 2
+**
+vline = 000 .OOOOOOOOOOOOOO..
+saved_map = .OOOOOOOOOOOOOO..-,..
+vline = 001 ....OOOO.....OOOO
+saved_map = ....OOOO.....OOOO,+..
+vline = 002 OO...........OOOO
+saved_map = OO...........OOOO+*..
+vline = 003 OOOO...........OO
+saved_map = OOOO...........OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXXXX.....
+saved_map = XXXXXXXXXXXX.....#"..
+Piece_line = Piece 1 3:
+line = *
+line = *
+line = *
+saved_piece = ***
+p1
+map = 15 | 17
+.OOOOOOOOOOOOOO10-,..
+....OOOO.....OOOO,+..
+OO...........OOOO+*..
+OOOO...........OO*)..
+OOOO..........OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXXXX!!!!!#"..
+piece = 1 | 3
+***
+vline = 000 .OOOOOOOOOOOOOO..
+saved_map = .OOOOOOOOOOOOOO..-,..
+vline = 001 ..OOOOOO.....OOOO
+saved_map = ..OOOOOO.....OOOO,+..
+vline = 002 OO...........OOOO
+saved_map = OO...........OOOO+*..
+vline = 003 OOOO...........OO
+saved_map = OOOO...........OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXXXX....X
+saved_map = XXXXXXXXXXXX....X#"..
+Piece_line = Piece 2 1:
+line = *
+saved_piece = *
+line = *
+saved_piece = *
+p1
+map = 15 | 17
+.OOOOOOOOOOOOOO10-,..
+..OOOOOO.....OOOO,+..
+OO...........OOOO+*..
+OOOO...........OO*)..
+OOOO..........OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXXXX!!!!X#"..
+piece = 2 | 1
+*
+*
+vline = 000 .OOOOOOOOOOOOOO..
+saved_map = .OOOOOOOOOOOOOO..-,..
+vline = 001 .OOOOOOO.....OOOO
+saved_map = .OOOOOOO.....OOOO,+..
+vline = 002 OO...........OOOO
+saved_map = OO...........OOOO+*..
+vline = 003 OOOO...........OO
+saved_map = OOOO...........OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXXXXXXX.X
+saved_map = XXXXXXXXXXXXXXX.X#"..
+Piece_line = Piece 2 1:
+line = *
+saved_piece = *
+line = *
+saved_piece = *
+p1
+map = 15 | 17
+.OOOOOOOOOOOOOO10-,..
+.OOOOOOO.....OOOO,+..
+OO...........OOOO+*..
+OOOO...........OO*)..
+OOOO..........OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXXXXXXX!X#"..
+piece = 2 | 1
+*
+*
+vline = 000 .OOOOOOOOOOOOOO..
+saved_map = .OOOOOOOOOOOOOO..-,..
+vline = 001 .OOOOOOOO....OOOO
+saved_map = .OOOOOOOO....OOOO,+..
+vline = 002 OO...........OOOO
+saved_map = OO...........OOOO+*..
+vline = 003 OOOO...........OO
+saved_map = OOOO...........OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX#"..
+Piece_line = Piece 2 1:
+line = *
+saved_piece = *
+line = *
+saved_piece = *
+p1
+map = 15 | 17
+.OOOOOOOOOOOOOO10-,..
+.OOOOOOOO....OOOO,+..
+OO...........OOOO+*..
+OOOO...........OO*)..
+OOOO..........OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX#"..
+piece = 2 | 1
+*
+*
+vline = 000 .OOOOOOOOOOOOOO..
+saved_map = .OOOOOOOOOOOOOO..-,..
+vline = 001 .OOOOOOOOO...OOOO
+saved_map = .OOOOOOOOO...OOOO,+..
+vline = 002 OO...........OOOO
+saved_map = OO...........OOOO+*..
+vline = 003 OOOO...........OO
+saved_map = OOOO...........OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX#"..
+Piece_line = Piece 2 2:
+line = *
+line = *
+saved_piece = **
+line = *
+line = *
+saved_piece = **
+p1
+map = 15 | 17
+.OOOOOOOOOOOOOO10-,..
+.OOOOOOOOO...OOOO,+..
+OO...........OOOO+*..
+OOOO...........OO*)..
+OOOO..........OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX#"..
+piece = 2 | 2
+**
+**
+vline = 000 .OOOOOOOOOOOOOO..
+saved_map = .OOOOOOOOOOOOOO..-,..
+vline = 001 .OOOOOOOOOO..OOOO
+saved_map = .OOOOOOOOOO..OOOO,+..
+vline = 002 OO.......OO..OOOO
+saved_map = OO.......OO..OOOO+*..
+vline = 003 OOOO...........OO
+saved_map = OOOO...........OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX#"..
+Piece_line = Piece 3 1:
+line = .
+saved_piece = .
+line = *
+saved_piece = *
+line = *
+saved_piece = *
+p1
+map = 15 | 17
+.OOOOOOOOOOOOOO10-,..
+.OOOOOOOOOO..OOOO,+..
+OO.......OO..OOOO+*..
+OOOO...........OO*)..
+OOOO..........OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX#"..
+piece = 3 | 1
+.
+*
+*
+vline = 000 .OOOOOOOOOOOOOO..
+saved_map = .OOOOOOOOOOOOOO..-,..
+vline = 001 .OOOOOOOOOOO.OOOO
+saved_map = .OOOOOOOOOOO.OOOO,+..
+vline = 002 OO.......OO..OOOO
+saved_map = OO.......OO..OOOO+*..
+vline = 003 OOOO...........OO
+saved_map = OOOO...........OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX#"..
+Piece_line = Piece 1 3:
+line = .
+line = *
+line = *
+saved_piece = .**
+p1
+map = 15 | 17
+.OOOOOOOOOOOOOO10-,..
+.OOOOOOOOOOO.OOOO,+..
+OO.......OO..OOOO+*..
+OOOO...........OO*)..
+OOOO..........OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX#"..
+piece = 1 | 3
+.**
+vline = 000 OOOOOOOOOOOOOOO..
+saved_map = OOOOOOOOOOOOOOO..-,..
+vline = 001 .OOOOOOOOOOO.OOOO
+saved_map = .OOOOOOOOOOO.OOOO,+..
+vline = 002 OO.......OO..OOOO
+saved_map = OO.......OO..OOOO+*..
+vline = 003 OOOO...........OO
+saved_map = OOOO...........OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX#"..
+Piece_line = Piece 2 3:
+line = *
+line = *
+line = .
+saved_piece = **.
+line = *
+line = *
+line = *
+saved_piece = ***
+p1
+map = 15 | 17
+OOOOOOOOOOOOOOO10-,..
+.OOOOOOOOOOO.OOOO,+..
+OO.......OO..OOOO+*..
+OOOO...........OO*)..
+OOOO..........OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX#"..
+piece = 2 | 3
+**.
+***
+vline = 000 OOOOOOOOOOOOOOO..
+saved_map = OOOOOOOOOOOOOOO..-,..
+vline = 001 .OOOOOOOOOOO.OOOO
+saved_map = .OOOOOOOOOOO.OOOO,+..
+vline = 002 OO......OOO..OOOO
+saved_map = OO......OOO..OOOO+*..
+vline = 003 OOOO....OOO....OO
+saved_map = OOOO....OOO....OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX#"..
+Piece_line = Piece 2 3:
+line = *
+line = .
+line = .
+saved_piece = *..
+line = *
+line = .
+line = .
+saved_piece = *..
+p1
+map = 15 | 17
+OOOOOOOOOOOOOOO10-,..
+.OOOOOOOOOOO.OOOO,+..
+OO......OOO..OOOO+*..
+OOOO....OOO....OO*)..
+OOOO..........OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX#"..
+piece = 2 | 3
+*..
+*..
+vline = 000 OOOOOOOOOOOOOOO..
+saved_map = OOOOOOOOOOOOOOO..-,..
+vline = 001 OOOOOOOOOOOO.OOOO
+saved_map = OOOOOOOOOOOO.OOOO,+..
+vline = 002 OO......OOO..OOOO
+saved_map = OO......OOO..OOOO+*..
+vline = 003 OOOO....OOO....OO
+saved_map = OOOO....OOO....OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX#"..
+Piece_line = Piece 2 2:
+line = *
+line = *
+saved_piece = **
+line = .
+line = .
+saved_piece = ..
+p1
+map = 15 | 17
+OOOOOOOOOOOOOOO10-,..
+OOOOOOOOOOOO.OOOO,+..
+OO......OOO..OOOO+*..
+OOOO....OOO....OO*)..
+OOOO..........OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX#"..
+piece = 2 | 2
+**
+..
+vline = 000 OOOOOOOOOOOOOOO..
+saved_map = OOOOOOOOOOOOOOO..-,..
+vline = 001 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO,+..
+vline = 002 OO......OOO..OOOO
+saved_map = OO......OOO..OOOO+*..
+vline = 003 OOOO....OOO....OO
+saved_map = OOOO....OOO....OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX#"..
+Piece_line = Piece 1 2:
+line = *
+line = *
+saved_piece = **
+p1
+map = 15 | 17
+OOOOOOOOOOOOOOO10-,..
+OOOOOOOOOOOOOOOOO,+..
+OO......OOO..OOOO+*..
+OOOO....OOO....OO*)..
+OOOO..........OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX#"..
+piece = 1 | 2
+**
+vline = 000 OOOOOOOOOOOOOOO..
+saved_map = OOOOOOOOOOOOOOO..-,..
+vline = 001 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO,+..
+vline = 002 OOO.....OOO..OOOO
+saved_map = OOO.....OOO..OOOO+*..
+vline = 003 OOOO....OOO....OO
+saved_map = OOOO....OOO....OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX#"..
+Piece_line = Piece 1 3:
+line = .
+line = *
+line = *
+saved_piece = .**
+p1
+map = 15 | 17
+OOOOOOOOOOOOOOO10-,..
+OOOOOOOOOOOOOOOOO,+..
+OOO.....OOO..OOOO+*..
+OOOO....OOO....OO*)..
+OOOO..........OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX#"..
+piece = 1 | 3
+.**
+vline = 000 OOOOOOOOOOOOOOO..
+saved_map = OOOOOOOOOOOOOOO..-,..
+vline = 001 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO,+..
+vline = 002 OOOO....OOO..OOOO
+saved_map = OOOO....OOO..OOOO+*..
+vline = 003 OOOO....OOO....OO
+saved_map = OOOO....OOO....OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX#"..
+Piece_line = Piece 2 3:
+line = .
+line = *
+line = .
+saved_piece = .*.
+line = *
+line = *
+line = .
+saved_piece = **.
+p1
+map = 15 | 17
+OOOOOOOOOOOOOOO10-,..
+OOOOOOOOOOOOOOOOO,+..
+OOOO....OOO..OOOO+*..
+OOOO....OOO....OO*)..
+OOOO..........OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX#"..
+piece = 2 | 3
+.*.
+**.
+vline = 000 OOOOOOOOOOOOOOO..
+saved_map = OOOOOOOOOOOOOOO..-,..
+vline = 001 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO,+..
+vline = 002 OOOOOO..OOO..OOOO
+saved_map = OOOOOO..OOO..OOOO+*..
+vline = 003 OOOO....OOO....OO
+saved_map = OOOO....OOO....OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX#"..
+Piece_line = Piece 1 2:
+line = *
+line = *
+saved_piece = **
+p1
+map = 15 | 17
+OOOOOOOOOOOOOOO10-,..
+OOOOOOOOOOOOOOOOO,+..
+OOOOOO..OOO..OOOO+*..
+OOOO....OOO....OO*)..
+OOOO..........OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX#"..
+piece = 1 | 2
+**
+vline = 000 OOOOOOOOOOOOOOO..
+saved_map = OOOOOOOOOOOOOOO..-,..
+vline = 001 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO,+..
+vline = 002 OOOOOOO.OOO..OOOO
+saved_map = OOOOOOO.OOO..OOOO+*..
+vline = 003 OOOO....OOO....OO
+saved_map = OOOO....OOO....OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX#"..
+Piece_line = Piece 1 3:
+line = *
+line = *
+line = *
+saved_piece = ***
+p1
+map = 15 | 17
+OOOOOOOOOOOOOOO10-,..
+OOOOOOOOOOOOOOOOO,+..
+OOOOOOO.OOO..OOOO+*..
+OOOO....OOO....OO*)..
+OOOO..........OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX#"..
+piece = 1 | 3
+***
+vline = 000 OOOOOOOOOOOOOOO..
+saved_map = OOOOOOOOOOOOOOO..-,..
+vline = 001 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO,+..
+vline = 002 OOOOOOO.OOOOOOOOO
+saved_map = OOOOOOO.OOOOOOOOO+*..
+vline = 003 OOOO....OOO....OO
+saved_map = OOOO....OOO....OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX#"..
+Piece_line = Piece 2 3:
+line = .
+line = *
+line = *
+saved_piece = .**
+line = .
+line = .
+line = .
+saved_piece = ...
+p1
+map = 15 | 17
+OOOOOOOOOOOOOOO10-,..
+OOOOOOOOOOOOOOOOO,+..
+OOOOOOO.OOOOOOOOO+*..
+OOOO....OOO....OO*)..
+OOOO..........OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX#"..
+piece = 2 | 3
+.**
+...
+vline = 000 OOOOOOOOOOOOOOO..
+saved_map = OOOOOOOOOOOOOOO..-,..
+vline = 001 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO,+..
+vline = 002 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO+*..
+vline = 003 OOOO....OOO....OO
+saved_map = OOOO....OOO....OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX#"..
+Piece_line = Piece 1 3:
+line = .
+line = *
+line = *
+saved_piece = .**
+p1
+map = 15 | 17
+OOOOOOOOOOOOOOO10-,..
+OOOOOOOOOOOOOOOOO,+..
+OOOOOOOOOOOOOOOOO+*..
+OOOO....OOO....OO*)..
+OOOO..........OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX#"..
+piece = 1 | 3
+.**
+vline = 000 OOOOOOOOOOOOOOO..
+saved_map = OOOOOOOOOOOOOOO..-,..
+vline = 001 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO,+..
+vline = 002 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO+*..
+vline = 003 OOOOO...OOO....OO
+saved_map = OOOOO...OOO....OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX#"..
+Piece_line = Piece 2 1:
+line = *
+saved_piece = *
+line = *
+saved_piece = *
+p1
+map = 15 | 17
+OOOOOOOOOOOOOOO10-,..
+OOOOOOOOOOOOOOOOO,+..
+OOOOOOOOOOOOOOOOO+*..
+OOOOO...OOO....OO*)..
+OOOO..........OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX#"..
+piece = 2 | 1
+*
+*
+vline = 000 OOOOOOOOOOOOOOO..
+saved_map = OOOOOOOOOOOOOOO..-,..
+vline = 001 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO,+..
+vline = 002 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO+*..
+vline = 003 OOOOOO..OOO....OO
+saved_map = OOOOOO..OOO....OO*)..
+vline = 004 OOOO..........OOO
+saved_map = OOOO..........OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX#"..
+Piece_line = Piece 2 3:
+line = .
+line = *
+line = *
+saved_piece = .**
+line = *
+line = *
+line = *
+saved_piece = ***
+p1
+map = 15 | 17
+OOOOOOOOOOOOOOO10-,..
+OOOOOOOOOOOOOOOOO,+..
+OOOOOOOOOOOOOOOOO+*..
+OOOOOO..OOO....OO*)..
+OOOO..........OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX#"..
+piece = 2 | 3
+.**
+***
+vline = 000 OOOOOOOOOOOOOOO..
+saved_map = OOOOOOOOOOOOOOO..-,..
+vline = 001 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO,+..
+vline = 002 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO+*..
+vline = 003 OOOOOOO.OOO....OO
+saved_map = OOOOOOO.OOO....OO*)..
+vline = 004 OOOOOOO.......OOO
+saved_map = OOOOOOO.......OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX#"..
+Piece_line = Piece 1 3:
+line = .
+line = *
+line = *
+saved_piece = .**
+p1
+map = 15 | 17
+OOOOOOOOOOOOOOO10-,..
+OOOOOOOOOOOOOOOOO,+..
+OOOOOOOOOOOOOOOOO+*..
+OOOOOOO.OOO....OO*)..
+OOOOOOO.......OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX#"..
+piece = 1 | 3
+.**
+vline = 000 OOOOOOOOOOOOOOO..
+saved_map = OOOOOOOOOOOOOOO..-,..
+vline = 001 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO,+..
+vline = 002 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO+*..
+vline = 003 OOOOOOOOOOO....OO
+saved_map = OOOOOOOOOOO....OO*)..
+vline = 004 OOOOOOO.......OOO
+saved_map = OOOOOOO.......OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX#"..
+Piece_line = Piece 2 3:
+line = *
+line = .
+line = .
+saved_piece = *..
+line = *
+line = .
+line = .
+saved_piece = *..
+p1
+map = 15 | 17
+OOOOOOOOOOOOOOO10-,..
+OOOOOOOOOOOOOOOOO,+..
+OOOOOOOOOOOOOOOOO+*..
+OOOOOOOOOOO....OO*)..
+OOOOOOO.......OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX#"..
+piece = 2 | 3
+*..
+*..
+vline = 000 OOOOOOOOOOOOOOO..
+saved_map = OOOOOOOOOOOOOOO..-,..
+vline = 001 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO,+..
+vline = 002 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO+*..
+vline = 003 OOOOOOOOOOOO...OO
+saved_map = OOOOOOOOOOOO...OO*)..
+vline = 004 OOOOOOO.......OOO
+saved_map = OOOOOOO.......OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX#"..
+Piece_line = Piece 2 2:
+line = .
+line = *
+saved_piece = .*
+line = *
+line = *
+saved_piece = **
+p1
+map = 15 | 17
+OOOOOOOOOOOOOOO10-,..
+OOOOOOOOOOOOOOOOO,+..
+OOOOOOOOOOOOOOOOO+*..
+OOOOOOOOOOOO...OO*)..
+OOOOOOO.......OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX#"..
+piece = 2 | 2
+.*
+**
+vline = 000 OOOOOOOOOOOOOOO..
+saved_map = OOOOOOOOOOOOOOO..-,..
+vline = 001 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO,+..
+vline = 002 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO+*..
+vline = 003 OOOOOOOOOOOOOO.OO
+saved_map = OOOOOOOOOOOOOO.OO*)..
+vline = 004 OOOOOOO.......OOO
+saved_map = OOOOOOO.......OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX#"..
+Piece_line = Piece 1 2:
+line = *
+line = *
+saved_piece = **
+p1
+map = 15 | 17
+OOOOOOOOOOOOOOO10-,..
+OOOOOOOOOOOOOOOOO,+..
+OOOOOOOOOOOOOOOOO+*..
+OOOOOOOOOOOOOO.OO*)..
+OOOOOOO.......OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX#"..
+piece = 1 | 2
+**
+vline = 000 OOOOOOOOOOOOOOO..
+saved_map = OOOOOOOOOOOOOOO..-,..
+vline = 001 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO,+..
+vline = 002 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO+*..
+vline = 003 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO*)..
+vline = 004 OOOOOOO.......OOO
+saved_map = OOOOOOO.......OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX#"..
+Piece_line = Piece 2 2:
+line = *
+line = .
+saved_piece = *.
+line = *
+line = .
+saved_piece = *.
+p1
+map = 15 | 17
+OOOOOOOOOOOOOOO10-,..
+OOOOOOOOOOOOOOOOO,+..
+OOOOOOOOOOOOOOOOO+*..
+OOOOOOOOOOOOOOOOO*)..
+OOOOOOO.......OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX#"..
+piece = 2 | 2
+*.
+*.
+vline = 000 OOOOOOOOOOOOOOO..
+saved_map = OOOOOOOOOOOOOOO..-,..
+vline = 001 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO,+..
+vline = 002 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO+*..
+vline = 003 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO*)..
+vline = 004 OOOOOOOO......OOO
+saved_map = OOOOOOOO......OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX#"..
+Piece_line = Piece 2 2:
+line = *
+line = *
+saved_piece = **
+line = .
+line = .
+saved_piece = ..
+p1
+map = 15 | 17
+OOOOOOOOOOOOOOO10-,..
+OOOOOOOOOOOOOOOOO,+..
+OOOOOOOOOOOOOOOOO+*..
+OOOOOOOOOOOOOOOOO*)..
+OOOOOOOO......OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX#"..
+piece = 2 | 2
+**
+..
+vline = 000 OOOOOOOOOOOOOOO..
+saved_map = OOOOOOOOOOOOOOO..-,..
+vline = 001 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO,+..
+vline = 002 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO+*..
+vline = 003 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO*)..
+vline = 004 OOOOOOOOO.....OOO
+saved_map = OOOOOOOOO.....OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX#"..
+Piece_line = Piece 1 2:
+line = *
+line = *
+saved_piece = **
+p1
+map = 15 | 17
+OOOOOOOOOOOOOOO10-,..
+OOOOOOOOOOOOOOOOO,+..
+OOOOOOOOOOOOOOOOO+*..
+OOOOOOOOOOOOOOOOO*)..
+OOOOOOOOO.....OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX#"..
+piece = 1 | 2
+**
+vline = 000 OOOOOOOOOOOOOOO..
+saved_map = OOOOOOOOOOOOOOO..-,..
+vline = 001 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO,+..
+vline = 002 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO+*..
+vline = 003 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO*)..
+vline = 004 OOOOOOOOOO....OOO
+saved_map = OOOOOOOOOO....OOO)(..
+vline = 005 XXXOO..........OO
+saved_map = XXXOO..........OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX#"..
+Piece_line = Piece 2 3:
+line = *
+line = *
+line = *
+saved_piece = ***
+line = *
+line = *
+line = *
+saved_piece = ***
+p1
+map = 15 | 17
+OOOOOOOOOOOOOOO10-,..
+OOOOOOOOOOOOOOOOO,+..
+OOOOOOOOOOOOOOOOO+*..
+OOOOOOOOOOOOOOOOO*)..
+OOOOOOOOOO....OOO)(..
+XXXOO..........OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX#"..
+piece = 2 | 3
+***
+***
+vline = 000 OOOOOOOOOOOOOOO..
+saved_map = OOOOOOOOOOOOOOO..-,..
+vline = 001 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO,+..
+vline = 002 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO+*..
+vline = 003 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO*)..
+vline = 004 OOOOOOOOOOOO..OOO
+saved_map = OOOOOOOOOOOO..OOO)(..
+vline = 005 XXXOO....OOO...OO
+saved_map = XXXOO....OOO...OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX#"..
+Piece_line = Piece 2 1:
+line = *
+saved_piece = *
+line = *
+saved_piece = *
+p1
+map = 15 | 17
+OOOOOOOOOOOOOOO10-,..
+OOOOOOOOOOOOOOOOO,+..
+OOOOOOOOOOOOOOOOO+*..
+OOOOOOOOOOOOOOOOO*)..
+OOOOOOOOOOOO..OOO)(..
+XXXOO....OOO...OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX#"..
+piece = 2 | 1
+*
+*
+vline = 000 OOOOOOOOOOOOOOO..
+saved_map = OOOOOOOOOOOOOOO..-,..
+vline = 001 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO,+..
+vline = 002 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO+*..
+vline = 003 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO*)..
+vline = 004 OOOOOOOOOOOOO.OOO
+saved_map = OOOOOOOOOOOOO.OOO)(..
+vline = 005 XXXOO....OOO...OO
+saved_map = XXXOO....OOO...OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX#"..
+Piece_line = Piece 1 3:
+line = .
+line = *
+line = *
+saved_piece = .**
+p1
+map = 15 | 17
+OOOOOOOOOOOOOOO10-,..
+OOOOOOOOOOOOOOOOO,+..
+OOOOOOOOOOOOOOOOO+*..
+OOOOOOOOOOOOOOOOO*)..
+OOOOOOOOOOOOO.OOO)(..
+XXXOO....OOO...OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX#"..
+piece = 1 | 3
+.**
+vline = 000 OOOOOOOOOOOOOOO..
+saved_map = OOOOOOOOOOOOOOO..-,..
+vline = 001 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO,+..
+vline = 002 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO+*..
+vline = 003 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO*)..
+vline = 004 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO)(..
+vline = 005 XXXOO....OOO...OO
+saved_map = XXXOO....OOO...OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX#"..
+Piece_line = Piece 2 3:
+line = .
+line = *
+line = .
+saved_piece = .*.
+line = *
+line = *
+line = *
+saved_piece = ***
+p1
+map = 15 | 17
+OOOOOOOOOOOOOOO10-,..
+OOOOOOOOOOOOOOOOO,+..
+OOOOOOOOOOOOOOOOO+*..
+OOOOOOOOOOOOOOOOO*)..
+OOOOOOOOOOOOOOOOO)(..
+XXXOO....OOO...OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX#"..
+piece = 2 | 3
+.*.
+***
+vline = 000 OOOOOOOOOOOOOOO..
+saved_map = OOOOOOOOOOOOOOO..-,..
+vline = 001 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO,+..
+vline = 002 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO+*..
+vline = 003 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO*)..
+vline = 004 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO)(..
+vline = 005 XXXOOOOO.OOO...OO
+saved_map = XXXOOOOO.OOO...OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX#"..
+Piece_line = Piece 2 3:
+line = *
+line = .
+line = .
+saved_piece = *..
+line = *
+line = *
+line = .
+saved_piece = **.
+p1
+map = 15 | 17
+OOOOOOOOOOOOOOO10-,..
+OOOOOOOOOOOOOOOOO,+..
+OOOOOOOOOOOOOOOOO+*..
+OOOOOOOOOOOOOOOOO*)..
+OOOOOOOOOOOOOOOOO)(..
+XXXOOOOO.OOO...OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX#"..
+piece = 2 | 3
+*..
+**.
+vline = 000 OOOOOOOOOOOOOOO..
+saved_map = OOOOOOOOOOOOOOO..-,..
+vline = 001 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO,+..
+vline = 002 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO+*..
+vline = 003 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO*)..
+vline = 004 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO)(..
+vline = 005 XXXOOOOO.OOOOO.OO
+saved_map = XXXOOOOO.OOOOO.OO('..
+vline = 006 XXXXO....OOO..OOO
+saved_map = XXXXO....OOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX#"..
+Piece_line = Piece 2 2:
+line = *
+line = *
+saved_piece = **
+line = .
+line = *
+saved_piece = .*
+p1
+map = 15 | 17
+OOOOOOOOOOOOOOO10-,..
+OOOOOOOOOOOOOOOOO,+..
+OOOOOOOOOOOOOOOOO+*..
+OOOOOOOOOOOOOOOOO*)..
+OOOOOOOOOOOOOOOOO)(..
+XXXOOOOO.OOOOO.OO('..
+XXXXO....OOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX#"..
+piece = 2 | 2
+**
+.*
+vline = 000 OOOOOOOOOOOOOOO..
+saved_map = OOOOOOOOOOOOOOO..-,..
+vline = 001 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO,+..
+vline = 002 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO+*..
+vline = 003 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO*)..
+vline = 004 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO)(..
+vline = 005 XXXOOOOOOOOOOO.OO
+saved_map = XXXOOOOOOOOOOO.OO('..
+vline = 006 XXXXO...OOOO..OOO
+saved_map = XXXXO...OOOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX#"..
+Piece_line = Piece 1 3:
+line = *
+line = *
+line = .
+saved_piece = **.
+p1
+map = 15 | 17
+OOOOOOOOOOOOOOO10-,..
+OOOOOOOOOOOOOOOOO,+..
+OOOOOOOOOOOOOOOOO+*..
+OOOOOOOOOOOOOOOOO*)..
+OOOOOOOOOOOOOOOOO)(..
+XXXOOOOOOOOOOO.OO('..
+XXXXO...OOOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX#"..
+piece = 1 | 3
+**.
+vline = 000 OOOOOOOOOOOOOOO..
+saved_map = OOOOOOOOOOOOOOO..-,..
+vline = 001 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO,+..
+vline = 002 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO+*..
+vline = 003 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO*)..
+vline = 004 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO)(..
+vline = 005 XXXOOOOOOOOOOOOOO
+saved_map = XXXOOOOOOOOOOOOOO('..
+vline = 006 XXXXO...OOOO..OOO
+saved_map = XXXXO...OOOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX#"..
+Piece_line = Piece 2 2:
+line = *
+line = *
+saved_piece = **
+line = *
+line = .
+saved_piece = *.
+p1
+map = 15 | 17
+OOOOOOOOOOOOOOO10-,..
+OOOOOOOOOOOOOOOOO,+..
+OOOOOOOOOOOOOOOOO+*..
+OOOOOOOOOOOOOOOOO*)..
+OOOOOOOOOOOOOOOOO)(..
+XXXOOOOOOOOOOOOOO('..
+XXXXO...OOOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX#"..
+piece = 2 | 2
+**
+*.
+vline = 000 OOOOOOOOOOOOOOO..
+saved_map = OOOOOOOOOOOOOOO..-,..
+vline = 001 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO,+..
+vline = 002 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO+*..
+vline = 003 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO*)..
+vline = 004 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO)(..
+vline = 005 XXXOOOOOOOOOOOOOO
+saved_map = XXXOOOOOOOOOOOOOO('..
+vline = 006 XXXXOOO.OOOO..OOO
+saved_map = XXXXOOO.OOOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX#"..
+Piece_line = Piece 2 1:
+line = *
+saved_piece = *
+line = *
+saved_piece = *
+p1
+map = 15 | 17
+OOOOOOOOOOOOOOO10-,..
+OOOOOOOOOOOOOOOOO,+..
+OOOOOOOOOOOOOOOOO+*..
+OOOOOOOOOOOOOOOOO*)..
+OOOOOOOOOOOOOOOOO)(..
+XXXOOOOOOOOOOOOOO('..
+XXXXOOO.OOOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX#"..
+piece = 2 | 1
+*
+*
+vline = 000 OOOOOOOOOOOOOOO..
+saved_map = OOOOOOOOOOOOOOO..-,..
+vline = 001 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO,+..
+vline = 002 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO+*..
+vline = 003 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO*)..
+vline = 004 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO)(..
+vline = 005 XXXOOOOOOOOOOOOOO
+saved_map = XXXOOOOOOOOOOOOOO('..
+vline = 006 XXXXOOOOOOOO..OOO
+saved_map = XXXXOOOOOOOO..OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX#"..
+Piece_line = Piece 2 3:
+line = .
+line = .
+line = .
+saved_piece = ...
+line = .
+line = *
+line = *
+saved_piece = .**
+p1
+map = 15 | 17
+OOOOOOOOOOOOOOO10-,..
+OOOOOOOOOOOOOOOOO,+..
+OOOOOOOOOOOOOOOOO+*..
+OOOOOOOOOOOOOOOOO*)..
+OOOOOOOOOOOOOOOOO)(..
+XXXOOOOOOOOOOOOOO('..
+XXXXOOOOOOOO..OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX#"..
+piece = 2 | 3
+...
+.**
+vline = 000 OOOOOOOOOOOOOOO..
+saved_map = OOOOOOOOOOOOOOO..-,..
+vline = 001 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO,+..
+vline = 002 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO+*..
+vline = 003 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO*)..
+vline = 004 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO)(..
+vline = 005 XXXOOOOOOOOOOOOOO
+saved_map = XXXOOOOOOOOOOOOOO('..
+vline = 006 XXXXOOOOOOOOO.OOO
+saved_map = XXXXOOOOOOOOO.OOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX#"..
+Piece_line = Piece 2 1:
+line = *
+saved_piece = *
+line = *
+saved_piece = *
+p1
+map = 15 | 17
+OOOOOOOOOOOOOOO10-,..
+OOOOOOOOOOOOOOOOO,+..
+OOOOOOOOOOOOOOOOO+*..
+OOOOOOOOOOOOOOOOO*)..
+OOOOOOOOOOOOOOOOO)(..
+XXXOOOOOOOOOOOOOO('..
+XXXXOOOOOOOOO.OOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX#"..
+piece = 2 | 1
+*
+*
+vline = 000 OOOOOOOOOOOOOOO..
+saved_map = OOOOOOOOOOOOOOO..-,..
+vline = 001 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO,+..
+vline = 002 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO+*..
+vline = 003 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO*)..
+vline = 004 OOOOOOOOOOOOOOOOO
+saved_map = OOOOOOOOOOOOOOOOO)(..
+vline = 005 XXXOOOOOOOOOOOOOO
+saved_map = XXXOOOOOOOOOOOOOO('..
+vline = 006 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO'&..
+vline = 007 XXXXOOOOOOOOOOOOO
+saved_map = XXXXOOOOOOOOOOOOO&%..
+vline = 008 XXOOOOO.OOOOXXXXO
+saved_map = XXOOOOO.OOOOXXXXO%$..
+vline = 009 XOOOO.OOOXXXXXXXX
+saved_map = XOOOO.OOOXXXXXXXX$#..
+vline = 010 XOOOOOOOXXXXXXXXX
+saved_map = XOOOOOOOXXXXXXXXX#"..
+vline = 011 XXXXOOOOXXXXXXXXX
+saved_map = XXXXOOOOXXXXXXXXX"!..
+vline = 012 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX!X..
+vline = 013 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX"!..
+vline = 014 XXXXXXXXXXXXXXXXX
+saved_map = XXXXXXXXXXXXXXXXX#"..
+Piece_line = Piece 2 3:
+line = *
+line = *
+line = *
+saved_piece = ***
+line = *
+line = *
+line = .
+saved_piece = **.
+p1
+map = 15 | 17
+OOOOOOOOOOOOOOO10-,..
+OOOOOOOOOOOOOOOOO,+..
+OOOOOOOOOOOOOOOOO+*..
+OOOOOOOOOOOOOOOOO*)..
+OOOOOOOOOOOOOOOOO)(..
+XXXOOOOOOOOOOOOOO('..
+XXXXOOOOOOOOOOOOO'&..
+XXXXOOOOOOOOOOOOO&%..
+XXOOOOO.OOOOXXXXO%$..
+XOOOO.OOOXXXXXXXX$#..
+XOOOOOOOXXXXXXXXX#"..
+XXXXOOOOXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX!X..
+XXXXXXXXXXXXXXXXX"!..
+XXXXXXXXXXXXXXXXX#"..
+piece = 2 | 3
+***
+**.

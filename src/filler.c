@@ -6,7 +6,7 @@
 /*   By: smakni <smakni@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/04 19:06:40 by smakni            #+#    #+#             */
-/*   Updated: 2019/01/23 18:21:34 by smakni           ###   ########.fr       */
+/*   Updated: 2019/01/25 14:08:30 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,8 @@ void	init_player(t_player *p)
 	p->i = 0;
 	p->j = 0;
 	p->check_read = 0;
+	p->check_p = 0;
+	p->line = 0;
 }
 
 int		main(void)
@@ -42,16 +44,18 @@ int		main(void)
 	fd = open("trace", O_TRUNC | O_WRONLY);
 	while (1)
 	{
-		if (save_data(p) == 1)
+		if (save_data(fd, p) == 1)
 		{
 			analyse_map(fd, p);
-//			print_data(fd, p);
-			algo(fd, p);
-			ft_tabdel(p->piece, p->p_y);
-			if (p->r_y == 0 && p->r_x == 0)
+			print_data(fd, p);
+			if (algo(fd, p) == -1)
 				break ;
+			ft_tabdel(p->piece, p->p_y);
+			//if (p->r_y == 0 && p->r_x == 0)
+			//	break ;
 		}
 	}
+	ft_printf("0 0\n");
 	ft_tabdel(p->map, p->m_y);
 	free(p);
 	return (0);
