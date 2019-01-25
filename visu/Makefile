@@ -3,70 +3,56 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: smakni <smakni@student.42.fr>              +#+  +:+       +#+         #
+#    By: vrenaudi <urenaudi@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2018/11/23 13:20:28 by smakni            #+#    #+#              #
-#    Updated: 2019/01/23 17:51:19 by smakni           ###   ########.fr        #
+#    Created: 2018/02/26 14:25:25 by vrenaudi          #+#    #+#              #
+#    Updated: 2018/11/09 17:05:17 by vrenaudi         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME		=	visu
+CC = gcc
 
-CC			=	gcc
+CFLAGS = -Wall -Wextra -Werror -g3
 
-CFLAGS		+=	 
+CFLAGS += $(shell sdl2-config --cflags)
 
-CPPFLAGS	=	-I include -I ../libft/include $(shell sdl2-config --cflags)
-				
-SRC_PATH	=	src
+LFLAG = $(shell sdl2-config --libs) -l SDL2_ttf
 
-OBJ_PATH	=	obj
+NAME = visu.filler
 
-LDFLAGS		=	-L ../libft $(shell sdl2-config --libs)
+SRCS = main.c \
+	   first_parsing.c \
+	   ft_init_env.c \
+	   ft_original_draw.c \
+	   ft_handle_event.c \
+	   ft_get_current_piece.c \
+	   useful.c \
+	   ft_next_move.c \
+	   ft_draw_piece.c \
+	   ft_draw_winner.c \
+	   ft_free_and_quit.c
 
-LDLIBS		=	-lft
+OBJ = $(SRCS:.c=.o)
 
-SRC_NAME	=	visu.c
+HEAD = -I ./
 
-OBJ_NAME	=	$(SRC_NAME:.c=.o)
+RM = rm -f
 
-SRC 		= 	$(addprefix $(SRC_PATH)/,$(SRC_NAME))
-
-OBJ 		= 	$(addprefix $(OBJ_PATH)/,$(OBJ_NAME))
+%.o: %.c
+	$(CC) $(HEAD) $(CFLAGS) -o $@ -c $<
 
 all: $(NAME)
 
-$(NAME): $(OBJ) 
-		make -C ../libft
-		$(CC) $(CFLAGS) $(LDFLAGS) $(LDLIBS) $(OBJ) -o $@
-
-$(OBJ_PATH)/%.o: $(SRC_PATH)/%.c
-	@mkdir $(OBJ_PATH) 2> /dev/null || true
-	$(CC) $(CFLAGS) $(CPPFLAGS) -o $@ -c $<
-
-sanitize: 
-		make -C libft
-		$(CC) -fsanitize=address -g3 $(LDFLAGS) $(LDLIBS) $(OBJ) -o smakni.filler
-
-resanitize: fclean $(OBJ) 
-		make -C libft
-		$(CC) -fsanitize=address -g3 $(LDFLAGS) $(LDLIBS) $(OBJ) -o smakni.filler
+$(NAME) : $(OBJ)
+	Make -C ../libft
+	$(CC) -o $(NAME) $(OBJ) $(CFLAGS) $(LFLAG) ../libft/libftprintf.a
 
 clean:
-	rm -fv $(OBJ)
-	rmdir $(OBJ_PATH) 2> /dev/null || true
-	make clean -C ../libft
+	Make clean -C ../libft
+	$(RM) $(OBJ)
 
 fclean: clean
-	rm -fv $(NAME)
-	make fclean -C ../libft
+	Make fclean -C ../libft
+	$(RM) $(NAME)
 
-re:
-	make fclean
-	make
-
-.PHONY: all, clean, fclean, re
-
-norme:
-	norminette $(SRC)
-	norminette ./include
+re: fclean all
