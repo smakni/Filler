@@ -6,7 +6,7 @@
 /*   By: smakni <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/04 19:10:23 by smakni            #+#    #+#             */
-/*   Updated: 2019/01/25 14:07:49 by smakni           ###   ########.fr       */
+/*   Updated: 2019/01/29 15:35:45 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,6 +37,8 @@ typedef	struct	s_player
 	int		j;
 	int		check_read;
 	int		check_p;
+	int		check_o;
+	int		check_x;
 	int		line;
 }				t_player;
 

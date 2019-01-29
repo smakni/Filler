@@ -6,7 +6,7 @@
 /*   By: smakni <smakni@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/04 19:06:40 by smakni            #+#    #+#             */
-/*   Updated: 2019/01/25 14:08:30 by smakni           ###   ########.fr       */
+/*   Updated: 2019/01/29 16:24:06 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,8 @@ void	init_player(t_player *p)
 	p->j = 0;
 	p->check_read = 0;
 	p->check_p = 0;
+	p->check_x = 0;
+	p->check_o = 0;
 	p->line = 0;
 }
 

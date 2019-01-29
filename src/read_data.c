@@ -6,7 +6,7 @@
 /*   By: smakni <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/12 11:49:57 by smakni            #+#    #+#             */
-/*   Updated: 2019/01/25 14:30:01 by smakni           ###   ########.fr       */
+/*   Updated: 2019/01/29 16:44:27 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,8 @@ static	void	save_map_data(char *line, t_player *p)
 	p->m_y = ft_atoi(&line[i++]);
 	i += find_space(line, i);
 	p->m_x = ft_atoi(&line[i]);
-	p->map = ft_memalloc(sizeof(char *) * (p->m_y));
+	if (p->m_y > 0 && (p->map = ft_memalloc(sizeof(char *) * p->m_y)) == 0)
+		exit (-1);
 }
 
 static	void	save_piece_data(char *line, t_player *p)
@@ -43,14 +44,14 @@ static	void	save_piece_data(char *line, t_player *p)
 	p->p_y = ft_atoi(&line[i++]);
 	i += find_space(line, i);
 	p->p_x = ft_atoi(&line[i]);
-	p->piece = ft_memalloc(sizeof(char *) * p->p_y);
+	if (p->p_y > 0 && (p->piece = ft_memalloc(sizeof(char *) * p->p_y)) == 0)
+		exit (-1);
 }
 
 void			first_read(int fd, char *line, t_player *p)
 {
 	if (p->nb == 0)
 	{
-		ft_dprintf(fd, "line = %s\n", line);
 		if (ft_strstr(line, "p1") && ft_strstr(line, "smakni.filler"))
 		{
 			p->nb = 1;
@@ -75,6 +76,8 @@ void			first_read(int fd, char *line, t_player *p)
 	}
 	else if (ft_strnequ("Piece ", line, 6))
 	{
+		if (p->check_o == 0 || p->check_x == 0)
+			exit (-1);
 		ft_dprintf(fd, "Piece_line = %s\n", line);
 		p->check_read++;
 		save_piece_data(line, p);
