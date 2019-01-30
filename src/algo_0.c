@@ -6,7 +6,7 @@
 /*   By: smakni <smakni@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/30 16:18:11 by smakni            #+#    #+#             */
-/*   Updated: 2019/01/30 16:30:19 by smakni           ###   ########.fr       */
+/*   Updated: 2019/01/30 16:43:48 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,9 +41,13 @@ int				algo(int fd, t_player *p)
 {
 	(void)fd;
 	if (algo_0(p) == -1)
+	{
+		ft_tabdel(p->piece, p->p_y);
 		return (-1);
+	}
 	ft_printf("%d %d\n", p->r_y, p->r_x);
 	p->j = 0;
 	p->i = 0;
+	ft_tabdel(p->piece, p->p_y);
 	return (0);
 }

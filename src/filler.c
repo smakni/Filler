@@ -6,7 +6,7 @@
 /*   By: smakni <smakni@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/04 19:06:40 by smakni            #+#    #+#             */
-/*   Updated: 2019/01/30 16:34:25 by smakni           ###   ########.fr       */
+/*   Updated: 2019/01/30 16:43:45 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,7 +45,8 @@ int		main(void)
 	int			fd;
 	int			error;
 
-	p = ft_memalloc(sizeof(t_player));
+	if ((p = ft_memalloc(sizeof(t_player))) == 0)
+		return (0);
 	init_player(p);
 	fd = open("trace", O_TRUNC | O_WRONLY);
 	while (1)
@@ -56,7 +57,6 @@ int		main(void)
 			print_data(fd, p);
 			if (algo(fd, p) == -1)
 				break ;
-			ft_tabdel(p->piece, p->p_y);
 		}
 		else if (error == -1)
 			break ;
