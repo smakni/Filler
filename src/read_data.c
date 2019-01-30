@@ -6,7 +6,7 @@
 /*   By: smakni <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/12 11:49:57 by smakni            #+#    #+#             */
-/*   Updated: 2019/01/29 16:44:27 by smakni           ###   ########.fr       */
+/*   Updated: 2019/01/30 13:19:07 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ static	int		find_space(char *line, int start)
 	return (i);
 }
 
-static	void	save_map_data(char *line, t_player *p)
+static	int		save_map_data(char *line, t_player *p)
 {
 	int i;
 
@@ -32,10 +32,11 @@ static	void	save_map_data(char *line, t_player *p)
 	i += find_space(line, i);
 	p->m_x = ft_atoi(&line[i]);
 	if (p->m_y > 0 && (p->map = ft_memalloc(sizeof(char *) * p->m_y)) == 0)
-		exit (-1);
+		return (-1);
+	return (0);
 }
 
-static	void	save_piece_data(char *line, t_player *p)
+static	int		save_piece_data(char *line, t_player *p)
 {
 	int i;
 
@@ -45,41 +46,54 @@ static	void	save_piece_data(char *line, t_player *p)
 	i += find_space(line, i);
 	p->p_x = ft_atoi(&line[i]);
 	if (p->p_y > 0 && (p->piece = ft_memalloc(sizeof(char *) * p->p_y)) == 0)
-		exit (-1);
+		return (-1);
+	return (0);
 }
 
-void			first_read(int fd, char *line, t_player *p)
+static	int		player_nb(char *line, t_player *p)
 {
-	if (p->nb == 0)
+	if (ft_strstr(line, "p1") && ft_strstr(line, "smakni.filler"))
 	{
-		if (ft_strstr(line, "p1") && ft_strstr(line, "smakni.filler"))
-		{
-			p->nb = 1;
-			p->my_c = 'O';
-			p->op_c = 'X';
-		}
-		else if (ft_strstr(line, "p2") && ft_strstr(line, "smakni.filler"))
-		{
-			p->nb = 2;
-			p->my_c = 'X';
-			p->op_c = 'O';
-		}
-		else
-			exit (-1);
+		p->nb = 1;
+		p->my_c = 'O';
+		p->op_c = 'X';
+		return (0);
 	}
-	else if (ft_strnequ("Plateau ", line, 8) && p->check_read == 0)
+	else if (ft_strstr(line, "p2") && ft_strstr(line, "smakni.filler"))
+	{
+		p->nb = 2;
+		p->my_c = 'X';
+		p->op_c = 'O';
+		return (0);
+	}
+	return (-1);
+}
+
+int				first_read(int fd, char *line, t_player *p)
+{
+	(void)fd;
+	if (p->line == 0)
+	{
+		if (player_nb(line, p) == -1)
+			return (-1);
+		return (0);
+	}
+	else if (p->line == 1
+			&& ft_strnequ("Plateau ", line, 8))
 	{
 		p->line = 1;
-		ft_dprintf(fd, "Plateau_line = %s\n", line);
-		save_map_data(line, p);
+		if (p->check_read == 0 && save_map_data(line, p) == -1)
+			return (-1);
 		p->check_read++;
+		return (0);
 	}
-	else if (ft_strnequ("Piece ", line, 6))
+	else if (p->line == p->m_y + 3 && ft_strnequ("Piece ", line, 6))
 	{
-		if (p->check_o == 0 || p->check_x == 0)
-			exit (-1);
-		ft_dprintf(fd, "Piece_line = %s\n", line);
+		if (p->check_o == 0 || p->check_x == 0
+				|| save_piece_data(line, p) == -1)
+			return (-1);
 		p->check_read++;
-		save_piece_data(line, p);
+		return (0);
 	}
+	return (-1);
 }

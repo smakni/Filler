@@ -6,7 +6,7 @@
 #    By: smakni <smakni@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/11/23 13:20:28 by smakni            #+#    #+#              #
-#    Updated: 2019/01/18 19:50:32 by smakni           ###   ########.fr        #
+#    Updated: 2019/01/30 16:21:27 by smakni           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,6 +27,7 @@ LDFLAGS		=	-L libft
 LDLIBS		=	-lft
 
 SRC_NAME	=	filler.c \
+				algo_0.c \
 				algo.c \
 				save_data.c \
 				read_data.c \
