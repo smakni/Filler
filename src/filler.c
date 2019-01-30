@@ -6,7 +6,7 @@
 /*   By: smakni <smakni@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/04 19:06:40 by smakni            #+#    #+#             */
-/*   Updated: 2019/01/30 16:43:45 by smakni           ###   ########.fr       */
+/*   Updated: 2019/01/30 16:49:18 by smakni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,7 +54,6 @@ int		main(void)
 		if ((error = save_data(fd, p)) == 1)
 		{
 			analyse_map(fd, p);
-			print_data(fd, p);
 			if (algo(fd, p) == -1)
 				break ;
 		}
